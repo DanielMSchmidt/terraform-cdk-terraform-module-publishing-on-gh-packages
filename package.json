@@ -1,8 +1,8 @@
 {
-  "name": "@danielmschmidt/eks-cluster",
+  "name": "@danielmschmidt/terraform-cdk-terraform-module-publishing-on-gh-packages",
   "repository": {
     "type": "git",
-    "url": "https://github.com/danielmschmidt/terraform-cdk-terraform-module-publishing-on-gh-pages.git"
+    "url": "https://github.com/danielmschmidt/terraform-cdk-terraform-module-publishing-on-gh-packages.git"
   },
   "scripts": {
     "build": "npx projen build",
@@ -126,10 +126,10 @@
     "outdir": "dist",
     "targets": {
       "java": {
-        "package": "com.danielmschmidt.eks_cluster",
+        "package": "com.danielmschmidt.terraform_cdk_terraform_module_publishing_on_gh_packages",
         "maven": {
           "groupId": "com.danielmschmidt",
-          "artifactId": "eks_cluster"
+          "artifactId": "terraform_cdk_terraform_module_publishing_on_gh_packages"
         }
       }
     },
