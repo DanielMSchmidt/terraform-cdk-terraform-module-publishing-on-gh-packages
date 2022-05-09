@@ -13,7 +13,7 @@ const project = new TerraformModule({
   defaultReleaseBranch: "main",
   devDeps: ["projen-cdktf-hybrid-construct"],
   repositoryUrl:
-    "https://github.com/danielmschmidt92/terraform-cdk-terraform-module-publishing-on-gh-pages.git",
+    "https://github.com/danielmschmidt/terraform-cdk-terraform-module-publishing-on-gh-pages.git",
 
   terraformModules: [
     {
