@@ -2,7 +2,7 @@
   "name": "@danielmschmidt/eks-cluster",
   "repository": {
     "type": "git",
-    "url": "https://github.com/danielmschmidt92/terraform-cdk-terraform-module-publishing-on-gh-pages.git"
+    "url": "https://github.com/danielmschmidt/terraform-cdk-terraform-module-publishing-on-gh-pages.git"
   },
   "scripts": {
     "build": "npx projen build",
