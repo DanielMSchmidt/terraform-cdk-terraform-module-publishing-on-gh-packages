@@ -2,39 +2,39 @@
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### Eks <a name="Eks" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks"></a>
+### Eks <a name="Eks" id="@danielmschmidt/eks-cluster.Eks"></a>
 
-#### Initializers <a name="Initializers" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.Initializer"></a>
+#### Initializers <a name="Initializers" id="@danielmschmidt/eks-cluster.Eks.Initializer"></a>
 
 ```typescript
-import { Eks } from 'terraform-cdk-terraform-module-publishing-on-gh-pages'
+import { Eks } from '@danielmschmidt/eks-cluster'
 
 new Eks(scope: Construct, id: string, options?: EksOptions)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.Initializer.parameter.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.Initializer.parameter.options">options</a></code> | <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions">EksOptions</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.Initializer.parameter.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.Initializer.parameter.options">options</a></code> | <code><a href="#@danielmschmidt/eks-cluster.EksOptions">EksOptions</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@danielmschmidt/eks-cluster.Eks.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@danielmschmidt/eks-cluster.Eks.Initializer.parameter.id"></a>
 
 - *Type:* string
 
 ---
 
-##### `options`<sup>Optional</sup> <a name="options" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.Initializer.parameter.options"></a>
+##### `options`<sup>Optional</sup> <a name="options" id="@danielmschmidt/eks-cluster.Eks.Initializer.parameter.options"></a>
 
-- *Type:* <a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions">EksOptions</a>
+- *Type:* <a href="#@danielmschmidt/eks-cluster.EksOptions">EksOptions</a>
 
 ---
 
@@ -42,19 +42,19 @@ new Eks(scope: Construct, id: string, options?: EksOptions)
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.addOverride">addOverride</a></code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.toMetadata">toMetadata</a></code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.toTerraform">toTerraform</a></code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.addProvider">addProvider</a></code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.getString">getString</a></code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.interpolationForOutput">interpolationForOutput</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.addOverride">addOverride</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.toMetadata">toMetadata</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.toTerraform">toTerraform</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.addProvider">addProvider</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.getString">getString</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.interpolationForOutput">interpolationForOutput</a></code> | *No description.* |
 
 ---
 
-##### `toString` <a name="toString" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.toString"></a>
+##### `toString` <a name="toString" id="@danielmschmidt/eks-cluster.Eks.toString"></a>
 
 ```typescript
 public toString(): string
@@ -62,25 +62,25 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `addOverride` <a name="addOverride" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.addOverride"></a>
+##### `addOverride` <a name="addOverride" id="@danielmschmidt/eks-cluster.Eks.addOverride"></a>
 
 ```typescript
 public addOverride(path: string, value: any): void
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@danielmschmidt/eks-cluster.Eks.addOverride.parameter.path"></a>
 
 - *Type:* string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@danielmschmidt/eks-cluster.Eks.addOverride.parameter.value"></a>
 
 - *Type:* any
 
 ---
 
-##### `overrideLogicalId` <a name="overrideLogicalId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.overrideLogicalId"></a>
+##### `overrideLogicalId` <a name="overrideLogicalId" id="@danielmschmidt/eks-cluster.Eks.overrideLogicalId"></a>
 
 ```typescript
 public overrideLogicalId(newLogicalId: string): void
@@ -88,7 +88,7 @@ public overrideLogicalId(newLogicalId: string): void
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@danielmschmidt/eks-cluster.Eks.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* string
 
@@ -96,7 +96,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.resetOverrideLogicalId"></a>
+##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@danielmschmidt/eks-cluster.Eks.resetOverrideLogicalId"></a>
 
 ```typescript
 public resetOverrideLogicalId(): void
@@ -104,49 +104,49 @@ public resetOverrideLogicalId(): void
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `toMetadata` <a name="toMetadata" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.toMetadata"></a>
+##### `toMetadata` <a name="toMetadata" id="@danielmschmidt/eks-cluster.Eks.toMetadata"></a>
 
 ```typescript
 public toMetadata(): any
 ```
 
-##### `toTerraform` <a name="toTerraform" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.toTerraform"></a>
+##### `toTerraform` <a name="toTerraform" id="@danielmschmidt/eks-cluster.Eks.toTerraform"></a>
 
 ```typescript
 public toTerraform(): any
 ```
 
-##### `addProvider` <a name="addProvider" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.addProvider"></a>
+##### `addProvider` <a name="addProvider" id="@danielmschmidt/eks-cluster.Eks.addProvider"></a>
 
 ```typescript
 public addProvider(provider: TerraformModuleProvider | TerraformProvider): void
 ```
 
-###### `provider`<sup>Required</sup> <a name="provider" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.addProvider.parameter.provider"></a>
+###### `provider`<sup>Required</sup> <a name="provider" id="@danielmschmidt/eks-cluster.Eks.addProvider.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformModuleProvider | cdktf.TerraformProvider
 
 ---
 
-##### `getString` <a name="getString" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.getString"></a>
+##### `getString` <a name="getString" id="@danielmschmidt/eks-cluster.Eks.getString"></a>
 
 ```typescript
 public getString(output: string): string
 ```
 
-###### `output`<sup>Required</sup> <a name="output" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.getString.parameter.output"></a>
+###### `output`<sup>Required</sup> <a name="output" id="@danielmschmidt/eks-cluster.Eks.getString.parameter.output"></a>
 
 - *Type:* string
 
 ---
 
-##### `interpolationForOutput` <a name="interpolationForOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.interpolationForOutput"></a>
+##### `interpolationForOutput` <a name="interpolationForOutput" id="@danielmschmidt/eks-cluster.Eks.interpolationForOutput"></a>
 
 ```typescript
 public interpolationForOutput(moduleOutput: string): IResolvable
 ```
 
-###### `moduleOutput`<sup>Required</sup> <a name="moduleOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.interpolationForOutput.parameter.moduleOutput"></a>
+###### `moduleOutput`<sup>Required</sup> <a name="moduleOutput" id="@danielmschmidt/eks-cluster.Eks.interpolationForOutput.parameter.moduleOutput"></a>
 
 - *Type:* string
 
@@ -156,14 +156,14 @@ public interpolationForOutput(moduleOutput: string): IResolvable
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="@danielmschmidt/eks-cluster.Eks.isConstruct"></a>
 
 ```typescript
-import { Eks } from 'terraform-cdk-terraform-module-publishing-on-gh-pages'
+import { Eks } from '@danielmschmidt/eks-cluster'
 
 Eks.isConstruct(x: any)
 ```
@@ -184,7 +184,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@danielmschmidt/eks-cluster.Eks.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -196,118 +196,118 @@ Any object.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.source">source</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.providers">providers</a></code> | <code>cdktf.TerraformModuleProvider \| cdktf.TerraformProvider[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.version">version</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.awsAuthConfigmapYamlOutput">awsAuthConfigmapYamlOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.cloudwatchLogGroupArnOutput">cloudwatchLogGroupArnOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.cloudwatchLogGroupNameOutput">cloudwatchLogGroupNameOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterAddonsOutput">clusterAddonsOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterArnOutput">clusterArnOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterCertificateAuthorityDataOutput">clusterCertificateAuthorityDataOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEndpointOutput">clusterEndpointOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterIamRoleArnOutput">clusterIamRoleArnOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterIamRoleNameOutput">clusterIamRoleNameOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterIamRoleUniqueIdOutput">clusterIamRoleUniqueIdOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterIdentityProvidersOutput">clusterIdentityProvidersOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterIdOutput">clusterIdOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterOidcIssuerUrlOutput">clusterOidcIssuerUrlOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterPlatformVersionOutput">clusterPlatformVersionOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterPrimarySecurityGroupIdOutput">clusterPrimarySecurityGroupIdOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterSecurityGroupArnOutput">clusterSecurityGroupArnOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterSecurityGroupIdOutput">clusterSecurityGroupIdOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterStatusOutput">clusterStatusOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterVersionOutput">clusterVersionOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.eksManagedNodeGroupsAutoscalingGroupNamesOutput">eksManagedNodeGroupsAutoscalingGroupNamesOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.eksManagedNodeGroupsOutput">eksManagedNodeGroupsOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.fargateProfilesOutput">fargateProfilesOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.nodeSecurityGroupArnOutput">nodeSecurityGroupArnOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.nodeSecurityGroupIdOutput">nodeSecurityGroupIdOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.oidcProviderArnOutput">oidcProviderArnOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.oidcProviderOutput">oidcProviderOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.selfManagedNodeGroupsAutoscalingGroupNamesOutput">selfManagedNodeGroupsAutoscalingGroupNamesOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.selfManagedNodeGroupsOutput">selfManagedNodeGroupsOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterAddons">clusterAddons</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEncryptionConfig">clusterEncryptionConfig</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterIdentityProviders">clusterIdentityProviders</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterSecurityGroupAdditionalRules">clusterSecurityGroupAdditionalRules</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.eksManagedNodeGroupDefaults">eksManagedNodeGroupDefaults</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.eksManagedNodeGroups">eksManagedNodeGroups</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.fargateProfileDefaults">fargateProfileDefaults</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.fargateProfiles">fargateProfiles</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.nodeSecurityGroupAdditionalRules">nodeSecurityGroupAdditionalRules</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.selfManagedNodeGroupDefaults">selfManagedNodeGroupDefaults</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.selfManagedNodeGroups">selfManagedNodeGroups</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.attachClusterEncryptionPolicy">attachClusterEncryptionPolicy</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.awsAuthAccounts">awsAuthAccounts</a></code> | <code>any[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.awsAuthFargateProfilePodExecutionRoleArns">awsAuthFargateProfilePodExecutionRoleArns</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.awsAuthNodeIamRoleArnsNonWindows">awsAuthNodeIamRoleArnsNonWindows</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.awsAuthNodeIamRoleArnsWindows">awsAuthNodeIamRoleArnsWindows</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.awsAuthRoles">awsAuthRoles</a></code> | <code>any[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.awsAuthUsers">awsAuthUsers</a></code> | <code>any[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.cloudwatchLogGroupKmsKeyId">cloudwatchLogGroupKmsKeyId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.cloudwatchLogGroupRetentionInDays">cloudwatchLogGroupRetentionInDays</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterAdditionalSecurityGroupIds">clusterAdditionalSecurityGroupIds</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEnabledLogTypes">clusterEnabledLogTypes</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEncryptionPolicyDescription">clusterEncryptionPolicyDescription</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEncryptionPolicyName">clusterEncryptionPolicyName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEncryptionPolicyPath">clusterEncryptionPolicyPath</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEncryptionPolicyTags">clusterEncryptionPolicyTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEncryptionPolicyUseNamePrefix">clusterEncryptionPolicyUseNamePrefix</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEndpointPrivateAccess">clusterEndpointPrivateAccess</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEndpointPublicAccess">clusterEndpointPublicAccess</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEndpointPublicAccessCidrs">clusterEndpointPublicAccessCidrs</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterIamRoleDnsSuffix">clusterIamRoleDnsSuffix</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterIpFamily">clusterIpFamily</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterName">clusterName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterSecurityGroupDescription">clusterSecurityGroupDescription</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterSecurityGroupId">clusterSecurityGroupId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterSecurityGroupName">clusterSecurityGroupName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterSecurityGroupTags">clusterSecurityGroupTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterSecurityGroupUseNamePrefix">clusterSecurityGroupUseNamePrefix</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterServiceIpv4Cidr">clusterServiceIpv4Cidr</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterTags">clusterTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterTimeouts">clusterTimeouts</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterVersion">clusterVersion</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.create">create</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.createAwsAuthConfigmap">createAwsAuthConfigmap</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.createCloudwatchLogGroup">createCloudwatchLogGroup</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.createClusterPrimarySecurityGroupTags">createClusterPrimarySecurityGroupTags</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.createClusterSecurityGroup">createClusterSecurityGroup</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.createCniIpv6IamPolicy">createCniIpv6IamPolicy</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.createIamRole">createIamRole</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.createNodeSecurityGroup">createNodeSecurityGroup</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.customOidcThumbprints">customOidcThumbprints</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.enableIrsa">enableIrsa</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.iamRoleAdditionalPolicies">iamRoleAdditionalPolicies</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.iamRoleArn">iamRoleArn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.iamRoleDescription">iamRoleDescription</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.iamRoleName">iamRoleName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.iamRolePath">iamRolePath</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.iamRolePermissionsBoundary">iamRolePermissionsBoundary</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.iamRoleTags">iamRoleTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.iamRoleUseNamePrefix">iamRoleUseNamePrefix</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.manageAwsAuthConfigmap">manageAwsAuthConfigmap</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.nodeSecurityGroupDescription">nodeSecurityGroupDescription</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.nodeSecurityGroupId">nodeSecurityGroupId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.nodeSecurityGroupName">nodeSecurityGroupName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.nodeSecurityGroupTags">nodeSecurityGroupTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.nodeSecurityGroupUseNamePrefix">nodeSecurityGroupUseNamePrefix</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.openidConnectAudiences">openidConnectAudiences</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.prefixSeparator">prefixSeparator</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.putinKhuylo">putinKhuylo</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.subnetIds">subnetIds</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.vpcId">vpcId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.source">source</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.providers">providers</a></code> | <code>cdktf.TerraformModuleProvider \| cdktf.TerraformProvider[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.version">version</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.awsAuthConfigmapYamlOutput">awsAuthConfigmapYamlOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.cloudwatchLogGroupArnOutput">cloudwatchLogGroupArnOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.cloudwatchLogGroupNameOutput">cloudwatchLogGroupNameOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterAddonsOutput">clusterAddonsOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterArnOutput">clusterArnOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterCertificateAuthorityDataOutput">clusterCertificateAuthorityDataOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterEndpointOutput">clusterEndpointOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterIamRoleArnOutput">clusterIamRoleArnOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterIamRoleNameOutput">clusterIamRoleNameOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterIamRoleUniqueIdOutput">clusterIamRoleUniqueIdOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterIdentityProvidersOutput">clusterIdentityProvidersOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterIdOutput">clusterIdOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterOidcIssuerUrlOutput">clusterOidcIssuerUrlOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterPlatformVersionOutput">clusterPlatformVersionOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterPrimarySecurityGroupIdOutput">clusterPrimarySecurityGroupIdOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterSecurityGroupArnOutput">clusterSecurityGroupArnOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterSecurityGroupIdOutput">clusterSecurityGroupIdOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterStatusOutput">clusterStatusOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterVersionOutput">clusterVersionOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.eksManagedNodeGroupsAutoscalingGroupNamesOutput">eksManagedNodeGroupsAutoscalingGroupNamesOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.eksManagedNodeGroupsOutput">eksManagedNodeGroupsOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.fargateProfilesOutput">fargateProfilesOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.nodeSecurityGroupArnOutput">nodeSecurityGroupArnOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.nodeSecurityGroupIdOutput">nodeSecurityGroupIdOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.oidcProviderArnOutput">oidcProviderArnOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.oidcProviderOutput">oidcProviderOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.selfManagedNodeGroupsAutoscalingGroupNamesOutput">selfManagedNodeGroupsAutoscalingGroupNamesOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.selfManagedNodeGroupsOutput">selfManagedNodeGroupsOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterAddons">clusterAddons</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterEncryptionConfig">clusterEncryptionConfig</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterIdentityProviders">clusterIdentityProviders</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterSecurityGroupAdditionalRules">clusterSecurityGroupAdditionalRules</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.eksManagedNodeGroupDefaults">eksManagedNodeGroupDefaults</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.eksManagedNodeGroups">eksManagedNodeGroups</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.fargateProfileDefaults">fargateProfileDefaults</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.fargateProfiles">fargateProfiles</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.nodeSecurityGroupAdditionalRules">nodeSecurityGroupAdditionalRules</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.selfManagedNodeGroupDefaults">selfManagedNodeGroupDefaults</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.selfManagedNodeGroups">selfManagedNodeGroups</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.attachClusterEncryptionPolicy">attachClusterEncryptionPolicy</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.awsAuthAccounts">awsAuthAccounts</a></code> | <code>any[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.awsAuthFargateProfilePodExecutionRoleArns">awsAuthFargateProfilePodExecutionRoleArns</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.awsAuthNodeIamRoleArnsNonWindows">awsAuthNodeIamRoleArnsNonWindows</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.awsAuthNodeIamRoleArnsWindows">awsAuthNodeIamRoleArnsWindows</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.awsAuthRoles">awsAuthRoles</a></code> | <code>any[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.awsAuthUsers">awsAuthUsers</a></code> | <code>any[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.cloudwatchLogGroupKmsKeyId">cloudwatchLogGroupKmsKeyId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.cloudwatchLogGroupRetentionInDays">cloudwatchLogGroupRetentionInDays</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterAdditionalSecurityGroupIds">clusterAdditionalSecurityGroupIds</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterEnabledLogTypes">clusterEnabledLogTypes</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterEncryptionPolicyDescription">clusterEncryptionPolicyDescription</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterEncryptionPolicyName">clusterEncryptionPolicyName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterEncryptionPolicyPath">clusterEncryptionPolicyPath</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterEncryptionPolicyTags">clusterEncryptionPolicyTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterEncryptionPolicyUseNamePrefix">clusterEncryptionPolicyUseNamePrefix</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterEndpointPrivateAccess">clusterEndpointPrivateAccess</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterEndpointPublicAccess">clusterEndpointPublicAccess</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterEndpointPublicAccessCidrs">clusterEndpointPublicAccessCidrs</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterIamRoleDnsSuffix">clusterIamRoleDnsSuffix</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterIpFamily">clusterIpFamily</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterName">clusterName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterSecurityGroupDescription">clusterSecurityGroupDescription</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterSecurityGroupId">clusterSecurityGroupId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterSecurityGroupName">clusterSecurityGroupName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterSecurityGroupTags">clusterSecurityGroupTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterSecurityGroupUseNamePrefix">clusterSecurityGroupUseNamePrefix</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterServiceIpv4Cidr">clusterServiceIpv4Cidr</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterTags">clusterTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterTimeouts">clusterTimeouts</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.clusterVersion">clusterVersion</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.create">create</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.createAwsAuthConfigmap">createAwsAuthConfigmap</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.createCloudwatchLogGroup">createCloudwatchLogGroup</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.createClusterPrimarySecurityGroupTags">createClusterPrimarySecurityGroupTags</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.createClusterSecurityGroup">createClusterSecurityGroup</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.createCniIpv6IamPolicy">createCniIpv6IamPolicy</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.createIamRole">createIamRole</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.createNodeSecurityGroup">createNodeSecurityGroup</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.customOidcThumbprints">customOidcThumbprints</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.enableIrsa">enableIrsa</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.iamRoleAdditionalPolicies">iamRoleAdditionalPolicies</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.iamRoleArn">iamRoleArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.iamRoleDescription">iamRoleDescription</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.iamRoleName">iamRoleName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.iamRolePath">iamRolePath</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.iamRolePermissionsBoundary">iamRolePermissionsBoundary</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.iamRoleTags">iamRoleTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.iamRoleUseNamePrefix">iamRoleUseNamePrefix</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.manageAwsAuthConfigmap">manageAwsAuthConfigmap</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.nodeSecurityGroupDescription">nodeSecurityGroupDescription</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.nodeSecurityGroupId">nodeSecurityGroupId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.nodeSecurityGroupName">nodeSecurityGroupName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.nodeSecurityGroupTags">nodeSecurityGroupTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.nodeSecurityGroupUseNamePrefix">nodeSecurityGroupUseNamePrefix</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.openidConnectAudiences">openidConnectAudiences</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.prefixSeparator">prefixSeparator</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.putinKhuylo">putinKhuylo</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.subnetIds">subnetIds</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.Eks.property.vpcId">vpcId</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@danielmschmidt/eks-cluster.Eks.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -319,7 +319,7 @@ The tree node.
 
 ---
 
-##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.cdktfStack"></a>
+##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@danielmschmidt/eks-cluster.Eks.property.cdktfStack"></a>
 
 ```typescript
 public readonly cdktfStack: TerraformStack;
@@ -329,7 +329,7 @@ public readonly cdktfStack: TerraformStack;
 
 ---
 
-##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.friendlyUniqueId"></a>
+##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@danielmschmidt/eks-cluster.Eks.property.friendlyUniqueId"></a>
 
 ```typescript
 public readonly friendlyUniqueId: string;
@@ -339,7 +339,7 @@ public readonly friendlyUniqueId: string;
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@danielmschmidt/eks-cluster.Eks.property.fqn"></a>
 
 ```typescript
 public readonly fqn: string;
@@ -349,7 +349,7 @@ public readonly fqn: string;
 
 ---
 
-##### `source`<sup>Required</sup> <a name="source" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.source"></a>
+##### `source`<sup>Required</sup> <a name="source" id="@danielmschmidt/eks-cluster.Eks.property.source"></a>
 
 ```typescript
 public readonly source: string;
@@ -359,7 +359,7 @@ public readonly source: string;
 
 ---
 
-##### `providers`<sup>Optional</sup> <a name="providers" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.providers"></a>
+##### `providers`<sup>Optional</sup> <a name="providers" id="@danielmschmidt/eks-cluster.Eks.property.providers"></a>
 
 ```typescript
 public readonly providers: TerraformModuleProvider | TerraformProvider[];
@@ -369,7 +369,7 @@ public readonly providers: TerraformModuleProvider | TerraformProvider[];
 
 ---
 
-##### `version`<sup>Optional</sup> <a name="version" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.version"></a>
+##### `version`<sup>Optional</sup> <a name="version" id="@danielmschmidt/eks-cluster.Eks.property.version"></a>
 
 ```typescript
 public readonly version: string;
@@ -379,7 +379,7 @@ public readonly version: string;
 
 ---
 
-##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.dependsOn"></a>
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@danielmschmidt/eks-cluster.Eks.property.dependsOn"></a>
 
 ```typescript
 public readonly dependsOn: string[];
@@ -389,7 +389,7 @@ public readonly dependsOn: string[];
 
 ---
 
-##### `awsAuthConfigmapYamlOutput`<sup>Required</sup> <a name="awsAuthConfigmapYamlOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.awsAuthConfigmapYamlOutput"></a>
+##### `awsAuthConfigmapYamlOutput`<sup>Required</sup> <a name="awsAuthConfigmapYamlOutput" id="@danielmschmidt/eks-cluster.Eks.property.awsAuthConfigmapYamlOutput"></a>
 
 ```typescript
 public readonly awsAuthConfigmapYamlOutput: string;
@@ -399,7 +399,7 @@ public readonly awsAuthConfigmapYamlOutput: string;
 
 ---
 
-##### `cloudwatchLogGroupArnOutput`<sup>Required</sup> <a name="cloudwatchLogGroupArnOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.cloudwatchLogGroupArnOutput"></a>
+##### `cloudwatchLogGroupArnOutput`<sup>Required</sup> <a name="cloudwatchLogGroupArnOutput" id="@danielmschmidt/eks-cluster.Eks.property.cloudwatchLogGroupArnOutput"></a>
 
 ```typescript
 public readonly cloudwatchLogGroupArnOutput: string;
@@ -409,7 +409,7 @@ public readonly cloudwatchLogGroupArnOutput: string;
 
 ---
 
-##### `cloudwatchLogGroupNameOutput`<sup>Required</sup> <a name="cloudwatchLogGroupNameOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.cloudwatchLogGroupNameOutput"></a>
+##### `cloudwatchLogGroupNameOutput`<sup>Required</sup> <a name="cloudwatchLogGroupNameOutput" id="@danielmschmidt/eks-cluster.Eks.property.cloudwatchLogGroupNameOutput"></a>
 
 ```typescript
 public readonly cloudwatchLogGroupNameOutput: string;
@@ -419,7 +419,7 @@ public readonly cloudwatchLogGroupNameOutput: string;
 
 ---
 
-##### `clusterAddonsOutput`<sup>Required</sup> <a name="clusterAddonsOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterAddonsOutput"></a>
+##### `clusterAddonsOutput`<sup>Required</sup> <a name="clusterAddonsOutput" id="@danielmschmidt/eks-cluster.Eks.property.clusterAddonsOutput"></a>
 
 ```typescript
 public readonly clusterAddonsOutput: string;
@@ -429,7 +429,7 @@ public readonly clusterAddonsOutput: string;
 
 ---
 
-##### `clusterArnOutput`<sup>Required</sup> <a name="clusterArnOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterArnOutput"></a>
+##### `clusterArnOutput`<sup>Required</sup> <a name="clusterArnOutput" id="@danielmschmidt/eks-cluster.Eks.property.clusterArnOutput"></a>
 
 ```typescript
 public readonly clusterArnOutput: string;
@@ -439,7 +439,7 @@ public readonly clusterArnOutput: string;
 
 ---
 
-##### `clusterCertificateAuthorityDataOutput`<sup>Required</sup> <a name="clusterCertificateAuthorityDataOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterCertificateAuthorityDataOutput"></a>
+##### `clusterCertificateAuthorityDataOutput`<sup>Required</sup> <a name="clusterCertificateAuthorityDataOutput" id="@danielmschmidt/eks-cluster.Eks.property.clusterCertificateAuthorityDataOutput"></a>
 
 ```typescript
 public readonly clusterCertificateAuthorityDataOutput: string;
@@ -449,7 +449,7 @@ public readonly clusterCertificateAuthorityDataOutput: string;
 
 ---
 
-##### `clusterEndpointOutput`<sup>Required</sup> <a name="clusterEndpointOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEndpointOutput"></a>
+##### `clusterEndpointOutput`<sup>Required</sup> <a name="clusterEndpointOutput" id="@danielmschmidt/eks-cluster.Eks.property.clusterEndpointOutput"></a>
 
 ```typescript
 public readonly clusterEndpointOutput: string;
@@ -459,7 +459,7 @@ public readonly clusterEndpointOutput: string;
 
 ---
 
-##### `clusterIamRoleArnOutput`<sup>Required</sup> <a name="clusterIamRoleArnOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterIamRoleArnOutput"></a>
+##### `clusterIamRoleArnOutput`<sup>Required</sup> <a name="clusterIamRoleArnOutput" id="@danielmschmidt/eks-cluster.Eks.property.clusterIamRoleArnOutput"></a>
 
 ```typescript
 public readonly clusterIamRoleArnOutput: string;
@@ -469,7 +469,7 @@ public readonly clusterIamRoleArnOutput: string;
 
 ---
 
-##### `clusterIamRoleNameOutput`<sup>Required</sup> <a name="clusterIamRoleNameOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterIamRoleNameOutput"></a>
+##### `clusterIamRoleNameOutput`<sup>Required</sup> <a name="clusterIamRoleNameOutput" id="@danielmschmidt/eks-cluster.Eks.property.clusterIamRoleNameOutput"></a>
 
 ```typescript
 public readonly clusterIamRoleNameOutput: string;
@@ -479,7 +479,7 @@ public readonly clusterIamRoleNameOutput: string;
 
 ---
 
-##### `clusterIamRoleUniqueIdOutput`<sup>Required</sup> <a name="clusterIamRoleUniqueIdOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterIamRoleUniqueIdOutput"></a>
+##### `clusterIamRoleUniqueIdOutput`<sup>Required</sup> <a name="clusterIamRoleUniqueIdOutput" id="@danielmschmidt/eks-cluster.Eks.property.clusterIamRoleUniqueIdOutput"></a>
 
 ```typescript
 public readonly clusterIamRoleUniqueIdOutput: string;
@@ -489,7 +489,7 @@ public readonly clusterIamRoleUniqueIdOutput: string;
 
 ---
 
-##### `clusterIdentityProvidersOutput`<sup>Required</sup> <a name="clusterIdentityProvidersOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterIdentityProvidersOutput"></a>
+##### `clusterIdentityProvidersOutput`<sup>Required</sup> <a name="clusterIdentityProvidersOutput" id="@danielmschmidt/eks-cluster.Eks.property.clusterIdentityProvidersOutput"></a>
 
 ```typescript
 public readonly clusterIdentityProvidersOutput: string;
@@ -499,7 +499,7 @@ public readonly clusterIdentityProvidersOutput: string;
 
 ---
 
-##### `clusterIdOutput`<sup>Required</sup> <a name="clusterIdOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterIdOutput"></a>
+##### `clusterIdOutput`<sup>Required</sup> <a name="clusterIdOutput" id="@danielmschmidt/eks-cluster.Eks.property.clusterIdOutput"></a>
 
 ```typescript
 public readonly clusterIdOutput: string;
@@ -509,7 +509,7 @@ public readonly clusterIdOutput: string;
 
 ---
 
-##### `clusterOidcIssuerUrlOutput`<sup>Required</sup> <a name="clusterOidcIssuerUrlOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterOidcIssuerUrlOutput"></a>
+##### `clusterOidcIssuerUrlOutput`<sup>Required</sup> <a name="clusterOidcIssuerUrlOutput" id="@danielmschmidt/eks-cluster.Eks.property.clusterOidcIssuerUrlOutput"></a>
 
 ```typescript
 public readonly clusterOidcIssuerUrlOutput: string;
@@ -519,7 +519,7 @@ public readonly clusterOidcIssuerUrlOutput: string;
 
 ---
 
-##### `clusterPlatformVersionOutput`<sup>Required</sup> <a name="clusterPlatformVersionOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterPlatformVersionOutput"></a>
+##### `clusterPlatformVersionOutput`<sup>Required</sup> <a name="clusterPlatformVersionOutput" id="@danielmschmidt/eks-cluster.Eks.property.clusterPlatformVersionOutput"></a>
 
 ```typescript
 public readonly clusterPlatformVersionOutput: string;
@@ -529,7 +529,7 @@ public readonly clusterPlatformVersionOutput: string;
 
 ---
 
-##### `clusterPrimarySecurityGroupIdOutput`<sup>Required</sup> <a name="clusterPrimarySecurityGroupIdOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterPrimarySecurityGroupIdOutput"></a>
+##### `clusterPrimarySecurityGroupIdOutput`<sup>Required</sup> <a name="clusterPrimarySecurityGroupIdOutput" id="@danielmschmidt/eks-cluster.Eks.property.clusterPrimarySecurityGroupIdOutput"></a>
 
 ```typescript
 public readonly clusterPrimarySecurityGroupIdOutput: string;
@@ -539,7 +539,7 @@ public readonly clusterPrimarySecurityGroupIdOutput: string;
 
 ---
 
-##### `clusterSecurityGroupArnOutput`<sup>Required</sup> <a name="clusterSecurityGroupArnOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterSecurityGroupArnOutput"></a>
+##### `clusterSecurityGroupArnOutput`<sup>Required</sup> <a name="clusterSecurityGroupArnOutput" id="@danielmschmidt/eks-cluster.Eks.property.clusterSecurityGroupArnOutput"></a>
 
 ```typescript
 public readonly clusterSecurityGroupArnOutput: string;
@@ -549,7 +549,7 @@ public readonly clusterSecurityGroupArnOutput: string;
 
 ---
 
-##### `clusterSecurityGroupIdOutput`<sup>Required</sup> <a name="clusterSecurityGroupIdOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterSecurityGroupIdOutput"></a>
+##### `clusterSecurityGroupIdOutput`<sup>Required</sup> <a name="clusterSecurityGroupIdOutput" id="@danielmschmidt/eks-cluster.Eks.property.clusterSecurityGroupIdOutput"></a>
 
 ```typescript
 public readonly clusterSecurityGroupIdOutput: string;
@@ -559,7 +559,7 @@ public readonly clusterSecurityGroupIdOutput: string;
 
 ---
 
-##### `clusterStatusOutput`<sup>Required</sup> <a name="clusterStatusOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterStatusOutput"></a>
+##### `clusterStatusOutput`<sup>Required</sup> <a name="clusterStatusOutput" id="@danielmschmidt/eks-cluster.Eks.property.clusterStatusOutput"></a>
 
 ```typescript
 public readonly clusterStatusOutput: string;
@@ -569,7 +569,7 @@ public readonly clusterStatusOutput: string;
 
 ---
 
-##### `clusterVersionOutput`<sup>Required</sup> <a name="clusterVersionOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterVersionOutput"></a>
+##### `clusterVersionOutput`<sup>Required</sup> <a name="clusterVersionOutput" id="@danielmschmidt/eks-cluster.Eks.property.clusterVersionOutput"></a>
 
 ```typescript
 public readonly clusterVersionOutput: string;
@@ -579,7 +579,7 @@ public readonly clusterVersionOutput: string;
 
 ---
 
-##### `eksManagedNodeGroupsAutoscalingGroupNamesOutput`<sup>Required</sup> <a name="eksManagedNodeGroupsAutoscalingGroupNamesOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.eksManagedNodeGroupsAutoscalingGroupNamesOutput"></a>
+##### `eksManagedNodeGroupsAutoscalingGroupNamesOutput`<sup>Required</sup> <a name="eksManagedNodeGroupsAutoscalingGroupNamesOutput" id="@danielmschmidt/eks-cluster.Eks.property.eksManagedNodeGroupsAutoscalingGroupNamesOutput"></a>
 
 ```typescript
 public readonly eksManagedNodeGroupsAutoscalingGroupNamesOutput: string;
@@ -589,7 +589,7 @@ public readonly eksManagedNodeGroupsAutoscalingGroupNamesOutput: string;
 
 ---
 
-##### `eksManagedNodeGroupsOutput`<sup>Required</sup> <a name="eksManagedNodeGroupsOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.eksManagedNodeGroupsOutput"></a>
+##### `eksManagedNodeGroupsOutput`<sup>Required</sup> <a name="eksManagedNodeGroupsOutput" id="@danielmschmidt/eks-cluster.Eks.property.eksManagedNodeGroupsOutput"></a>
 
 ```typescript
 public readonly eksManagedNodeGroupsOutput: string;
@@ -599,7 +599,7 @@ public readonly eksManagedNodeGroupsOutput: string;
 
 ---
 
-##### `fargateProfilesOutput`<sup>Required</sup> <a name="fargateProfilesOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.fargateProfilesOutput"></a>
+##### `fargateProfilesOutput`<sup>Required</sup> <a name="fargateProfilesOutput" id="@danielmschmidt/eks-cluster.Eks.property.fargateProfilesOutput"></a>
 
 ```typescript
 public readonly fargateProfilesOutput: string;
@@ -609,7 +609,7 @@ public readonly fargateProfilesOutput: string;
 
 ---
 
-##### `nodeSecurityGroupArnOutput`<sup>Required</sup> <a name="nodeSecurityGroupArnOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.nodeSecurityGroupArnOutput"></a>
+##### `nodeSecurityGroupArnOutput`<sup>Required</sup> <a name="nodeSecurityGroupArnOutput" id="@danielmschmidt/eks-cluster.Eks.property.nodeSecurityGroupArnOutput"></a>
 
 ```typescript
 public readonly nodeSecurityGroupArnOutput: string;
@@ -619,7 +619,7 @@ public readonly nodeSecurityGroupArnOutput: string;
 
 ---
 
-##### `nodeSecurityGroupIdOutput`<sup>Required</sup> <a name="nodeSecurityGroupIdOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.nodeSecurityGroupIdOutput"></a>
+##### `nodeSecurityGroupIdOutput`<sup>Required</sup> <a name="nodeSecurityGroupIdOutput" id="@danielmschmidt/eks-cluster.Eks.property.nodeSecurityGroupIdOutput"></a>
 
 ```typescript
 public readonly nodeSecurityGroupIdOutput: string;
@@ -629,7 +629,7 @@ public readonly nodeSecurityGroupIdOutput: string;
 
 ---
 
-##### `oidcProviderArnOutput`<sup>Required</sup> <a name="oidcProviderArnOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.oidcProviderArnOutput"></a>
+##### `oidcProviderArnOutput`<sup>Required</sup> <a name="oidcProviderArnOutput" id="@danielmschmidt/eks-cluster.Eks.property.oidcProviderArnOutput"></a>
 
 ```typescript
 public readonly oidcProviderArnOutput: string;
@@ -639,7 +639,7 @@ public readonly oidcProviderArnOutput: string;
 
 ---
 
-##### `oidcProviderOutput`<sup>Required</sup> <a name="oidcProviderOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.oidcProviderOutput"></a>
+##### `oidcProviderOutput`<sup>Required</sup> <a name="oidcProviderOutput" id="@danielmschmidt/eks-cluster.Eks.property.oidcProviderOutput"></a>
 
 ```typescript
 public readonly oidcProviderOutput: string;
@@ -649,7 +649,7 @@ public readonly oidcProviderOutput: string;
 
 ---
 
-##### `selfManagedNodeGroupsAutoscalingGroupNamesOutput`<sup>Required</sup> <a name="selfManagedNodeGroupsAutoscalingGroupNamesOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.selfManagedNodeGroupsAutoscalingGroupNamesOutput"></a>
+##### `selfManagedNodeGroupsAutoscalingGroupNamesOutput`<sup>Required</sup> <a name="selfManagedNodeGroupsAutoscalingGroupNamesOutput" id="@danielmschmidt/eks-cluster.Eks.property.selfManagedNodeGroupsAutoscalingGroupNamesOutput"></a>
 
 ```typescript
 public readonly selfManagedNodeGroupsAutoscalingGroupNamesOutput: string;
@@ -659,7 +659,7 @@ public readonly selfManagedNodeGroupsAutoscalingGroupNamesOutput: string;
 
 ---
 
-##### `selfManagedNodeGroupsOutput`<sup>Required</sup> <a name="selfManagedNodeGroupsOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.selfManagedNodeGroupsOutput"></a>
+##### `selfManagedNodeGroupsOutput`<sup>Required</sup> <a name="selfManagedNodeGroupsOutput" id="@danielmschmidt/eks-cluster.Eks.property.selfManagedNodeGroupsOutput"></a>
 
 ```typescript
 public readonly selfManagedNodeGroupsOutput: string;
@@ -669,7 +669,7 @@ public readonly selfManagedNodeGroupsOutput: string;
 
 ---
 
-##### `clusterAddons`<sup>Required</sup> <a name="clusterAddons" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterAddons"></a>
+##### `clusterAddons`<sup>Required</sup> <a name="clusterAddons" id="@danielmschmidt/eks-cluster.Eks.property.clusterAddons"></a>
 
 ```typescript
 public readonly clusterAddons: any;
@@ -679,7 +679,7 @@ public readonly clusterAddons: any;
 
 ---
 
-##### `clusterEncryptionConfig`<sup>Required</sup> <a name="clusterEncryptionConfig" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEncryptionConfig"></a>
+##### `clusterEncryptionConfig`<sup>Required</sup> <a name="clusterEncryptionConfig" id="@danielmschmidt/eks-cluster.Eks.property.clusterEncryptionConfig"></a>
 
 ```typescript
 public readonly clusterEncryptionConfig: any;
@@ -689,7 +689,7 @@ public readonly clusterEncryptionConfig: any;
 
 ---
 
-##### `clusterIdentityProviders`<sup>Required</sup> <a name="clusterIdentityProviders" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterIdentityProviders"></a>
+##### `clusterIdentityProviders`<sup>Required</sup> <a name="clusterIdentityProviders" id="@danielmschmidt/eks-cluster.Eks.property.clusterIdentityProviders"></a>
 
 ```typescript
 public readonly clusterIdentityProviders: any;
@@ -699,7 +699,7 @@ public readonly clusterIdentityProviders: any;
 
 ---
 
-##### `clusterSecurityGroupAdditionalRules`<sup>Required</sup> <a name="clusterSecurityGroupAdditionalRules" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterSecurityGroupAdditionalRules"></a>
+##### `clusterSecurityGroupAdditionalRules`<sup>Required</sup> <a name="clusterSecurityGroupAdditionalRules" id="@danielmschmidt/eks-cluster.Eks.property.clusterSecurityGroupAdditionalRules"></a>
 
 ```typescript
 public readonly clusterSecurityGroupAdditionalRules: any;
@@ -709,7 +709,7 @@ public readonly clusterSecurityGroupAdditionalRules: any;
 
 ---
 
-##### `eksManagedNodeGroupDefaults`<sup>Required</sup> <a name="eksManagedNodeGroupDefaults" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.eksManagedNodeGroupDefaults"></a>
+##### `eksManagedNodeGroupDefaults`<sup>Required</sup> <a name="eksManagedNodeGroupDefaults" id="@danielmschmidt/eks-cluster.Eks.property.eksManagedNodeGroupDefaults"></a>
 
 ```typescript
 public readonly eksManagedNodeGroupDefaults: any;
@@ -719,7 +719,7 @@ public readonly eksManagedNodeGroupDefaults: any;
 
 ---
 
-##### `eksManagedNodeGroups`<sup>Required</sup> <a name="eksManagedNodeGroups" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.eksManagedNodeGroups"></a>
+##### `eksManagedNodeGroups`<sup>Required</sup> <a name="eksManagedNodeGroups" id="@danielmschmidt/eks-cluster.Eks.property.eksManagedNodeGroups"></a>
 
 ```typescript
 public readonly eksManagedNodeGroups: any;
@@ -729,7 +729,7 @@ public readonly eksManagedNodeGroups: any;
 
 ---
 
-##### `fargateProfileDefaults`<sup>Required</sup> <a name="fargateProfileDefaults" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.fargateProfileDefaults"></a>
+##### `fargateProfileDefaults`<sup>Required</sup> <a name="fargateProfileDefaults" id="@danielmschmidt/eks-cluster.Eks.property.fargateProfileDefaults"></a>
 
 ```typescript
 public readonly fargateProfileDefaults: any;
@@ -739,7 +739,7 @@ public readonly fargateProfileDefaults: any;
 
 ---
 
-##### `fargateProfiles`<sup>Required</sup> <a name="fargateProfiles" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.fargateProfiles"></a>
+##### `fargateProfiles`<sup>Required</sup> <a name="fargateProfiles" id="@danielmschmidt/eks-cluster.Eks.property.fargateProfiles"></a>
 
 ```typescript
 public readonly fargateProfiles: any;
@@ -749,7 +749,7 @@ public readonly fargateProfiles: any;
 
 ---
 
-##### `nodeSecurityGroupAdditionalRules`<sup>Required</sup> <a name="nodeSecurityGroupAdditionalRules" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.nodeSecurityGroupAdditionalRules"></a>
+##### `nodeSecurityGroupAdditionalRules`<sup>Required</sup> <a name="nodeSecurityGroupAdditionalRules" id="@danielmschmidt/eks-cluster.Eks.property.nodeSecurityGroupAdditionalRules"></a>
 
 ```typescript
 public readonly nodeSecurityGroupAdditionalRules: any;
@@ -759,7 +759,7 @@ public readonly nodeSecurityGroupAdditionalRules: any;
 
 ---
 
-##### `selfManagedNodeGroupDefaults`<sup>Required</sup> <a name="selfManagedNodeGroupDefaults" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.selfManagedNodeGroupDefaults"></a>
+##### `selfManagedNodeGroupDefaults`<sup>Required</sup> <a name="selfManagedNodeGroupDefaults" id="@danielmschmidt/eks-cluster.Eks.property.selfManagedNodeGroupDefaults"></a>
 
 ```typescript
 public readonly selfManagedNodeGroupDefaults: any;
@@ -769,7 +769,7 @@ public readonly selfManagedNodeGroupDefaults: any;
 
 ---
 
-##### `selfManagedNodeGroups`<sup>Required</sup> <a name="selfManagedNodeGroups" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.selfManagedNodeGroups"></a>
+##### `selfManagedNodeGroups`<sup>Required</sup> <a name="selfManagedNodeGroups" id="@danielmschmidt/eks-cluster.Eks.property.selfManagedNodeGroups"></a>
 
 ```typescript
 public readonly selfManagedNodeGroups: any;
@@ -779,7 +779,7 @@ public readonly selfManagedNodeGroups: any;
 
 ---
 
-##### `attachClusterEncryptionPolicy`<sup>Optional</sup> <a name="attachClusterEncryptionPolicy" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.attachClusterEncryptionPolicy"></a>
+##### `attachClusterEncryptionPolicy`<sup>Optional</sup> <a name="attachClusterEncryptionPolicy" id="@danielmschmidt/eks-cluster.Eks.property.attachClusterEncryptionPolicy"></a>
 
 ```typescript
 public readonly attachClusterEncryptionPolicy: boolean;
@@ -789,7 +789,7 @@ public readonly attachClusterEncryptionPolicy: boolean;
 
 ---
 
-##### `awsAuthAccounts`<sup>Optional</sup> <a name="awsAuthAccounts" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.awsAuthAccounts"></a>
+##### `awsAuthAccounts`<sup>Optional</sup> <a name="awsAuthAccounts" id="@danielmschmidt/eks-cluster.Eks.property.awsAuthAccounts"></a>
 
 ```typescript
 public readonly awsAuthAccounts: any[];
@@ -799,7 +799,7 @@ public readonly awsAuthAccounts: any[];
 
 ---
 
-##### `awsAuthFargateProfilePodExecutionRoleArns`<sup>Optional</sup> <a name="awsAuthFargateProfilePodExecutionRoleArns" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.awsAuthFargateProfilePodExecutionRoleArns"></a>
+##### `awsAuthFargateProfilePodExecutionRoleArns`<sup>Optional</sup> <a name="awsAuthFargateProfilePodExecutionRoleArns" id="@danielmschmidt/eks-cluster.Eks.property.awsAuthFargateProfilePodExecutionRoleArns"></a>
 
 ```typescript
 public readonly awsAuthFargateProfilePodExecutionRoleArns: string[];
@@ -809,7 +809,7 @@ public readonly awsAuthFargateProfilePodExecutionRoleArns: string[];
 
 ---
 
-##### `awsAuthNodeIamRoleArnsNonWindows`<sup>Optional</sup> <a name="awsAuthNodeIamRoleArnsNonWindows" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.awsAuthNodeIamRoleArnsNonWindows"></a>
+##### `awsAuthNodeIamRoleArnsNonWindows`<sup>Optional</sup> <a name="awsAuthNodeIamRoleArnsNonWindows" id="@danielmschmidt/eks-cluster.Eks.property.awsAuthNodeIamRoleArnsNonWindows"></a>
 
 ```typescript
 public readonly awsAuthNodeIamRoleArnsNonWindows: string[];
@@ -819,7 +819,7 @@ public readonly awsAuthNodeIamRoleArnsNonWindows: string[];
 
 ---
 
-##### `awsAuthNodeIamRoleArnsWindows`<sup>Optional</sup> <a name="awsAuthNodeIamRoleArnsWindows" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.awsAuthNodeIamRoleArnsWindows"></a>
+##### `awsAuthNodeIamRoleArnsWindows`<sup>Optional</sup> <a name="awsAuthNodeIamRoleArnsWindows" id="@danielmschmidt/eks-cluster.Eks.property.awsAuthNodeIamRoleArnsWindows"></a>
 
 ```typescript
 public readonly awsAuthNodeIamRoleArnsWindows: string[];
@@ -829,7 +829,7 @@ public readonly awsAuthNodeIamRoleArnsWindows: string[];
 
 ---
 
-##### `awsAuthRoles`<sup>Optional</sup> <a name="awsAuthRoles" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.awsAuthRoles"></a>
+##### `awsAuthRoles`<sup>Optional</sup> <a name="awsAuthRoles" id="@danielmschmidt/eks-cluster.Eks.property.awsAuthRoles"></a>
 
 ```typescript
 public readonly awsAuthRoles: any[];
@@ -839,7 +839,7 @@ public readonly awsAuthRoles: any[];
 
 ---
 
-##### `awsAuthUsers`<sup>Optional</sup> <a name="awsAuthUsers" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.awsAuthUsers"></a>
+##### `awsAuthUsers`<sup>Optional</sup> <a name="awsAuthUsers" id="@danielmschmidt/eks-cluster.Eks.property.awsAuthUsers"></a>
 
 ```typescript
 public readonly awsAuthUsers: any[];
@@ -849,7 +849,7 @@ public readonly awsAuthUsers: any[];
 
 ---
 
-##### `cloudwatchLogGroupKmsKeyId`<sup>Optional</sup> <a name="cloudwatchLogGroupKmsKeyId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.cloudwatchLogGroupKmsKeyId"></a>
+##### `cloudwatchLogGroupKmsKeyId`<sup>Optional</sup> <a name="cloudwatchLogGroupKmsKeyId" id="@danielmschmidt/eks-cluster.Eks.property.cloudwatchLogGroupKmsKeyId"></a>
 
 ```typescript
 public readonly cloudwatchLogGroupKmsKeyId: string;
@@ -859,7 +859,7 @@ public readonly cloudwatchLogGroupKmsKeyId: string;
 
 ---
 
-##### `cloudwatchLogGroupRetentionInDays`<sup>Optional</sup> <a name="cloudwatchLogGroupRetentionInDays" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.cloudwatchLogGroupRetentionInDays"></a>
+##### `cloudwatchLogGroupRetentionInDays`<sup>Optional</sup> <a name="cloudwatchLogGroupRetentionInDays" id="@danielmschmidt/eks-cluster.Eks.property.cloudwatchLogGroupRetentionInDays"></a>
 
 ```typescript
 public readonly cloudwatchLogGroupRetentionInDays: number;
@@ -869,7 +869,7 @@ public readonly cloudwatchLogGroupRetentionInDays: number;
 
 ---
 
-##### `clusterAdditionalSecurityGroupIds`<sup>Optional</sup> <a name="clusterAdditionalSecurityGroupIds" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterAdditionalSecurityGroupIds"></a>
+##### `clusterAdditionalSecurityGroupIds`<sup>Optional</sup> <a name="clusterAdditionalSecurityGroupIds" id="@danielmschmidt/eks-cluster.Eks.property.clusterAdditionalSecurityGroupIds"></a>
 
 ```typescript
 public readonly clusterAdditionalSecurityGroupIds: string[];
@@ -879,7 +879,7 @@ public readonly clusterAdditionalSecurityGroupIds: string[];
 
 ---
 
-##### `clusterEnabledLogTypes`<sup>Optional</sup> <a name="clusterEnabledLogTypes" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEnabledLogTypes"></a>
+##### `clusterEnabledLogTypes`<sup>Optional</sup> <a name="clusterEnabledLogTypes" id="@danielmschmidt/eks-cluster.Eks.property.clusterEnabledLogTypes"></a>
 
 ```typescript
 public readonly clusterEnabledLogTypes: string[];
@@ -889,7 +889,7 @@ public readonly clusterEnabledLogTypes: string[];
 
 ---
 
-##### `clusterEncryptionPolicyDescription`<sup>Optional</sup> <a name="clusterEncryptionPolicyDescription" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEncryptionPolicyDescription"></a>
+##### `clusterEncryptionPolicyDescription`<sup>Optional</sup> <a name="clusterEncryptionPolicyDescription" id="@danielmschmidt/eks-cluster.Eks.property.clusterEncryptionPolicyDescription"></a>
 
 ```typescript
 public readonly clusterEncryptionPolicyDescription: string;
@@ -899,7 +899,7 @@ public readonly clusterEncryptionPolicyDescription: string;
 
 ---
 
-##### `clusterEncryptionPolicyName`<sup>Optional</sup> <a name="clusterEncryptionPolicyName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEncryptionPolicyName"></a>
+##### `clusterEncryptionPolicyName`<sup>Optional</sup> <a name="clusterEncryptionPolicyName" id="@danielmschmidt/eks-cluster.Eks.property.clusterEncryptionPolicyName"></a>
 
 ```typescript
 public readonly clusterEncryptionPolicyName: string;
@@ -909,7 +909,7 @@ public readonly clusterEncryptionPolicyName: string;
 
 ---
 
-##### `clusterEncryptionPolicyPath`<sup>Optional</sup> <a name="clusterEncryptionPolicyPath" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEncryptionPolicyPath"></a>
+##### `clusterEncryptionPolicyPath`<sup>Optional</sup> <a name="clusterEncryptionPolicyPath" id="@danielmschmidt/eks-cluster.Eks.property.clusterEncryptionPolicyPath"></a>
 
 ```typescript
 public readonly clusterEncryptionPolicyPath: string;
@@ -919,7 +919,7 @@ public readonly clusterEncryptionPolicyPath: string;
 
 ---
 
-##### `clusterEncryptionPolicyTags`<sup>Optional</sup> <a name="clusterEncryptionPolicyTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEncryptionPolicyTags"></a>
+##### `clusterEncryptionPolicyTags`<sup>Optional</sup> <a name="clusterEncryptionPolicyTags" id="@danielmschmidt/eks-cluster.Eks.property.clusterEncryptionPolicyTags"></a>
 
 ```typescript
 public readonly clusterEncryptionPolicyTags: {[ key: string ]: string};
@@ -929,7 +929,7 @@ public readonly clusterEncryptionPolicyTags: {[ key: string ]: string};
 
 ---
 
-##### `clusterEncryptionPolicyUseNamePrefix`<sup>Optional</sup> <a name="clusterEncryptionPolicyUseNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEncryptionPolicyUseNamePrefix"></a>
+##### `clusterEncryptionPolicyUseNamePrefix`<sup>Optional</sup> <a name="clusterEncryptionPolicyUseNamePrefix" id="@danielmschmidt/eks-cluster.Eks.property.clusterEncryptionPolicyUseNamePrefix"></a>
 
 ```typescript
 public readonly clusterEncryptionPolicyUseNamePrefix: string;
@@ -939,7 +939,7 @@ public readonly clusterEncryptionPolicyUseNamePrefix: string;
 
 ---
 
-##### `clusterEndpointPrivateAccess`<sup>Optional</sup> <a name="clusterEndpointPrivateAccess" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEndpointPrivateAccess"></a>
+##### `clusterEndpointPrivateAccess`<sup>Optional</sup> <a name="clusterEndpointPrivateAccess" id="@danielmschmidt/eks-cluster.Eks.property.clusterEndpointPrivateAccess"></a>
 
 ```typescript
 public readonly clusterEndpointPrivateAccess: boolean;
@@ -949,7 +949,7 @@ public readonly clusterEndpointPrivateAccess: boolean;
 
 ---
 
-##### `clusterEndpointPublicAccess`<sup>Optional</sup> <a name="clusterEndpointPublicAccess" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEndpointPublicAccess"></a>
+##### `clusterEndpointPublicAccess`<sup>Optional</sup> <a name="clusterEndpointPublicAccess" id="@danielmschmidt/eks-cluster.Eks.property.clusterEndpointPublicAccess"></a>
 
 ```typescript
 public readonly clusterEndpointPublicAccess: boolean;
@@ -959,7 +959,7 @@ public readonly clusterEndpointPublicAccess: boolean;
 
 ---
 
-##### `clusterEndpointPublicAccessCidrs`<sup>Optional</sup> <a name="clusterEndpointPublicAccessCidrs" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterEndpointPublicAccessCidrs"></a>
+##### `clusterEndpointPublicAccessCidrs`<sup>Optional</sup> <a name="clusterEndpointPublicAccessCidrs" id="@danielmschmidt/eks-cluster.Eks.property.clusterEndpointPublicAccessCidrs"></a>
 
 ```typescript
 public readonly clusterEndpointPublicAccessCidrs: string[];
@@ -969,7 +969,7 @@ public readonly clusterEndpointPublicAccessCidrs: string[];
 
 ---
 
-##### `clusterIamRoleDnsSuffix`<sup>Optional</sup> <a name="clusterIamRoleDnsSuffix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterIamRoleDnsSuffix"></a>
+##### `clusterIamRoleDnsSuffix`<sup>Optional</sup> <a name="clusterIamRoleDnsSuffix" id="@danielmschmidt/eks-cluster.Eks.property.clusterIamRoleDnsSuffix"></a>
 
 ```typescript
 public readonly clusterIamRoleDnsSuffix: string;
@@ -979,7 +979,7 @@ public readonly clusterIamRoleDnsSuffix: string;
 
 ---
 
-##### `clusterIpFamily`<sup>Optional</sup> <a name="clusterIpFamily" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterIpFamily"></a>
+##### `clusterIpFamily`<sup>Optional</sup> <a name="clusterIpFamily" id="@danielmschmidt/eks-cluster.Eks.property.clusterIpFamily"></a>
 
 ```typescript
 public readonly clusterIpFamily: string;
@@ -989,7 +989,7 @@ public readonly clusterIpFamily: string;
 
 ---
 
-##### `clusterName`<sup>Optional</sup> <a name="clusterName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterName"></a>
+##### `clusterName`<sup>Optional</sup> <a name="clusterName" id="@danielmschmidt/eks-cluster.Eks.property.clusterName"></a>
 
 ```typescript
 public readonly clusterName: string;
@@ -999,7 +999,7 @@ public readonly clusterName: string;
 
 ---
 
-##### `clusterSecurityGroupDescription`<sup>Optional</sup> <a name="clusterSecurityGroupDescription" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterSecurityGroupDescription"></a>
+##### `clusterSecurityGroupDescription`<sup>Optional</sup> <a name="clusterSecurityGroupDescription" id="@danielmschmidt/eks-cluster.Eks.property.clusterSecurityGroupDescription"></a>
 
 ```typescript
 public readonly clusterSecurityGroupDescription: string;
@@ -1009,7 +1009,7 @@ public readonly clusterSecurityGroupDescription: string;
 
 ---
 
-##### `clusterSecurityGroupId`<sup>Optional</sup> <a name="clusterSecurityGroupId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterSecurityGroupId"></a>
+##### `clusterSecurityGroupId`<sup>Optional</sup> <a name="clusterSecurityGroupId" id="@danielmschmidt/eks-cluster.Eks.property.clusterSecurityGroupId"></a>
 
 ```typescript
 public readonly clusterSecurityGroupId: string;
@@ -1019,7 +1019,7 @@ public readonly clusterSecurityGroupId: string;
 
 ---
 
-##### `clusterSecurityGroupName`<sup>Optional</sup> <a name="clusterSecurityGroupName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterSecurityGroupName"></a>
+##### `clusterSecurityGroupName`<sup>Optional</sup> <a name="clusterSecurityGroupName" id="@danielmschmidt/eks-cluster.Eks.property.clusterSecurityGroupName"></a>
 
 ```typescript
 public readonly clusterSecurityGroupName: string;
@@ -1029,7 +1029,7 @@ public readonly clusterSecurityGroupName: string;
 
 ---
 
-##### `clusterSecurityGroupTags`<sup>Optional</sup> <a name="clusterSecurityGroupTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterSecurityGroupTags"></a>
+##### `clusterSecurityGroupTags`<sup>Optional</sup> <a name="clusterSecurityGroupTags" id="@danielmschmidt/eks-cluster.Eks.property.clusterSecurityGroupTags"></a>
 
 ```typescript
 public readonly clusterSecurityGroupTags: {[ key: string ]: string};
@@ -1039,7 +1039,7 @@ public readonly clusterSecurityGroupTags: {[ key: string ]: string};
 
 ---
 
-##### `clusterSecurityGroupUseNamePrefix`<sup>Optional</sup> <a name="clusterSecurityGroupUseNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterSecurityGroupUseNamePrefix"></a>
+##### `clusterSecurityGroupUseNamePrefix`<sup>Optional</sup> <a name="clusterSecurityGroupUseNamePrefix" id="@danielmschmidt/eks-cluster.Eks.property.clusterSecurityGroupUseNamePrefix"></a>
 
 ```typescript
 public readonly clusterSecurityGroupUseNamePrefix: string;
@@ -1049,7 +1049,7 @@ public readonly clusterSecurityGroupUseNamePrefix: string;
 
 ---
 
-##### `clusterServiceIpv4Cidr`<sup>Optional</sup> <a name="clusterServiceIpv4Cidr" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterServiceIpv4Cidr"></a>
+##### `clusterServiceIpv4Cidr`<sup>Optional</sup> <a name="clusterServiceIpv4Cidr" id="@danielmschmidt/eks-cluster.Eks.property.clusterServiceIpv4Cidr"></a>
 
 ```typescript
 public readonly clusterServiceIpv4Cidr: string;
@@ -1059,7 +1059,7 @@ public readonly clusterServiceIpv4Cidr: string;
 
 ---
 
-##### `clusterTags`<sup>Optional</sup> <a name="clusterTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterTags"></a>
+##### `clusterTags`<sup>Optional</sup> <a name="clusterTags" id="@danielmschmidt/eks-cluster.Eks.property.clusterTags"></a>
 
 ```typescript
 public readonly clusterTags: {[ key: string ]: string};
@@ -1069,7 +1069,7 @@ public readonly clusterTags: {[ key: string ]: string};
 
 ---
 
-##### `clusterTimeouts`<sup>Optional</sup> <a name="clusterTimeouts" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterTimeouts"></a>
+##### `clusterTimeouts`<sup>Optional</sup> <a name="clusterTimeouts" id="@danielmschmidt/eks-cluster.Eks.property.clusterTimeouts"></a>
 
 ```typescript
 public readonly clusterTimeouts: {[ key: string ]: string};
@@ -1079,7 +1079,7 @@ public readonly clusterTimeouts: {[ key: string ]: string};
 
 ---
 
-##### `clusterVersion`<sup>Optional</sup> <a name="clusterVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.clusterVersion"></a>
+##### `clusterVersion`<sup>Optional</sup> <a name="clusterVersion" id="@danielmschmidt/eks-cluster.Eks.property.clusterVersion"></a>
 
 ```typescript
 public readonly clusterVersion: string;
@@ -1089,7 +1089,7 @@ public readonly clusterVersion: string;
 
 ---
 
-##### `create`<sup>Optional</sup> <a name="create" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.create"></a>
+##### `create`<sup>Optional</sup> <a name="create" id="@danielmschmidt/eks-cluster.Eks.property.create"></a>
 
 ```typescript
 public readonly create: boolean;
@@ -1099,7 +1099,7 @@ public readonly create: boolean;
 
 ---
 
-##### `createAwsAuthConfigmap`<sup>Optional</sup> <a name="createAwsAuthConfigmap" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.createAwsAuthConfigmap"></a>
+##### `createAwsAuthConfigmap`<sup>Optional</sup> <a name="createAwsAuthConfigmap" id="@danielmschmidt/eks-cluster.Eks.property.createAwsAuthConfigmap"></a>
 
 ```typescript
 public readonly createAwsAuthConfigmap: boolean;
@@ -1109,7 +1109,7 @@ public readonly createAwsAuthConfigmap: boolean;
 
 ---
 
-##### `createCloudwatchLogGroup`<sup>Optional</sup> <a name="createCloudwatchLogGroup" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.createCloudwatchLogGroup"></a>
+##### `createCloudwatchLogGroup`<sup>Optional</sup> <a name="createCloudwatchLogGroup" id="@danielmschmidt/eks-cluster.Eks.property.createCloudwatchLogGroup"></a>
 
 ```typescript
 public readonly createCloudwatchLogGroup: boolean;
@@ -1119,7 +1119,7 @@ public readonly createCloudwatchLogGroup: boolean;
 
 ---
 
-##### `createClusterPrimarySecurityGroupTags`<sup>Optional</sup> <a name="createClusterPrimarySecurityGroupTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.createClusterPrimarySecurityGroupTags"></a>
+##### `createClusterPrimarySecurityGroupTags`<sup>Optional</sup> <a name="createClusterPrimarySecurityGroupTags" id="@danielmschmidt/eks-cluster.Eks.property.createClusterPrimarySecurityGroupTags"></a>
 
 ```typescript
 public readonly createClusterPrimarySecurityGroupTags: boolean;
@@ -1129,7 +1129,7 @@ public readonly createClusterPrimarySecurityGroupTags: boolean;
 
 ---
 
-##### `createClusterSecurityGroup`<sup>Optional</sup> <a name="createClusterSecurityGroup" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.createClusterSecurityGroup"></a>
+##### `createClusterSecurityGroup`<sup>Optional</sup> <a name="createClusterSecurityGroup" id="@danielmschmidt/eks-cluster.Eks.property.createClusterSecurityGroup"></a>
 
 ```typescript
 public readonly createClusterSecurityGroup: boolean;
@@ -1139,7 +1139,7 @@ public readonly createClusterSecurityGroup: boolean;
 
 ---
 
-##### `createCniIpv6IamPolicy`<sup>Optional</sup> <a name="createCniIpv6IamPolicy" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.createCniIpv6IamPolicy"></a>
+##### `createCniIpv6IamPolicy`<sup>Optional</sup> <a name="createCniIpv6IamPolicy" id="@danielmschmidt/eks-cluster.Eks.property.createCniIpv6IamPolicy"></a>
 
 ```typescript
 public readonly createCniIpv6IamPolicy: boolean;
@@ -1149,7 +1149,7 @@ public readonly createCniIpv6IamPolicy: boolean;
 
 ---
 
-##### `createIamRole`<sup>Optional</sup> <a name="createIamRole" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.createIamRole"></a>
+##### `createIamRole`<sup>Optional</sup> <a name="createIamRole" id="@danielmschmidt/eks-cluster.Eks.property.createIamRole"></a>
 
 ```typescript
 public readonly createIamRole: boolean;
@@ -1159,7 +1159,7 @@ public readonly createIamRole: boolean;
 
 ---
 
-##### `createNodeSecurityGroup`<sup>Optional</sup> <a name="createNodeSecurityGroup" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.createNodeSecurityGroup"></a>
+##### `createNodeSecurityGroup`<sup>Optional</sup> <a name="createNodeSecurityGroup" id="@danielmschmidt/eks-cluster.Eks.property.createNodeSecurityGroup"></a>
 
 ```typescript
 public readonly createNodeSecurityGroup: boolean;
@@ -1169,7 +1169,7 @@ public readonly createNodeSecurityGroup: boolean;
 
 ---
 
-##### `customOidcThumbprints`<sup>Optional</sup> <a name="customOidcThumbprints" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.customOidcThumbprints"></a>
+##### `customOidcThumbprints`<sup>Optional</sup> <a name="customOidcThumbprints" id="@danielmschmidt/eks-cluster.Eks.property.customOidcThumbprints"></a>
 
 ```typescript
 public readonly customOidcThumbprints: string[];
@@ -1179,7 +1179,7 @@ public readonly customOidcThumbprints: string[];
 
 ---
 
-##### `enableIrsa`<sup>Optional</sup> <a name="enableIrsa" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.enableIrsa"></a>
+##### `enableIrsa`<sup>Optional</sup> <a name="enableIrsa" id="@danielmschmidt/eks-cluster.Eks.property.enableIrsa"></a>
 
 ```typescript
 public readonly enableIrsa: boolean;
@@ -1189,7 +1189,7 @@ public readonly enableIrsa: boolean;
 
 ---
 
-##### `iamRoleAdditionalPolicies`<sup>Optional</sup> <a name="iamRoleAdditionalPolicies" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.iamRoleAdditionalPolicies"></a>
+##### `iamRoleAdditionalPolicies`<sup>Optional</sup> <a name="iamRoleAdditionalPolicies" id="@danielmschmidt/eks-cluster.Eks.property.iamRoleAdditionalPolicies"></a>
 
 ```typescript
 public readonly iamRoleAdditionalPolicies: string[];
@@ -1199,7 +1199,7 @@ public readonly iamRoleAdditionalPolicies: string[];
 
 ---
 
-##### `iamRoleArn`<sup>Optional</sup> <a name="iamRoleArn" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.iamRoleArn"></a>
+##### `iamRoleArn`<sup>Optional</sup> <a name="iamRoleArn" id="@danielmschmidt/eks-cluster.Eks.property.iamRoleArn"></a>
 
 ```typescript
 public readonly iamRoleArn: string;
@@ -1209,7 +1209,7 @@ public readonly iamRoleArn: string;
 
 ---
 
-##### `iamRoleDescription`<sup>Optional</sup> <a name="iamRoleDescription" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.iamRoleDescription"></a>
+##### `iamRoleDescription`<sup>Optional</sup> <a name="iamRoleDescription" id="@danielmschmidt/eks-cluster.Eks.property.iamRoleDescription"></a>
 
 ```typescript
 public readonly iamRoleDescription: string;
@@ -1219,7 +1219,7 @@ public readonly iamRoleDescription: string;
 
 ---
 
-##### `iamRoleName`<sup>Optional</sup> <a name="iamRoleName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.iamRoleName"></a>
+##### `iamRoleName`<sup>Optional</sup> <a name="iamRoleName" id="@danielmschmidt/eks-cluster.Eks.property.iamRoleName"></a>
 
 ```typescript
 public readonly iamRoleName: string;
@@ -1229,7 +1229,7 @@ public readonly iamRoleName: string;
 
 ---
 
-##### `iamRolePath`<sup>Optional</sup> <a name="iamRolePath" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.iamRolePath"></a>
+##### `iamRolePath`<sup>Optional</sup> <a name="iamRolePath" id="@danielmschmidt/eks-cluster.Eks.property.iamRolePath"></a>
 
 ```typescript
 public readonly iamRolePath: string;
@@ -1239,7 +1239,7 @@ public readonly iamRolePath: string;
 
 ---
 
-##### `iamRolePermissionsBoundary`<sup>Optional</sup> <a name="iamRolePermissionsBoundary" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.iamRolePermissionsBoundary"></a>
+##### `iamRolePermissionsBoundary`<sup>Optional</sup> <a name="iamRolePermissionsBoundary" id="@danielmschmidt/eks-cluster.Eks.property.iamRolePermissionsBoundary"></a>
 
 ```typescript
 public readonly iamRolePermissionsBoundary: string;
@@ -1249,7 +1249,7 @@ public readonly iamRolePermissionsBoundary: string;
 
 ---
 
-##### `iamRoleTags`<sup>Optional</sup> <a name="iamRoleTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.iamRoleTags"></a>
+##### `iamRoleTags`<sup>Optional</sup> <a name="iamRoleTags" id="@danielmschmidt/eks-cluster.Eks.property.iamRoleTags"></a>
 
 ```typescript
 public readonly iamRoleTags: {[ key: string ]: string};
@@ -1259,7 +1259,7 @@ public readonly iamRoleTags: {[ key: string ]: string};
 
 ---
 
-##### `iamRoleUseNamePrefix`<sup>Optional</sup> <a name="iamRoleUseNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.iamRoleUseNamePrefix"></a>
+##### `iamRoleUseNamePrefix`<sup>Optional</sup> <a name="iamRoleUseNamePrefix" id="@danielmschmidt/eks-cluster.Eks.property.iamRoleUseNamePrefix"></a>
 
 ```typescript
 public readonly iamRoleUseNamePrefix: boolean;
@@ -1269,7 +1269,7 @@ public readonly iamRoleUseNamePrefix: boolean;
 
 ---
 
-##### `manageAwsAuthConfigmap`<sup>Optional</sup> <a name="manageAwsAuthConfigmap" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.manageAwsAuthConfigmap"></a>
+##### `manageAwsAuthConfigmap`<sup>Optional</sup> <a name="manageAwsAuthConfigmap" id="@danielmschmidt/eks-cluster.Eks.property.manageAwsAuthConfigmap"></a>
 
 ```typescript
 public readonly manageAwsAuthConfigmap: boolean;
@@ -1279,7 +1279,7 @@ public readonly manageAwsAuthConfigmap: boolean;
 
 ---
 
-##### `nodeSecurityGroupDescription`<sup>Optional</sup> <a name="nodeSecurityGroupDescription" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.nodeSecurityGroupDescription"></a>
+##### `nodeSecurityGroupDescription`<sup>Optional</sup> <a name="nodeSecurityGroupDescription" id="@danielmschmidt/eks-cluster.Eks.property.nodeSecurityGroupDescription"></a>
 
 ```typescript
 public readonly nodeSecurityGroupDescription: string;
@@ -1289,7 +1289,7 @@ public readonly nodeSecurityGroupDescription: string;
 
 ---
 
-##### `nodeSecurityGroupId`<sup>Optional</sup> <a name="nodeSecurityGroupId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.nodeSecurityGroupId"></a>
+##### `nodeSecurityGroupId`<sup>Optional</sup> <a name="nodeSecurityGroupId" id="@danielmschmidt/eks-cluster.Eks.property.nodeSecurityGroupId"></a>
 
 ```typescript
 public readonly nodeSecurityGroupId: string;
@@ -1299,7 +1299,7 @@ public readonly nodeSecurityGroupId: string;
 
 ---
 
-##### `nodeSecurityGroupName`<sup>Optional</sup> <a name="nodeSecurityGroupName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.nodeSecurityGroupName"></a>
+##### `nodeSecurityGroupName`<sup>Optional</sup> <a name="nodeSecurityGroupName" id="@danielmschmidt/eks-cluster.Eks.property.nodeSecurityGroupName"></a>
 
 ```typescript
 public readonly nodeSecurityGroupName: string;
@@ -1309,7 +1309,7 @@ public readonly nodeSecurityGroupName: string;
 
 ---
 
-##### `nodeSecurityGroupTags`<sup>Optional</sup> <a name="nodeSecurityGroupTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.nodeSecurityGroupTags"></a>
+##### `nodeSecurityGroupTags`<sup>Optional</sup> <a name="nodeSecurityGroupTags" id="@danielmschmidt/eks-cluster.Eks.property.nodeSecurityGroupTags"></a>
 
 ```typescript
 public readonly nodeSecurityGroupTags: {[ key: string ]: string};
@@ -1319,7 +1319,7 @@ public readonly nodeSecurityGroupTags: {[ key: string ]: string};
 
 ---
 
-##### `nodeSecurityGroupUseNamePrefix`<sup>Optional</sup> <a name="nodeSecurityGroupUseNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.nodeSecurityGroupUseNamePrefix"></a>
+##### `nodeSecurityGroupUseNamePrefix`<sup>Optional</sup> <a name="nodeSecurityGroupUseNamePrefix" id="@danielmschmidt/eks-cluster.Eks.property.nodeSecurityGroupUseNamePrefix"></a>
 
 ```typescript
 public readonly nodeSecurityGroupUseNamePrefix: string;
@@ -1329,7 +1329,7 @@ public readonly nodeSecurityGroupUseNamePrefix: string;
 
 ---
 
-##### `openidConnectAudiences`<sup>Optional</sup> <a name="openidConnectAudiences" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.openidConnectAudiences"></a>
+##### `openidConnectAudiences`<sup>Optional</sup> <a name="openidConnectAudiences" id="@danielmschmidt/eks-cluster.Eks.property.openidConnectAudiences"></a>
 
 ```typescript
 public readonly openidConnectAudiences: string[];
@@ -1339,7 +1339,7 @@ public readonly openidConnectAudiences: string[];
 
 ---
 
-##### `prefixSeparator`<sup>Optional</sup> <a name="prefixSeparator" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.prefixSeparator"></a>
+##### `prefixSeparator`<sup>Optional</sup> <a name="prefixSeparator" id="@danielmschmidt/eks-cluster.Eks.property.prefixSeparator"></a>
 
 ```typescript
 public readonly prefixSeparator: string;
@@ -1349,7 +1349,7 @@ public readonly prefixSeparator: string;
 
 ---
 
-##### `putinKhuylo`<sup>Optional</sup> <a name="putinKhuylo" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.putinKhuylo"></a>
+##### `putinKhuylo`<sup>Optional</sup> <a name="putinKhuylo" id="@danielmschmidt/eks-cluster.Eks.property.putinKhuylo"></a>
 
 ```typescript
 public readonly putinKhuylo: boolean;
@@ -1359,7 +1359,7 @@ public readonly putinKhuylo: boolean;
 
 ---
 
-##### `subnetIds`<sup>Optional</sup> <a name="subnetIds" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.subnetIds"></a>
+##### `subnetIds`<sup>Optional</sup> <a name="subnetIds" id="@danielmschmidt/eks-cluster.Eks.property.subnetIds"></a>
 
 ```typescript
 public readonly subnetIds: string[];
@@ -1369,7 +1369,7 @@ public readonly subnetIds: string[];
 
 ---
 
-##### `tags`<sup>Optional</sup> <a name="tags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.tags"></a>
+##### `tags`<sup>Optional</sup> <a name="tags" id="@danielmschmidt/eks-cluster.Eks.property.tags"></a>
 
 ```typescript
 public readonly tags: {[ key: string ]: string};
@@ -1379,7 +1379,7 @@ public readonly tags: {[ key: string ]: string};
 
 ---
 
-##### `vpcId`<sup>Optional</sup> <a name="vpcId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.Eks.property.vpcId"></a>
+##### `vpcId`<sup>Optional</sup> <a name="vpcId" id="@danielmschmidt/eks-cluster.Eks.property.vpcId"></a>
 
 ```typescript
 public readonly vpcId: string;
@@ -1390,39 +1390,39 @@ public readonly vpcId: string;
 ---
 
 
-### EksCluster <a name="EksCluster" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster"></a>
+### EksCluster <a name="EksCluster" id="@danielmschmidt/eks-cluster.EksCluster"></a>
 
-#### Initializers <a name="Initializers" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.Initializer"></a>
+#### Initializers <a name="Initializers" id="@danielmschmidt/eks-cluster.EksCluster.Initializer"></a>
 
 ```typescript
-import { EksCluster } from 'terraform-cdk-terraform-module-publishing-on-gh-pages'
+import { EksCluster } from '@danielmschmidt/eks-cluster'
 
 new EksCluster(scope: Construct, id: string, options: EksOptions)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.Initializer.parameter.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.Initializer.parameter.options">options</a></code> | <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions">EksOptions</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksCluster.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksCluster.Initializer.parameter.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksCluster.Initializer.parameter.options">options</a></code> | <code><a href="#@danielmschmidt/eks-cluster.EksOptions">EksOptions</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@danielmschmidt/eks-cluster.EksCluster.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@danielmschmidt/eks-cluster.EksCluster.Initializer.parameter.id"></a>
 
 - *Type:* string
 
 ---
 
-##### `options`<sup>Required</sup> <a name="options" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.Initializer.parameter.options"></a>
+##### `options`<sup>Required</sup> <a name="options" id="@danielmschmidt/eks-cluster.EksCluster.Initializer.parameter.options"></a>
 
-- *Type:* <a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions">EksOptions</a>
+- *Type:* <a href="#@danielmschmidt/eks-cluster.EksOptions">EksOptions</a>
 
 ---
 
@@ -1430,13 +1430,13 @@ new EksCluster(scope: Construct, id: string, options: EksOptions)
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.addManagedNodeGroup">addManagedNodeGroup</a></code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.addSelfManagedNodeGroup">addSelfManagedNodeGroup</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksCluster.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksCluster.addManagedNodeGroup">addManagedNodeGroup</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksCluster.addSelfManagedNodeGroup">addSelfManagedNodeGroup</a></code> | *No description.* |
 
 ---
 
-##### `toString` <a name="toString" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.toString"></a>
+##### `toString` <a name="toString" id="@danielmschmidt/eks-cluster.EksCluster.toString"></a>
 
 ```typescript
 public toString(): string
@@ -1444,39 +1444,39 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `addManagedNodeGroup` <a name="addManagedNodeGroup" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.addManagedNodeGroup"></a>
+##### `addManagedNodeGroup` <a name="addManagedNodeGroup" id="@danielmschmidt/eks-cluster.EksCluster.addManagedNodeGroup"></a>
 
 ```typescript
 public addManagedNodeGroup(nodeGroupName: string, options: EksEksManagedNodeGroupOptions): EksEksManagedNodeGroup
 ```
 
-###### `nodeGroupName`<sup>Required</sup> <a name="nodeGroupName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.addManagedNodeGroup.parameter.nodeGroupName"></a>
+###### `nodeGroupName`<sup>Required</sup> <a name="nodeGroupName" id="@danielmschmidt/eks-cluster.EksCluster.addManagedNodeGroup.parameter.nodeGroupName"></a>
 
 - *Type:* string
 
 ---
 
-###### `options`<sup>Required</sup> <a name="options" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.addManagedNodeGroup.parameter.options"></a>
+###### `options`<sup>Required</sup> <a name="options" id="@danielmschmidt/eks-cluster.EksCluster.addManagedNodeGroup.parameter.options"></a>
 
-- *Type:* <a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions">EksEksManagedNodeGroupOptions</a>
+- *Type:* <a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions">EksEksManagedNodeGroupOptions</a>
 
 ---
 
-##### `addSelfManagedNodeGroup` <a name="addSelfManagedNodeGroup" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.addSelfManagedNodeGroup"></a>
+##### `addSelfManagedNodeGroup` <a name="addSelfManagedNodeGroup" id="@danielmschmidt/eks-cluster.EksCluster.addSelfManagedNodeGroup"></a>
 
 ```typescript
 public addSelfManagedNodeGroup(nodeGroupName: string, options: EksSelfManagedNodeGroupOptions): EksSelfManagedNodeGroup
 ```
 
-###### `nodeGroupName`<sup>Required</sup> <a name="nodeGroupName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.addSelfManagedNodeGroup.parameter.nodeGroupName"></a>
+###### `nodeGroupName`<sup>Required</sup> <a name="nodeGroupName" id="@danielmschmidt/eks-cluster.EksCluster.addSelfManagedNodeGroup.parameter.nodeGroupName"></a>
 
 - *Type:* string
 
 ---
 
-###### `options`<sup>Required</sup> <a name="options" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.addSelfManagedNodeGroup.parameter.options"></a>
+###### `options`<sup>Required</sup> <a name="options" id="@danielmschmidt/eks-cluster.EksCluster.addSelfManagedNodeGroup.parameter.options"></a>
 
-- *Type:* <a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions">EksSelfManagedNodeGroupOptions</a>
+- *Type:* <a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions">EksSelfManagedNodeGroupOptions</a>
 
 ---
 
@@ -1484,14 +1484,14 @@ public addSelfManagedNodeGroup(nodeGroupName: string, options: EksSelfManagedNod
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksCluster.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="@danielmschmidt/eks-cluster.EksCluster.isConstruct"></a>
 
 ```typescript
-import { EksCluster } from 'terraform-cdk-terraform-module-publishing-on-gh-pages'
+import { EksCluster } from '@danielmschmidt/eks-cluster'
 
 EksCluster.isConstruct(x: any)
 ```
@@ -1512,7 +1512,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@danielmschmidt/eks-cluster.EksCluster.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -1524,12 +1524,12 @@ Any object.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.property.eks">eks</a></code> | <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks">Eks</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksCluster.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksCluster.property.eks">eks</a></code> | <code><a href="#@danielmschmidt/eks-cluster.Eks">Eks</a></code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@danielmschmidt/eks-cluster.EksCluster.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -1541,50 +1541,50 @@ The tree node.
 
 ---
 
-##### `eks`<sup>Required</sup> <a name="eks" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksCluster.property.eks"></a>
+##### `eks`<sup>Required</sup> <a name="eks" id="@danielmschmidt/eks-cluster.EksCluster.property.eks"></a>
 
 ```typescript
 public readonly eks: Eks;
 ```
 
-- *Type:* <a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.Eks">Eks</a>
+- *Type:* <a href="#@danielmschmidt/eks-cluster.Eks">Eks</a>
 
 ---
 
 
-### EksEksManagedNodeGroup <a name="EksEksManagedNodeGroup" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup"></a>
+### EksEksManagedNodeGroup <a name="EksEksManagedNodeGroup" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup"></a>
 
-#### Initializers <a name="Initializers" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.Initializer"></a>
+#### Initializers <a name="Initializers" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.Initializer"></a>
 
 ```typescript
-import { EksEksManagedNodeGroup } from 'terraform-cdk-terraform-module-publishing-on-gh-pages'
+import { EksEksManagedNodeGroup } from '@danielmschmidt/eks-cluster'
 
 new EksEksManagedNodeGroup(scope: Construct, id: string, options?: EksEksManagedNodeGroupOptions)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.Initializer.parameter.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.Initializer.parameter.options">options</a></code> | <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions">EksEksManagedNodeGroupOptions</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.Initializer.parameter.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.Initializer.parameter.options">options</a></code> | <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions">EksEksManagedNodeGroupOptions</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.Initializer.parameter.id"></a>
 
 - *Type:* string
 
 ---
 
-##### `options`<sup>Optional</sup> <a name="options" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.Initializer.parameter.options"></a>
+##### `options`<sup>Optional</sup> <a name="options" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.Initializer.parameter.options"></a>
 
-- *Type:* <a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions">EksEksManagedNodeGroupOptions</a>
+- *Type:* <a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions">EksEksManagedNodeGroupOptions</a>
 
 ---
 
@@ -1592,19 +1592,19 @@ new EksEksManagedNodeGroup(scope: Construct, id: string, options?: EksEksManaged
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.addOverride">addOverride</a></code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.toMetadata">toMetadata</a></code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.toTerraform">toTerraform</a></code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.addProvider">addProvider</a></code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.getString">getString</a></code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.interpolationForOutput">interpolationForOutput</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.addOverride">addOverride</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.toMetadata">toMetadata</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.toTerraform">toTerraform</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.addProvider">addProvider</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.getString">getString</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.interpolationForOutput">interpolationForOutput</a></code> | *No description.* |
 
 ---
 
-##### `toString` <a name="toString" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.toString"></a>
+##### `toString` <a name="toString" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.toString"></a>
 
 ```typescript
 public toString(): string
@@ -1612,25 +1612,25 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `addOverride` <a name="addOverride" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.addOverride"></a>
+##### `addOverride` <a name="addOverride" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.addOverride"></a>
 
 ```typescript
 public addOverride(path: string, value: any): void
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.addOverride.parameter.path"></a>
 
 - *Type:* string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.addOverride.parameter.value"></a>
 
 - *Type:* any
 
 ---
 
-##### `overrideLogicalId` <a name="overrideLogicalId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.overrideLogicalId"></a>
+##### `overrideLogicalId` <a name="overrideLogicalId" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.overrideLogicalId"></a>
 
 ```typescript
 public overrideLogicalId(newLogicalId: string): void
@@ -1638,7 +1638,7 @@ public overrideLogicalId(newLogicalId: string): void
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* string
 
@@ -1646,7 +1646,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.resetOverrideLogicalId"></a>
+##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.resetOverrideLogicalId"></a>
 
 ```typescript
 public resetOverrideLogicalId(): void
@@ -1654,49 +1654,49 @@ public resetOverrideLogicalId(): void
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `toMetadata` <a name="toMetadata" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.toMetadata"></a>
+##### `toMetadata` <a name="toMetadata" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.toMetadata"></a>
 
 ```typescript
 public toMetadata(): any
 ```
 
-##### `toTerraform` <a name="toTerraform" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.toTerraform"></a>
+##### `toTerraform` <a name="toTerraform" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.toTerraform"></a>
 
 ```typescript
 public toTerraform(): any
 ```
 
-##### `addProvider` <a name="addProvider" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.addProvider"></a>
+##### `addProvider` <a name="addProvider" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.addProvider"></a>
 
 ```typescript
 public addProvider(provider: TerraformModuleProvider | TerraformProvider): void
 ```
 
-###### `provider`<sup>Required</sup> <a name="provider" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.addProvider.parameter.provider"></a>
+###### `provider`<sup>Required</sup> <a name="provider" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.addProvider.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformModuleProvider | cdktf.TerraformProvider
 
 ---
 
-##### `getString` <a name="getString" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.getString"></a>
+##### `getString` <a name="getString" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.getString"></a>
 
 ```typescript
 public getString(output: string): string
 ```
 
-###### `output`<sup>Required</sup> <a name="output" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.getString.parameter.output"></a>
+###### `output`<sup>Required</sup> <a name="output" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.getString.parameter.output"></a>
 
 - *Type:* string
 
 ---
 
-##### `interpolationForOutput` <a name="interpolationForOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.interpolationForOutput"></a>
+##### `interpolationForOutput` <a name="interpolationForOutput" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.interpolationForOutput"></a>
 
 ```typescript
 public interpolationForOutput(moduleOutput: string): IResolvable
 ```
 
-###### `moduleOutput`<sup>Required</sup> <a name="moduleOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.interpolationForOutput.parameter.moduleOutput"></a>
+###### `moduleOutput`<sup>Required</sup> <a name="moduleOutput" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.interpolationForOutput.parameter.moduleOutput"></a>
 
 - *Type:* string
 
@@ -1706,14 +1706,14 @@ public interpolationForOutput(moduleOutput: string): IResolvable
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.isConstruct"></a>
 
 ```typescript
-import { EksEksManagedNodeGroup } from 'terraform-cdk-terraform-module-publishing-on-gh-pages'
+import { EksEksManagedNodeGroup } from '@danielmschmidt/eks-cluster'
 
 EksEksManagedNodeGroup.isConstruct(x: any)
 ```
@@ -1734,7 +1734,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -1746,109 +1746,109 @@ Any object.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.source">source</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.providers">providers</a></code> | <code>cdktf.TerraformModuleProvider \| cdktf.TerraformProvider[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.version">version</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRoleArnOutput">iamRoleArnOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRoleNameOutput">iamRoleNameOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRoleUniqueIdOutput">iamRoleUniqueIdOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.launchTemplateArnOutput">launchTemplateArnOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.launchTemplateIdOutput">launchTemplateIdOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.launchTemplateLatestVersionOutput">launchTemplateLatestVersionOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.nodeGroupArnOutput">nodeGroupArnOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.nodeGroupAutoscalingGroupNamesOutput">nodeGroupAutoscalingGroupNamesOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.nodeGroupIdOutput">nodeGroupIdOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.nodeGroupResourcesOutput">nodeGroupResourcesOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.nodeGroupStatusOutput">nodeGroupStatusOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.securityGroupArnOutput">securityGroupArnOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.securityGroupIdOutput">securityGroupIdOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.blockDeviceMappings">blockDeviceMappings</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.capacityReservationSpecification">capacityReservationSpecification</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.instanceMarketOptions">instanceMarketOptions</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.remoteAccess">remoteAccess</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.securityGroupRules">securityGroupRules</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.taints">taints</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.amiId">amiId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.amiReleaseVersion">amiReleaseVersion</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.amiType">amiType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.bootstrapExtraArgs">bootstrapExtraArgs</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.capacityType">capacityType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.clusterAuthBase64">clusterAuthBase64</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.clusterEndpoint">clusterEndpoint</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.clusterIpFamily">clusterIpFamily</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.clusterName">clusterName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.clusterPrimarySecurityGroupId">clusterPrimarySecurityGroupId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.clusterSecurityGroupId">clusterSecurityGroupId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.clusterServiceIpv4Cidr">clusterServiceIpv4Cidr</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.clusterVersion">clusterVersion</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.cpuOptions">cpuOptions</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.create">create</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.createIamRole">createIamRole</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.createLaunchTemplate">createLaunchTemplate</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.createSecurityGroup">createSecurityGroup</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.creditSpecification">creditSpecification</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.desiredSize">desiredSize</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.disableApiTermination">disableApiTermination</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.diskSize">diskSize</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.ebsOptimized">ebsOptimized</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.elasticGpuSpecifications">elasticGpuSpecifications</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.elasticInferenceAccelerator">elasticInferenceAccelerator</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.enableBootstrapUserData">enableBootstrapUserData</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.enableMonitoring">enableMonitoring</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.enclaveOptions">enclaveOptions</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.forceUpdateVersion">forceUpdateVersion</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRoleAdditionalPolicies">iamRoleAdditionalPolicies</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRoleArn">iamRoleArn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRoleAttachCniPolicy">iamRoleAttachCniPolicy</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRoleDescription">iamRoleDescription</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRoleName">iamRoleName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRolePath">iamRolePath</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRolePermissionsBoundary">iamRolePermissionsBoundary</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRoleTags">iamRoleTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRoleUseNamePrefix">iamRoleUseNamePrefix</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.instanceTypes">instanceTypes</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.kernelId">kernelId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.keyName">keyName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.launchTemplateDefaultVersion">launchTemplateDefaultVersion</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.launchTemplateDescription">launchTemplateDescription</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.launchTemplateName">launchTemplateName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.launchTemplateTags">launchTemplateTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.launchTemplateUseNamePrefix">launchTemplateUseNamePrefix</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.launchTemplateVersion">launchTemplateVersion</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.licenseSpecifications">licenseSpecifications</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.maxSize">maxSize</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.metadataOptions">metadataOptions</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.minSize">minSize</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.name">name</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.networkInterfaces">networkInterfaces</a></code> | <code>any[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.placement">placement</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.platform">platform</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.postBootstrapUserData">postBootstrapUserData</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.preBootstrapUserData">preBootstrapUserData</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.ramDiskId">ramDiskId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.securityGroupDescription">securityGroupDescription</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.securityGroupName">securityGroupName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.securityGroupTags">securityGroupTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.securityGroupUseNamePrefix">securityGroupUseNamePrefix</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.subnetIds">subnetIds</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.timeouts">timeouts</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.updateConfig">updateConfig</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.updateLaunchTemplateDefaultVersion">updateLaunchTemplateDefaultVersion</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.useNamePrefix">useNamePrefix</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.userDataTemplatePath">userDataTemplatePath</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.vpcId">vpcId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.vpcSecurityGroupIds">vpcSecurityGroupIds</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.source">source</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.providers">providers</a></code> | <code>cdktf.TerraformModuleProvider \| cdktf.TerraformProvider[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.version">version</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRoleArnOutput">iamRoleArnOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRoleNameOutput">iamRoleNameOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRoleUniqueIdOutput">iamRoleUniqueIdOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.launchTemplateArnOutput">launchTemplateArnOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.launchTemplateIdOutput">launchTemplateIdOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.launchTemplateLatestVersionOutput">launchTemplateLatestVersionOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.nodeGroupArnOutput">nodeGroupArnOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.nodeGroupAutoscalingGroupNamesOutput">nodeGroupAutoscalingGroupNamesOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.nodeGroupIdOutput">nodeGroupIdOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.nodeGroupResourcesOutput">nodeGroupResourcesOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.nodeGroupStatusOutput">nodeGroupStatusOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.securityGroupArnOutput">securityGroupArnOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.securityGroupIdOutput">securityGroupIdOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.blockDeviceMappings">blockDeviceMappings</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.capacityReservationSpecification">capacityReservationSpecification</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.instanceMarketOptions">instanceMarketOptions</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.remoteAccess">remoteAccess</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.securityGroupRules">securityGroupRules</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.taints">taints</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.amiId">amiId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.amiReleaseVersion">amiReleaseVersion</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.amiType">amiType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.bootstrapExtraArgs">bootstrapExtraArgs</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.capacityType">capacityType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.clusterAuthBase64">clusterAuthBase64</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.clusterEndpoint">clusterEndpoint</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.clusterIpFamily">clusterIpFamily</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.clusterName">clusterName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.clusterPrimarySecurityGroupId">clusterPrimarySecurityGroupId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.clusterSecurityGroupId">clusterSecurityGroupId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.clusterServiceIpv4Cidr">clusterServiceIpv4Cidr</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.clusterVersion">clusterVersion</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.cpuOptions">cpuOptions</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.create">create</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.createIamRole">createIamRole</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.createLaunchTemplate">createLaunchTemplate</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.createSecurityGroup">createSecurityGroup</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.creditSpecification">creditSpecification</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.desiredSize">desiredSize</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.disableApiTermination">disableApiTermination</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.diskSize">diskSize</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.ebsOptimized">ebsOptimized</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.elasticGpuSpecifications">elasticGpuSpecifications</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.elasticInferenceAccelerator">elasticInferenceAccelerator</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.enableBootstrapUserData">enableBootstrapUserData</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.enableMonitoring">enableMonitoring</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.enclaveOptions">enclaveOptions</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.forceUpdateVersion">forceUpdateVersion</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRoleAdditionalPolicies">iamRoleAdditionalPolicies</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRoleArn">iamRoleArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRoleAttachCniPolicy">iamRoleAttachCniPolicy</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRoleDescription">iamRoleDescription</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRoleName">iamRoleName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRolePath">iamRolePath</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRolePermissionsBoundary">iamRolePermissionsBoundary</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRoleTags">iamRoleTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRoleUseNamePrefix">iamRoleUseNamePrefix</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.instanceTypes">instanceTypes</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.kernelId">kernelId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.keyName">keyName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.launchTemplateDefaultVersion">launchTemplateDefaultVersion</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.launchTemplateDescription">launchTemplateDescription</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.launchTemplateName">launchTemplateName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.launchTemplateTags">launchTemplateTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.launchTemplateUseNamePrefix">launchTemplateUseNamePrefix</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.launchTemplateVersion">launchTemplateVersion</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.licenseSpecifications">licenseSpecifications</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.maxSize">maxSize</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.metadataOptions">metadataOptions</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.minSize">minSize</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.name">name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.networkInterfaces">networkInterfaces</a></code> | <code>any[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.placement">placement</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.platform">platform</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.postBootstrapUserData">postBootstrapUserData</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.preBootstrapUserData">preBootstrapUserData</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.ramDiskId">ramDiskId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.securityGroupDescription">securityGroupDescription</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.securityGroupName">securityGroupName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.securityGroupTags">securityGroupTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.securityGroupUseNamePrefix">securityGroupUseNamePrefix</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.subnetIds">subnetIds</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.timeouts">timeouts</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.updateConfig">updateConfig</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.updateLaunchTemplateDefaultVersion">updateLaunchTemplateDefaultVersion</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.useNamePrefix">useNamePrefix</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.userDataTemplatePath">userDataTemplatePath</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.vpcId">vpcId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.vpcSecurityGroupIds">vpcSecurityGroupIds</a></code> | <code>string[]</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -1860,7 +1860,7 @@ The tree node.
 
 ---
 
-##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.cdktfStack"></a>
+##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.cdktfStack"></a>
 
 ```typescript
 public readonly cdktfStack: TerraformStack;
@@ -1870,7 +1870,7 @@ public readonly cdktfStack: TerraformStack;
 
 ---
 
-##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.friendlyUniqueId"></a>
+##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.friendlyUniqueId"></a>
 
 ```typescript
 public readonly friendlyUniqueId: string;
@@ -1880,7 +1880,7 @@ public readonly friendlyUniqueId: string;
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.fqn"></a>
 
 ```typescript
 public readonly fqn: string;
@@ -1890,7 +1890,7 @@ public readonly fqn: string;
 
 ---
 
-##### `source`<sup>Required</sup> <a name="source" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.source"></a>
+##### `source`<sup>Required</sup> <a name="source" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.source"></a>
 
 ```typescript
 public readonly source: string;
@@ -1900,7 +1900,7 @@ public readonly source: string;
 
 ---
 
-##### `providers`<sup>Optional</sup> <a name="providers" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.providers"></a>
+##### `providers`<sup>Optional</sup> <a name="providers" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.providers"></a>
 
 ```typescript
 public readonly providers: TerraformModuleProvider | TerraformProvider[];
@@ -1910,7 +1910,7 @@ public readonly providers: TerraformModuleProvider | TerraformProvider[];
 
 ---
 
-##### `version`<sup>Optional</sup> <a name="version" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.version"></a>
+##### `version`<sup>Optional</sup> <a name="version" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.version"></a>
 
 ```typescript
 public readonly version: string;
@@ -1920,7 +1920,7 @@ public readonly version: string;
 
 ---
 
-##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.dependsOn"></a>
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.dependsOn"></a>
 
 ```typescript
 public readonly dependsOn: string[];
@@ -1930,7 +1930,7 @@ public readonly dependsOn: string[];
 
 ---
 
-##### `iamRoleArnOutput`<sup>Required</sup> <a name="iamRoleArnOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRoleArnOutput"></a>
+##### `iamRoleArnOutput`<sup>Required</sup> <a name="iamRoleArnOutput" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRoleArnOutput"></a>
 
 ```typescript
 public readonly iamRoleArnOutput: string;
@@ -1940,7 +1940,7 @@ public readonly iamRoleArnOutput: string;
 
 ---
 
-##### `iamRoleNameOutput`<sup>Required</sup> <a name="iamRoleNameOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRoleNameOutput"></a>
+##### `iamRoleNameOutput`<sup>Required</sup> <a name="iamRoleNameOutput" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRoleNameOutput"></a>
 
 ```typescript
 public readonly iamRoleNameOutput: string;
@@ -1950,7 +1950,7 @@ public readonly iamRoleNameOutput: string;
 
 ---
 
-##### `iamRoleUniqueIdOutput`<sup>Required</sup> <a name="iamRoleUniqueIdOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRoleUniqueIdOutput"></a>
+##### `iamRoleUniqueIdOutput`<sup>Required</sup> <a name="iamRoleUniqueIdOutput" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRoleUniqueIdOutput"></a>
 
 ```typescript
 public readonly iamRoleUniqueIdOutput: string;
@@ -1960,7 +1960,7 @@ public readonly iamRoleUniqueIdOutput: string;
 
 ---
 
-##### `launchTemplateArnOutput`<sup>Required</sup> <a name="launchTemplateArnOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.launchTemplateArnOutput"></a>
+##### `launchTemplateArnOutput`<sup>Required</sup> <a name="launchTemplateArnOutput" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.launchTemplateArnOutput"></a>
 
 ```typescript
 public readonly launchTemplateArnOutput: string;
@@ -1970,7 +1970,7 @@ public readonly launchTemplateArnOutput: string;
 
 ---
 
-##### `launchTemplateIdOutput`<sup>Required</sup> <a name="launchTemplateIdOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.launchTemplateIdOutput"></a>
+##### `launchTemplateIdOutput`<sup>Required</sup> <a name="launchTemplateIdOutput" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.launchTemplateIdOutput"></a>
 
 ```typescript
 public readonly launchTemplateIdOutput: string;
@@ -1980,7 +1980,7 @@ public readonly launchTemplateIdOutput: string;
 
 ---
 
-##### `launchTemplateLatestVersionOutput`<sup>Required</sup> <a name="launchTemplateLatestVersionOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.launchTemplateLatestVersionOutput"></a>
+##### `launchTemplateLatestVersionOutput`<sup>Required</sup> <a name="launchTemplateLatestVersionOutput" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.launchTemplateLatestVersionOutput"></a>
 
 ```typescript
 public readonly launchTemplateLatestVersionOutput: string;
@@ -1990,7 +1990,7 @@ public readonly launchTemplateLatestVersionOutput: string;
 
 ---
 
-##### `nodeGroupArnOutput`<sup>Required</sup> <a name="nodeGroupArnOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.nodeGroupArnOutput"></a>
+##### `nodeGroupArnOutput`<sup>Required</sup> <a name="nodeGroupArnOutput" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.nodeGroupArnOutput"></a>
 
 ```typescript
 public readonly nodeGroupArnOutput: string;
@@ -2000,7 +2000,7 @@ public readonly nodeGroupArnOutput: string;
 
 ---
 
-##### `nodeGroupAutoscalingGroupNamesOutput`<sup>Required</sup> <a name="nodeGroupAutoscalingGroupNamesOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.nodeGroupAutoscalingGroupNamesOutput"></a>
+##### `nodeGroupAutoscalingGroupNamesOutput`<sup>Required</sup> <a name="nodeGroupAutoscalingGroupNamesOutput" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.nodeGroupAutoscalingGroupNamesOutput"></a>
 
 ```typescript
 public readonly nodeGroupAutoscalingGroupNamesOutput: string;
@@ -2010,7 +2010,7 @@ public readonly nodeGroupAutoscalingGroupNamesOutput: string;
 
 ---
 
-##### `nodeGroupIdOutput`<sup>Required</sup> <a name="nodeGroupIdOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.nodeGroupIdOutput"></a>
+##### `nodeGroupIdOutput`<sup>Required</sup> <a name="nodeGroupIdOutput" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.nodeGroupIdOutput"></a>
 
 ```typescript
 public readonly nodeGroupIdOutput: string;
@@ -2020,7 +2020,7 @@ public readonly nodeGroupIdOutput: string;
 
 ---
 
-##### `nodeGroupResourcesOutput`<sup>Required</sup> <a name="nodeGroupResourcesOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.nodeGroupResourcesOutput"></a>
+##### `nodeGroupResourcesOutput`<sup>Required</sup> <a name="nodeGroupResourcesOutput" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.nodeGroupResourcesOutput"></a>
 
 ```typescript
 public readonly nodeGroupResourcesOutput: string;
@@ -2030,7 +2030,7 @@ public readonly nodeGroupResourcesOutput: string;
 
 ---
 
-##### `nodeGroupStatusOutput`<sup>Required</sup> <a name="nodeGroupStatusOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.nodeGroupStatusOutput"></a>
+##### `nodeGroupStatusOutput`<sup>Required</sup> <a name="nodeGroupStatusOutput" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.nodeGroupStatusOutput"></a>
 
 ```typescript
 public readonly nodeGroupStatusOutput: string;
@@ -2040,7 +2040,7 @@ public readonly nodeGroupStatusOutput: string;
 
 ---
 
-##### `securityGroupArnOutput`<sup>Required</sup> <a name="securityGroupArnOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.securityGroupArnOutput"></a>
+##### `securityGroupArnOutput`<sup>Required</sup> <a name="securityGroupArnOutput" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.securityGroupArnOutput"></a>
 
 ```typescript
 public readonly securityGroupArnOutput: string;
@@ -2050,7 +2050,7 @@ public readonly securityGroupArnOutput: string;
 
 ---
 
-##### `securityGroupIdOutput`<sup>Required</sup> <a name="securityGroupIdOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.securityGroupIdOutput"></a>
+##### `securityGroupIdOutput`<sup>Required</sup> <a name="securityGroupIdOutput" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.securityGroupIdOutput"></a>
 
 ```typescript
 public readonly securityGroupIdOutput: string;
@@ -2060,7 +2060,7 @@ public readonly securityGroupIdOutput: string;
 
 ---
 
-##### `blockDeviceMappings`<sup>Required</sup> <a name="blockDeviceMappings" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.blockDeviceMappings"></a>
+##### `blockDeviceMappings`<sup>Required</sup> <a name="blockDeviceMappings" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.blockDeviceMappings"></a>
 
 ```typescript
 public readonly blockDeviceMappings: any;
@@ -2070,7 +2070,7 @@ public readonly blockDeviceMappings: any;
 
 ---
 
-##### `capacityReservationSpecification`<sup>Required</sup> <a name="capacityReservationSpecification" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.capacityReservationSpecification"></a>
+##### `capacityReservationSpecification`<sup>Required</sup> <a name="capacityReservationSpecification" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.capacityReservationSpecification"></a>
 
 ```typescript
 public readonly capacityReservationSpecification: any;
@@ -2080,7 +2080,7 @@ public readonly capacityReservationSpecification: any;
 
 ---
 
-##### `instanceMarketOptions`<sup>Required</sup> <a name="instanceMarketOptions" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.instanceMarketOptions"></a>
+##### `instanceMarketOptions`<sup>Required</sup> <a name="instanceMarketOptions" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.instanceMarketOptions"></a>
 
 ```typescript
 public readonly instanceMarketOptions: any;
@@ -2090,7 +2090,7 @@ public readonly instanceMarketOptions: any;
 
 ---
 
-##### `remoteAccess`<sup>Required</sup> <a name="remoteAccess" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.remoteAccess"></a>
+##### `remoteAccess`<sup>Required</sup> <a name="remoteAccess" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.remoteAccess"></a>
 
 ```typescript
 public readonly remoteAccess: any;
@@ -2100,7 +2100,7 @@ public readonly remoteAccess: any;
 
 ---
 
-##### `securityGroupRules`<sup>Required</sup> <a name="securityGroupRules" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.securityGroupRules"></a>
+##### `securityGroupRules`<sup>Required</sup> <a name="securityGroupRules" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.securityGroupRules"></a>
 
 ```typescript
 public readonly securityGroupRules: any;
@@ -2110,7 +2110,7 @@ public readonly securityGroupRules: any;
 
 ---
 
-##### `taints`<sup>Required</sup> <a name="taints" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.taints"></a>
+##### `taints`<sup>Required</sup> <a name="taints" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.taints"></a>
 
 ```typescript
 public readonly taints: any;
@@ -2120,7 +2120,7 @@ public readonly taints: any;
 
 ---
 
-##### `amiId`<sup>Optional</sup> <a name="amiId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.amiId"></a>
+##### `amiId`<sup>Optional</sup> <a name="amiId" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.amiId"></a>
 
 ```typescript
 public readonly amiId: string;
@@ -2130,7 +2130,7 @@ public readonly amiId: string;
 
 ---
 
-##### `amiReleaseVersion`<sup>Optional</sup> <a name="amiReleaseVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.amiReleaseVersion"></a>
+##### `amiReleaseVersion`<sup>Optional</sup> <a name="amiReleaseVersion" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.amiReleaseVersion"></a>
 
 ```typescript
 public readonly amiReleaseVersion: string;
@@ -2140,7 +2140,7 @@ public readonly amiReleaseVersion: string;
 
 ---
 
-##### `amiType`<sup>Optional</sup> <a name="amiType" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.amiType"></a>
+##### `amiType`<sup>Optional</sup> <a name="amiType" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.amiType"></a>
 
 ```typescript
 public readonly amiType: string;
@@ -2150,7 +2150,7 @@ public readonly amiType: string;
 
 ---
 
-##### `bootstrapExtraArgs`<sup>Optional</sup> <a name="bootstrapExtraArgs" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.bootstrapExtraArgs"></a>
+##### `bootstrapExtraArgs`<sup>Optional</sup> <a name="bootstrapExtraArgs" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.bootstrapExtraArgs"></a>
 
 ```typescript
 public readonly bootstrapExtraArgs: string;
@@ -2160,7 +2160,7 @@ public readonly bootstrapExtraArgs: string;
 
 ---
 
-##### `capacityType`<sup>Optional</sup> <a name="capacityType" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.capacityType"></a>
+##### `capacityType`<sup>Optional</sup> <a name="capacityType" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.capacityType"></a>
 
 ```typescript
 public readonly capacityType: string;
@@ -2170,7 +2170,7 @@ public readonly capacityType: string;
 
 ---
 
-##### `clusterAuthBase64`<sup>Optional</sup> <a name="clusterAuthBase64" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.clusterAuthBase64"></a>
+##### `clusterAuthBase64`<sup>Optional</sup> <a name="clusterAuthBase64" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.clusterAuthBase64"></a>
 
 ```typescript
 public readonly clusterAuthBase64: string;
@@ -2180,7 +2180,7 @@ public readonly clusterAuthBase64: string;
 
 ---
 
-##### `clusterEndpoint`<sup>Optional</sup> <a name="clusterEndpoint" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.clusterEndpoint"></a>
+##### `clusterEndpoint`<sup>Optional</sup> <a name="clusterEndpoint" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.clusterEndpoint"></a>
 
 ```typescript
 public readonly clusterEndpoint: string;
@@ -2190,7 +2190,7 @@ public readonly clusterEndpoint: string;
 
 ---
 
-##### `clusterIpFamily`<sup>Optional</sup> <a name="clusterIpFamily" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.clusterIpFamily"></a>
+##### `clusterIpFamily`<sup>Optional</sup> <a name="clusterIpFamily" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.clusterIpFamily"></a>
 
 ```typescript
 public readonly clusterIpFamily: string;
@@ -2200,7 +2200,7 @@ public readonly clusterIpFamily: string;
 
 ---
 
-##### `clusterName`<sup>Optional</sup> <a name="clusterName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.clusterName"></a>
+##### `clusterName`<sup>Optional</sup> <a name="clusterName" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.clusterName"></a>
 
 ```typescript
 public readonly clusterName: string;
@@ -2210,7 +2210,7 @@ public readonly clusterName: string;
 
 ---
 
-##### `clusterPrimarySecurityGroupId`<sup>Optional</sup> <a name="clusterPrimarySecurityGroupId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.clusterPrimarySecurityGroupId"></a>
+##### `clusterPrimarySecurityGroupId`<sup>Optional</sup> <a name="clusterPrimarySecurityGroupId" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.clusterPrimarySecurityGroupId"></a>
 
 ```typescript
 public readonly clusterPrimarySecurityGroupId: string;
@@ -2220,7 +2220,7 @@ public readonly clusterPrimarySecurityGroupId: string;
 
 ---
 
-##### `clusterSecurityGroupId`<sup>Optional</sup> <a name="clusterSecurityGroupId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.clusterSecurityGroupId"></a>
+##### `clusterSecurityGroupId`<sup>Optional</sup> <a name="clusterSecurityGroupId" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.clusterSecurityGroupId"></a>
 
 ```typescript
 public readonly clusterSecurityGroupId: string;
@@ -2230,7 +2230,7 @@ public readonly clusterSecurityGroupId: string;
 
 ---
 
-##### `clusterServiceIpv4Cidr`<sup>Optional</sup> <a name="clusterServiceIpv4Cidr" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.clusterServiceIpv4Cidr"></a>
+##### `clusterServiceIpv4Cidr`<sup>Optional</sup> <a name="clusterServiceIpv4Cidr" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.clusterServiceIpv4Cidr"></a>
 
 ```typescript
 public readonly clusterServiceIpv4Cidr: string;
@@ -2240,7 +2240,7 @@ public readonly clusterServiceIpv4Cidr: string;
 
 ---
 
-##### `clusterVersion`<sup>Optional</sup> <a name="clusterVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.clusterVersion"></a>
+##### `clusterVersion`<sup>Optional</sup> <a name="clusterVersion" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.clusterVersion"></a>
 
 ```typescript
 public readonly clusterVersion: string;
@@ -2250,7 +2250,7 @@ public readonly clusterVersion: string;
 
 ---
 
-##### `cpuOptions`<sup>Optional</sup> <a name="cpuOptions" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.cpuOptions"></a>
+##### `cpuOptions`<sup>Optional</sup> <a name="cpuOptions" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.cpuOptions"></a>
 
 ```typescript
 public readonly cpuOptions: {[ key: string ]: string};
@@ -2260,7 +2260,7 @@ public readonly cpuOptions: {[ key: string ]: string};
 
 ---
 
-##### `create`<sup>Optional</sup> <a name="create" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.create"></a>
+##### `create`<sup>Optional</sup> <a name="create" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.create"></a>
 
 ```typescript
 public readonly create: boolean;
@@ -2270,7 +2270,7 @@ public readonly create: boolean;
 
 ---
 
-##### `createIamRole`<sup>Optional</sup> <a name="createIamRole" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.createIamRole"></a>
+##### `createIamRole`<sup>Optional</sup> <a name="createIamRole" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.createIamRole"></a>
 
 ```typescript
 public readonly createIamRole: boolean;
@@ -2280,7 +2280,7 @@ public readonly createIamRole: boolean;
 
 ---
 
-##### `createLaunchTemplate`<sup>Optional</sup> <a name="createLaunchTemplate" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.createLaunchTemplate"></a>
+##### `createLaunchTemplate`<sup>Optional</sup> <a name="createLaunchTemplate" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.createLaunchTemplate"></a>
 
 ```typescript
 public readonly createLaunchTemplate: boolean;
@@ -2290,7 +2290,7 @@ public readonly createLaunchTemplate: boolean;
 
 ---
 
-##### `createSecurityGroup`<sup>Optional</sup> <a name="createSecurityGroup" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.createSecurityGroup"></a>
+##### `createSecurityGroup`<sup>Optional</sup> <a name="createSecurityGroup" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.createSecurityGroup"></a>
 
 ```typescript
 public readonly createSecurityGroup: boolean;
@@ -2300,7 +2300,7 @@ public readonly createSecurityGroup: boolean;
 
 ---
 
-##### `creditSpecification`<sup>Optional</sup> <a name="creditSpecification" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.creditSpecification"></a>
+##### `creditSpecification`<sup>Optional</sup> <a name="creditSpecification" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.creditSpecification"></a>
 
 ```typescript
 public readonly creditSpecification: {[ key: string ]: string};
@@ -2310,7 +2310,7 @@ public readonly creditSpecification: {[ key: string ]: string};
 
 ---
 
-##### `desiredSize`<sup>Optional</sup> <a name="desiredSize" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.desiredSize"></a>
+##### `desiredSize`<sup>Optional</sup> <a name="desiredSize" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.desiredSize"></a>
 
 ```typescript
 public readonly desiredSize: number;
@@ -2320,7 +2320,7 @@ public readonly desiredSize: number;
 
 ---
 
-##### `disableApiTermination`<sup>Optional</sup> <a name="disableApiTermination" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.disableApiTermination"></a>
+##### `disableApiTermination`<sup>Optional</sup> <a name="disableApiTermination" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.disableApiTermination"></a>
 
 ```typescript
 public readonly disableApiTermination: boolean;
@@ -2330,7 +2330,7 @@ public readonly disableApiTermination: boolean;
 
 ---
 
-##### `diskSize`<sup>Optional</sup> <a name="diskSize" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.diskSize"></a>
+##### `diskSize`<sup>Optional</sup> <a name="diskSize" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.diskSize"></a>
 
 ```typescript
 public readonly diskSize: number;
@@ -2340,7 +2340,7 @@ public readonly diskSize: number;
 
 ---
 
-##### `ebsOptimized`<sup>Optional</sup> <a name="ebsOptimized" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.ebsOptimized"></a>
+##### `ebsOptimized`<sup>Optional</sup> <a name="ebsOptimized" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.ebsOptimized"></a>
 
 ```typescript
 public readonly ebsOptimized: boolean;
@@ -2350,7 +2350,7 @@ public readonly ebsOptimized: boolean;
 
 ---
 
-##### `elasticGpuSpecifications`<sup>Optional</sup> <a name="elasticGpuSpecifications" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.elasticGpuSpecifications"></a>
+##### `elasticGpuSpecifications`<sup>Optional</sup> <a name="elasticGpuSpecifications" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.elasticGpuSpecifications"></a>
 
 ```typescript
 public readonly elasticGpuSpecifications: {[ key: string ]: string};
@@ -2360,7 +2360,7 @@ public readonly elasticGpuSpecifications: {[ key: string ]: string};
 
 ---
 
-##### `elasticInferenceAccelerator`<sup>Optional</sup> <a name="elasticInferenceAccelerator" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.elasticInferenceAccelerator"></a>
+##### `elasticInferenceAccelerator`<sup>Optional</sup> <a name="elasticInferenceAccelerator" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.elasticInferenceAccelerator"></a>
 
 ```typescript
 public readonly elasticInferenceAccelerator: {[ key: string ]: string};
@@ -2370,7 +2370,7 @@ public readonly elasticInferenceAccelerator: {[ key: string ]: string};
 
 ---
 
-##### `enableBootstrapUserData`<sup>Optional</sup> <a name="enableBootstrapUserData" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.enableBootstrapUserData"></a>
+##### `enableBootstrapUserData`<sup>Optional</sup> <a name="enableBootstrapUserData" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.enableBootstrapUserData"></a>
 
 ```typescript
 public readonly enableBootstrapUserData: boolean;
@@ -2380,7 +2380,7 @@ public readonly enableBootstrapUserData: boolean;
 
 ---
 
-##### `enableMonitoring`<sup>Optional</sup> <a name="enableMonitoring" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.enableMonitoring"></a>
+##### `enableMonitoring`<sup>Optional</sup> <a name="enableMonitoring" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.enableMonitoring"></a>
 
 ```typescript
 public readonly enableMonitoring: boolean;
@@ -2390,7 +2390,7 @@ public readonly enableMonitoring: boolean;
 
 ---
 
-##### `enclaveOptions`<sup>Optional</sup> <a name="enclaveOptions" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.enclaveOptions"></a>
+##### `enclaveOptions`<sup>Optional</sup> <a name="enclaveOptions" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.enclaveOptions"></a>
 
 ```typescript
 public readonly enclaveOptions: {[ key: string ]: string};
@@ -2400,7 +2400,7 @@ public readonly enclaveOptions: {[ key: string ]: string};
 
 ---
 
-##### `forceUpdateVersion`<sup>Optional</sup> <a name="forceUpdateVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.forceUpdateVersion"></a>
+##### `forceUpdateVersion`<sup>Optional</sup> <a name="forceUpdateVersion" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.forceUpdateVersion"></a>
 
 ```typescript
 public readonly forceUpdateVersion: boolean;
@@ -2410,7 +2410,7 @@ public readonly forceUpdateVersion: boolean;
 
 ---
 
-##### `iamRoleAdditionalPolicies`<sup>Optional</sup> <a name="iamRoleAdditionalPolicies" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRoleAdditionalPolicies"></a>
+##### `iamRoleAdditionalPolicies`<sup>Optional</sup> <a name="iamRoleAdditionalPolicies" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRoleAdditionalPolicies"></a>
 
 ```typescript
 public readonly iamRoleAdditionalPolicies: string[];
@@ -2420,7 +2420,7 @@ public readonly iamRoleAdditionalPolicies: string[];
 
 ---
 
-##### `iamRoleArn`<sup>Optional</sup> <a name="iamRoleArn" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRoleArn"></a>
+##### `iamRoleArn`<sup>Optional</sup> <a name="iamRoleArn" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRoleArn"></a>
 
 ```typescript
 public readonly iamRoleArn: string;
@@ -2430,7 +2430,7 @@ public readonly iamRoleArn: string;
 
 ---
 
-##### `iamRoleAttachCniPolicy`<sup>Optional</sup> <a name="iamRoleAttachCniPolicy" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRoleAttachCniPolicy"></a>
+##### `iamRoleAttachCniPolicy`<sup>Optional</sup> <a name="iamRoleAttachCniPolicy" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRoleAttachCniPolicy"></a>
 
 ```typescript
 public readonly iamRoleAttachCniPolicy: boolean;
@@ -2440,7 +2440,7 @@ public readonly iamRoleAttachCniPolicy: boolean;
 
 ---
 
-##### `iamRoleDescription`<sup>Optional</sup> <a name="iamRoleDescription" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRoleDescription"></a>
+##### `iamRoleDescription`<sup>Optional</sup> <a name="iamRoleDescription" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRoleDescription"></a>
 
 ```typescript
 public readonly iamRoleDescription: string;
@@ -2450,7 +2450,7 @@ public readonly iamRoleDescription: string;
 
 ---
 
-##### `iamRoleName`<sup>Optional</sup> <a name="iamRoleName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRoleName"></a>
+##### `iamRoleName`<sup>Optional</sup> <a name="iamRoleName" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRoleName"></a>
 
 ```typescript
 public readonly iamRoleName: string;
@@ -2460,7 +2460,7 @@ public readonly iamRoleName: string;
 
 ---
 
-##### `iamRolePath`<sup>Optional</sup> <a name="iamRolePath" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRolePath"></a>
+##### `iamRolePath`<sup>Optional</sup> <a name="iamRolePath" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRolePath"></a>
 
 ```typescript
 public readonly iamRolePath: string;
@@ -2470,7 +2470,7 @@ public readonly iamRolePath: string;
 
 ---
 
-##### `iamRolePermissionsBoundary`<sup>Optional</sup> <a name="iamRolePermissionsBoundary" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRolePermissionsBoundary"></a>
+##### `iamRolePermissionsBoundary`<sup>Optional</sup> <a name="iamRolePermissionsBoundary" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRolePermissionsBoundary"></a>
 
 ```typescript
 public readonly iamRolePermissionsBoundary: string;
@@ -2480,7 +2480,7 @@ public readonly iamRolePermissionsBoundary: string;
 
 ---
 
-##### `iamRoleTags`<sup>Optional</sup> <a name="iamRoleTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRoleTags"></a>
+##### `iamRoleTags`<sup>Optional</sup> <a name="iamRoleTags" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRoleTags"></a>
 
 ```typescript
 public readonly iamRoleTags: {[ key: string ]: string};
@@ -2490,7 +2490,7 @@ public readonly iamRoleTags: {[ key: string ]: string};
 
 ---
 
-##### `iamRoleUseNamePrefix`<sup>Optional</sup> <a name="iamRoleUseNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.iamRoleUseNamePrefix"></a>
+##### `iamRoleUseNamePrefix`<sup>Optional</sup> <a name="iamRoleUseNamePrefix" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.iamRoleUseNamePrefix"></a>
 
 ```typescript
 public readonly iamRoleUseNamePrefix: boolean;
@@ -2500,7 +2500,7 @@ public readonly iamRoleUseNamePrefix: boolean;
 
 ---
 
-##### `instanceTypes`<sup>Optional</sup> <a name="instanceTypes" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.instanceTypes"></a>
+##### `instanceTypes`<sup>Optional</sup> <a name="instanceTypes" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.instanceTypes"></a>
 
 ```typescript
 public readonly instanceTypes: string[];
@@ -2510,7 +2510,7 @@ public readonly instanceTypes: string[];
 
 ---
 
-##### `kernelId`<sup>Optional</sup> <a name="kernelId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.kernelId"></a>
+##### `kernelId`<sup>Optional</sup> <a name="kernelId" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.kernelId"></a>
 
 ```typescript
 public readonly kernelId: string;
@@ -2520,7 +2520,7 @@ public readonly kernelId: string;
 
 ---
 
-##### `keyName`<sup>Optional</sup> <a name="keyName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.keyName"></a>
+##### `keyName`<sup>Optional</sup> <a name="keyName" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.keyName"></a>
 
 ```typescript
 public readonly keyName: string;
@@ -2530,7 +2530,7 @@ public readonly keyName: string;
 
 ---
 
-##### `labels`<sup>Optional</sup> <a name="labels" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.labels"></a>
+##### `labels`<sup>Optional</sup> <a name="labels" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.labels"></a>
 
 ```typescript
 public readonly labels: {[ key: string ]: string};
@@ -2540,7 +2540,7 @@ public readonly labels: {[ key: string ]: string};
 
 ---
 
-##### `launchTemplateDefaultVersion`<sup>Optional</sup> <a name="launchTemplateDefaultVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.launchTemplateDefaultVersion"></a>
+##### `launchTemplateDefaultVersion`<sup>Optional</sup> <a name="launchTemplateDefaultVersion" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.launchTemplateDefaultVersion"></a>
 
 ```typescript
 public readonly launchTemplateDefaultVersion: string;
@@ -2550,7 +2550,7 @@ public readonly launchTemplateDefaultVersion: string;
 
 ---
 
-##### `launchTemplateDescription`<sup>Optional</sup> <a name="launchTemplateDescription" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.launchTemplateDescription"></a>
+##### `launchTemplateDescription`<sup>Optional</sup> <a name="launchTemplateDescription" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.launchTemplateDescription"></a>
 
 ```typescript
 public readonly launchTemplateDescription: string;
@@ -2560,7 +2560,7 @@ public readonly launchTemplateDescription: string;
 
 ---
 
-##### `launchTemplateName`<sup>Optional</sup> <a name="launchTemplateName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.launchTemplateName"></a>
+##### `launchTemplateName`<sup>Optional</sup> <a name="launchTemplateName" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.launchTemplateName"></a>
 
 ```typescript
 public readonly launchTemplateName: string;
@@ -2570,7 +2570,7 @@ public readonly launchTemplateName: string;
 
 ---
 
-##### `launchTemplateTags`<sup>Optional</sup> <a name="launchTemplateTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.launchTemplateTags"></a>
+##### `launchTemplateTags`<sup>Optional</sup> <a name="launchTemplateTags" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.launchTemplateTags"></a>
 
 ```typescript
 public readonly launchTemplateTags: {[ key: string ]: string};
@@ -2580,7 +2580,7 @@ public readonly launchTemplateTags: {[ key: string ]: string};
 
 ---
 
-##### `launchTemplateUseNamePrefix`<sup>Optional</sup> <a name="launchTemplateUseNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.launchTemplateUseNamePrefix"></a>
+##### `launchTemplateUseNamePrefix`<sup>Optional</sup> <a name="launchTemplateUseNamePrefix" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.launchTemplateUseNamePrefix"></a>
 
 ```typescript
 public readonly launchTemplateUseNamePrefix: boolean;
@@ -2590,7 +2590,7 @@ public readonly launchTemplateUseNamePrefix: boolean;
 
 ---
 
-##### `launchTemplateVersion`<sup>Optional</sup> <a name="launchTemplateVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.launchTemplateVersion"></a>
+##### `launchTemplateVersion`<sup>Optional</sup> <a name="launchTemplateVersion" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.launchTemplateVersion"></a>
 
 ```typescript
 public readonly launchTemplateVersion: string;
@@ -2600,7 +2600,7 @@ public readonly launchTemplateVersion: string;
 
 ---
 
-##### `licenseSpecifications`<sup>Optional</sup> <a name="licenseSpecifications" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.licenseSpecifications"></a>
+##### `licenseSpecifications`<sup>Optional</sup> <a name="licenseSpecifications" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.licenseSpecifications"></a>
 
 ```typescript
 public readonly licenseSpecifications: {[ key: string ]: string};
@@ -2610,7 +2610,7 @@ public readonly licenseSpecifications: {[ key: string ]: string};
 
 ---
 
-##### `maxSize`<sup>Optional</sup> <a name="maxSize" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.maxSize"></a>
+##### `maxSize`<sup>Optional</sup> <a name="maxSize" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.maxSize"></a>
 
 ```typescript
 public readonly maxSize: number;
@@ -2620,7 +2620,7 @@ public readonly maxSize: number;
 
 ---
 
-##### `metadataOptions`<sup>Optional</sup> <a name="metadataOptions" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.metadataOptions"></a>
+##### `metadataOptions`<sup>Optional</sup> <a name="metadataOptions" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.metadataOptions"></a>
 
 ```typescript
 public readonly metadataOptions: {[ key: string ]: string};
@@ -2630,7 +2630,7 @@ public readonly metadataOptions: {[ key: string ]: string};
 
 ---
 
-##### `minSize`<sup>Optional</sup> <a name="minSize" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.minSize"></a>
+##### `minSize`<sup>Optional</sup> <a name="minSize" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.minSize"></a>
 
 ```typescript
 public readonly minSize: number;
@@ -2640,7 +2640,7 @@ public readonly minSize: number;
 
 ---
 
-##### `name`<sup>Optional</sup> <a name="name" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.name"></a>
+##### `name`<sup>Optional</sup> <a name="name" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -2650,7 +2650,7 @@ public readonly name: string;
 
 ---
 
-##### `networkInterfaces`<sup>Optional</sup> <a name="networkInterfaces" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.networkInterfaces"></a>
+##### `networkInterfaces`<sup>Optional</sup> <a name="networkInterfaces" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.networkInterfaces"></a>
 
 ```typescript
 public readonly networkInterfaces: any[];
@@ -2660,7 +2660,7 @@ public readonly networkInterfaces: any[];
 
 ---
 
-##### `placement`<sup>Optional</sup> <a name="placement" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.placement"></a>
+##### `placement`<sup>Optional</sup> <a name="placement" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.placement"></a>
 
 ```typescript
 public readonly placement: {[ key: string ]: string};
@@ -2670,7 +2670,7 @@ public readonly placement: {[ key: string ]: string};
 
 ---
 
-##### `platform`<sup>Optional</sup> <a name="platform" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.platform"></a>
+##### `platform`<sup>Optional</sup> <a name="platform" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.platform"></a>
 
 ```typescript
 public readonly platform: string;
@@ -2680,7 +2680,7 @@ public readonly platform: string;
 
 ---
 
-##### `postBootstrapUserData`<sup>Optional</sup> <a name="postBootstrapUserData" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.postBootstrapUserData"></a>
+##### `postBootstrapUserData`<sup>Optional</sup> <a name="postBootstrapUserData" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.postBootstrapUserData"></a>
 
 ```typescript
 public readonly postBootstrapUserData: string;
@@ -2690,7 +2690,7 @@ public readonly postBootstrapUserData: string;
 
 ---
 
-##### `preBootstrapUserData`<sup>Optional</sup> <a name="preBootstrapUserData" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.preBootstrapUserData"></a>
+##### `preBootstrapUserData`<sup>Optional</sup> <a name="preBootstrapUserData" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.preBootstrapUserData"></a>
 
 ```typescript
 public readonly preBootstrapUserData: string;
@@ -2700,7 +2700,7 @@ public readonly preBootstrapUserData: string;
 
 ---
 
-##### `ramDiskId`<sup>Optional</sup> <a name="ramDiskId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.ramDiskId"></a>
+##### `ramDiskId`<sup>Optional</sup> <a name="ramDiskId" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.ramDiskId"></a>
 
 ```typescript
 public readonly ramDiskId: string;
@@ -2710,7 +2710,7 @@ public readonly ramDiskId: string;
 
 ---
 
-##### `securityGroupDescription`<sup>Optional</sup> <a name="securityGroupDescription" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.securityGroupDescription"></a>
+##### `securityGroupDescription`<sup>Optional</sup> <a name="securityGroupDescription" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.securityGroupDescription"></a>
 
 ```typescript
 public readonly securityGroupDescription: string;
@@ -2720,7 +2720,7 @@ public readonly securityGroupDescription: string;
 
 ---
 
-##### `securityGroupName`<sup>Optional</sup> <a name="securityGroupName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.securityGroupName"></a>
+##### `securityGroupName`<sup>Optional</sup> <a name="securityGroupName" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.securityGroupName"></a>
 
 ```typescript
 public readonly securityGroupName: string;
@@ -2730,7 +2730,7 @@ public readonly securityGroupName: string;
 
 ---
 
-##### `securityGroupTags`<sup>Optional</sup> <a name="securityGroupTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.securityGroupTags"></a>
+##### `securityGroupTags`<sup>Optional</sup> <a name="securityGroupTags" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.securityGroupTags"></a>
 
 ```typescript
 public readonly securityGroupTags: {[ key: string ]: string};
@@ -2740,7 +2740,7 @@ public readonly securityGroupTags: {[ key: string ]: string};
 
 ---
 
-##### `securityGroupUseNamePrefix`<sup>Optional</sup> <a name="securityGroupUseNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.securityGroupUseNamePrefix"></a>
+##### `securityGroupUseNamePrefix`<sup>Optional</sup> <a name="securityGroupUseNamePrefix" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.securityGroupUseNamePrefix"></a>
 
 ```typescript
 public readonly securityGroupUseNamePrefix: string;
@@ -2750,7 +2750,7 @@ public readonly securityGroupUseNamePrefix: string;
 
 ---
 
-##### `subnetIds`<sup>Optional</sup> <a name="subnetIds" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.subnetIds"></a>
+##### `subnetIds`<sup>Optional</sup> <a name="subnetIds" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.subnetIds"></a>
 
 ```typescript
 public readonly subnetIds: string[];
@@ -2760,7 +2760,7 @@ public readonly subnetIds: string[];
 
 ---
 
-##### `tags`<sup>Optional</sup> <a name="tags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.tags"></a>
+##### `tags`<sup>Optional</sup> <a name="tags" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.tags"></a>
 
 ```typescript
 public readonly tags: {[ key: string ]: string};
@@ -2770,7 +2770,7 @@ public readonly tags: {[ key: string ]: string};
 
 ---
 
-##### `timeouts`<sup>Optional</sup> <a name="timeouts" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.timeouts"></a>
+##### `timeouts`<sup>Optional</sup> <a name="timeouts" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.timeouts"></a>
 
 ```typescript
 public readonly timeouts: {[ key: string ]: string};
@@ -2780,7 +2780,7 @@ public readonly timeouts: {[ key: string ]: string};
 
 ---
 
-##### `updateConfig`<sup>Optional</sup> <a name="updateConfig" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.updateConfig"></a>
+##### `updateConfig`<sup>Optional</sup> <a name="updateConfig" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.updateConfig"></a>
 
 ```typescript
 public readonly updateConfig: {[ key: string ]: string};
@@ -2790,7 +2790,7 @@ public readonly updateConfig: {[ key: string ]: string};
 
 ---
 
-##### `updateLaunchTemplateDefaultVersion`<sup>Optional</sup> <a name="updateLaunchTemplateDefaultVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.updateLaunchTemplateDefaultVersion"></a>
+##### `updateLaunchTemplateDefaultVersion`<sup>Optional</sup> <a name="updateLaunchTemplateDefaultVersion" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.updateLaunchTemplateDefaultVersion"></a>
 
 ```typescript
 public readonly updateLaunchTemplateDefaultVersion: boolean;
@@ -2800,7 +2800,7 @@ public readonly updateLaunchTemplateDefaultVersion: boolean;
 
 ---
 
-##### `useNamePrefix`<sup>Optional</sup> <a name="useNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.useNamePrefix"></a>
+##### `useNamePrefix`<sup>Optional</sup> <a name="useNamePrefix" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.useNamePrefix"></a>
 
 ```typescript
 public readonly useNamePrefix: boolean;
@@ -2810,7 +2810,7 @@ public readonly useNamePrefix: boolean;
 
 ---
 
-##### `userDataTemplatePath`<sup>Optional</sup> <a name="userDataTemplatePath" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.userDataTemplatePath"></a>
+##### `userDataTemplatePath`<sup>Optional</sup> <a name="userDataTemplatePath" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.userDataTemplatePath"></a>
 
 ```typescript
 public readonly userDataTemplatePath: string;
@@ -2820,7 +2820,7 @@ public readonly userDataTemplatePath: string;
 
 ---
 
-##### `vpcId`<sup>Optional</sup> <a name="vpcId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.vpcId"></a>
+##### `vpcId`<sup>Optional</sup> <a name="vpcId" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.vpcId"></a>
 
 ```typescript
 public readonly vpcId: string;
@@ -2830,7 +2830,7 @@ public readonly vpcId: string;
 
 ---
 
-##### `vpcSecurityGroupIds`<sup>Optional</sup> <a name="vpcSecurityGroupIds" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroup.property.vpcSecurityGroupIds"></a>
+##### `vpcSecurityGroupIds`<sup>Optional</sup> <a name="vpcSecurityGroupIds" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroup.property.vpcSecurityGroupIds"></a>
 
 ```typescript
 public readonly vpcSecurityGroupIds: string[];
@@ -2841,39 +2841,39 @@ public readonly vpcSecurityGroupIds: string[];
 ---
 
 
-### EksSelfManagedNodeGroup <a name="EksSelfManagedNodeGroup" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup"></a>
+### EksSelfManagedNodeGroup <a name="EksSelfManagedNodeGroup" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup"></a>
 
-#### Initializers <a name="Initializers" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.Initializer"></a>
+#### Initializers <a name="Initializers" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.Initializer"></a>
 
 ```typescript
-import { EksSelfManagedNodeGroup } from 'terraform-cdk-terraform-module-publishing-on-gh-pages'
+import { EksSelfManagedNodeGroup } from '@danielmschmidt/eks-cluster'
 
 new EksSelfManagedNodeGroup(scope: Construct, id: string, options?: EksSelfManagedNodeGroupOptions)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.Initializer.parameter.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.Initializer.parameter.options">options</a></code> | <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions">EksSelfManagedNodeGroupOptions</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.Initializer.parameter.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.Initializer.parameter.options">options</a></code> | <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions">EksSelfManagedNodeGroupOptions</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.Initializer.parameter.id"></a>
 
 - *Type:* string
 
 ---
 
-##### `options`<sup>Optional</sup> <a name="options" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.Initializer.parameter.options"></a>
+##### `options`<sup>Optional</sup> <a name="options" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.Initializer.parameter.options"></a>
 
-- *Type:* <a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions">EksSelfManagedNodeGroupOptions</a>
+- *Type:* <a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions">EksSelfManagedNodeGroupOptions</a>
 
 ---
 
@@ -2881,19 +2881,19 @@ new EksSelfManagedNodeGroup(scope: Construct, id: string, options?: EksSelfManag
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.addOverride">addOverride</a></code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.toMetadata">toMetadata</a></code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.toTerraform">toTerraform</a></code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.addProvider">addProvider</a></code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.getString">getString</a></code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.interpolationForOutput">interpolationForOutput</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.addOverride">addOverride</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.toMetadata">toMetadata</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.toTerraform">toTerraform</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.addProvider">addProvider</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.getString">getString</a></code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.interpolationForOutput">interpolationForOutput</a></code> | *No description.* |
 
 ---
 
-##### `toString` <a name="toString" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.toString"></a>
+##### `toString` <a name="toString" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.toString"></a>
 
 ```typescript
 public toString(): string
@@ -2901,25 +2901,25 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `addOverride` <a name="addOverride" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.addOverride"></a>
+##### `addOverride` <a name="addOverride" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.addOverride"></a>
 
 ```typescript
 public addOverride(path: string, value: any): void
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.addOverride.parameter.path"></a>
 
 - *Type:* string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.addOverride.parameter.value"></a>
 
 - *Type:* any
 
 ---
 
-##### `overrideLogicalId` <a name="overrideLogicalId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.overrideLogicalId"></a>
+##### `overrideLogicalId` <a name="overrideLogicalId" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.overrideLogicalId"></a>
 
 ```typescript
 public overrideLogicalId(newLogicalId: string): void
@@ -2927,7 +2927,7 @@ public overrideLogicalId(newLogicalId: string): void
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* string
 
@@ -2935,7 +2935,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.resetOverrideLogicalId"></a>
+##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.resetOverrideLogicalId"></a>
 
 ```typescript
 public resetOverrideLogicalId(): void
@@ -2943,49 +2943,49 @@ public resetOverrideLogicalId(): void
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `toMetadata` <a name="toMetadata" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.toMetadata"></a>
+##### `toMetadata` <a name="toMetadata" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.toMetadata"></a>
 
 ```typescript
 public toMetadata(): any
 ```
 
-##### `toTerraform` <a name="toTerraform" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.toTerraform"></a>
+##### `toTerraform` <a name="toTerraform" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.toTerraform"></a>
 
 ```typescript
 public toTerraform(): any
 ```
 
-##### `addProvider` <a name="addProvider" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.addProvider"></a>
+##### `addProvider` <a name="addProvider" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.addProvider"></a>
 
 ```typescript
 public addProvider(provider: TerraformModuleProvider | TerraformProvider): void
 ```
 
-###### `provider`<sup>Required</sup> <a name="provider" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.addProvider.parameter.provider"></a>
+###### `provider`<sup>Required</sup> <a name="provider" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.addProvider.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformModuleProvider | cdktf.TerraformProvider
 
 ---
 
-##### `getString` <a name="getString" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.getString"></a>
+##### `getString` <a name="getString" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.getString"></a>
 
 ```typescript
 public getString(output: string): string
 ```
 
-###### `output`<sup>Required</sup> <a name="output" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.getString.parameter.output"></a>
+###### `output`<sup>Required</sup> <a name="output" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.getString.parameter.output"></a>
 
 - *Type:* string
 
 ---
 
-##### `interpolationForOutput` <a name="interpolationForOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.interpolationForOutput"></a>
+##### `interpolationForOutput` <a name="interpolationForOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.interpolationForOutput"></a>
 
 ```typescript
 public interpolationForOutput(moduleOutput: string): IResolvable
 ```
 
-###### `moduleOutput`<sup>Required</sup> <a name="moduleOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.interpolationForOutput.parameter.moduleOutput"></a>
+###### `moduleOutput`<sup>Required</sup> <a name="moduleOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.interpolationForOutput.parameter.moduleOutput"></a>
 
 - *Type:* string
 
@@ -2995,14 +2995,14 @@ public interpolationForOutput(moduleOutput: string): IResolvable
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.isConstruct"></a>
 
 ```typescript
-import { EksSelfManagedNodeGroup } from 'terraform-cdk-terraform-module-publishing-on-gh-pages'
+import { EksSelfManagedNodeGroup } from '@danielmschmidt/eks-cluster'
 
 EksSelfManagedNodeGroup.isConstruct(x: any)
 ```
@@ -3023,7 +3023,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -3035,137 +3035,137 @@ Any object.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.source">source</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.providers">providers</a></code> | <code>cdktf.TerraformModuleProvider \| cdktf.TerraformProvider[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.version">version</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupArnOutput">autoscalingGroupArnOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupAvailabilityZonesOutput">autoscalingGroupAvailabilityZonesOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupDefaultCooldownOutput">autoscalingGroupDefaultCooldownOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupDesiredCapacityOutput">autoscalingGroupDesiredCapacityOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupHealthCheckGracePeriodOutput">autoscalingGroupHealthCheckGracePeriodOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupHealthCheckTypeOutput">autoscalingGroupHealthCheckTypeOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupIdOutput">autoscalingGroupIdOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupMaxSizeOutput">autoscalingGroupMaxSizeOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupMinSizeOutput">autoscalingGroupMinSizeOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupNameOutput">autoscalingGroupNameOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupScheduleArnsOutput">autoscalingGroupScheduleArnsOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupVpcZoneIdentifierOutput">autoscalingGroupVpcZoneIdentifierOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamInstanceProfileArnOutput">iamInstanceProfileArnOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamInstanceProfileIdOutput">iamInstanceProfileIdOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamInstanceProfileUniqueOutput">iamInstanceProfileUniqueOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRoleArnOutput">iamRoleArnOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRoleNameOutput">iamRoleNameOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRoleUniqueIdOutput">iamRoleUniqueIdOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.launchTemplateArnOutput">launchTemplateArnOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.launchTemplateIdOutput">launchTemplateIdOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.launchTemplateLatestVersionOutput">launchTemplateLatestVersionOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.platformOutput">platformOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.securityGroupArnOutput">securityGroupArnOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.securityGroupIdOutput">securityGroupIdOutput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.blockDeviceMappings">blockDeviceMappings</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.capacityReservationSpecification">capacityReservationSpecification</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.instanceMarketOptions">instanceMarketOptions</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.instanceRefresh">instanceRefresh</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.mixedInstancesPolicy">mixedInstancesPolicy</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.securityGroupRules">securityGroupRules</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.warmPool">warmPool</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.amiId">amiId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.availabilityZones">availabilityZones</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.bootstrapExtraArgs">bootstrapExtraArgs</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.capacityRebalance">capacityRebalance</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.clusterAuthBase64">clusterAuthBase64</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.clusterEndpoint">clusterEndpoint</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.clusterIpFamily">clusterIpFamily</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.clusterName">clusterName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.clusterPrimarySecurityGroupId">clusterPrimarySecurityGroupId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.clusterSecurityGroupId">clusterSecurityGroupId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.clusterVersion">clusterVersion</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.cpuOptions">cpuOptions</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.create">create</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.createIamInstanceProfile">createIamInstanceProfile</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.createLaunchTemplate">createLaunchTemplate</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.createSchedule">createSchedule</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.createSecurityGroup">createSecurityGroup</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.creditSpecification">creditSpecification</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.defaultCooldown">defaultCooldown</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.deleteTimeout">deleteTimeout</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.desiredSize">desiredSize</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.disableApiTermination">disableApiTermination</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.ebsOptimized">ebsOptimized</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.elasticGpuSpecifications">elasticGpuSpecifications</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.elasticInferenceAccelerator">elasticInferenceAccelerator</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.enabledMetrics">enabledMetrics</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.enableMonitoring">enableMonitoring</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.enclaveOptions">enclaveOptions</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.forceDelete">forceDelete</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.healthCheckGracePeriod">healthCheckGracePeriod</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.healthCheckType">healthCheckType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.hibernationOptions">hibernationOptions</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamInstanceProfileArn">iamInstanceProfileArn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRoleAdditionalPolicies">iamRoleAdditionalPolicies</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRoleAttachCniPolicy">iamRoleAttachCniPolicy</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRoleDescription">iamRoleDescription</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRoleName">iamRoleName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRolePath">iamRolePath</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRolePermissionsBoundary">iamRolePermissionsBoundary</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRoleTags">iamRoleTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRoleUseNamePrefix">iamRoleUseNamePrefix</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.initialLifecycleHooks">initialLifecycleHooks</a></code> | <code>{[ key: string ]: string}[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.instanceInitiatedShutdownBehavior">instanceInitiatedShutdownBehavior</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.instanceType">instanceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.kernelId">kernelId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.keyName">keyName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.launchTemplateDefaultVersion">launchTemplateDefaultVersion</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.launchTemplateDescription">launchTemplateDescription</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.launchTemplateName">launchTemplateName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.launchTemplateTags">launchTemplateTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.launchTemplateUseNamePrefix">launchTemplateUseNamePrefix</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.launchTemplateVersion">launchTemplateVersion</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.licenseSpecifications">licenseSpecifications</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.maxInstanceLifetime">maxInstanceLifetime</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.maxSize">maxSize</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.metadataOptions">metadataOptions</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.metricsGranularity">metricsGranularity</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.minElbCapacity">minElbCapacity</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.minSize">minSize</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.name">name</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.networkInterfaces">networkInterfaces</a></code> | <code>any[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.placement">placement</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.placementGroup">placementGroup</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.platform">platform</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.postBootstrapUserData">postBootstrapUserData</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.preBootstrapUserData">preBootstrapUserData</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.protectFromScaleIn">protectFromScaleIn</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.ramDiskId">ramDiskId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.schedules">schedules</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.securityGroupDescription">securityGroupDescription</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.securityGroupName">securityGroupName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.securityGroupTags">securityGroupTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.securityGroupUseNamePrefix">securityGroupUseNamePrefix</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.serviceLinkedRoleArn">serviceLinkedRoleArn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.subnetIds">subnetIds</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.suspendedProcesses">suspendedProcesses</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.targetGroupArns">targetGroupArns</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.terminationPolicies">terminationPolicies</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.updateLaunchTemplateDefaultVersion">updateLaunchTemplateDefaultVersion</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.useDefaultTags">useDefaultTags</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.useMixedInstancesPolicy">useMixedInstancesPolicy</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.useNamePrefix">useNamePrefix</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.userDataTemplatePath">userDataTemplatePath</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.vpcId">vpcId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.vpcSecurityGroupIds">vpcSecurityGroupIds</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.waitForCapacityTimeout">waitForCapacityTimeout</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.waitForElbCapacity">waitForElbCapacity</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.source">source</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.providers">providers</a></code> | <code>cdktf.TerraformModuleProvider \| cdktf.TerraformProvider[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.version">version</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupArnOutput">autoscalingGroupArnOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupAvailabilityZonesOutput">autoscalingGroupAvailabilityZonesOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupDefaultCooldownOutput">autoscalingGroupDefaultCooldownOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupDesiredCapacityOutput">autoscalingGroupDesiredCapacityOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupHealthCheckGracePeriodOutput">autoscalingGroupHealthCheckGracePeriodOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupHealthCheckTypeOutput">autoscalingGroupHealthCheckTypeOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupIdOutput">autoscalingGroupIdOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupMaxSizeOutput">autoscalingGroupMaxSizeOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupMinSizeOutput">autoscalingGroupMinSizeOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupNameOutput">autoscalingGroupNameOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupScheduleArnsOutput">autoscalingGroupScheduleArnsOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupVpcZoneIdentifierOutput">autoscalingGroupVpcZoneIdentifierOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamInstanceProfileArnOutput">iamInstanceProfileArnOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamInstanceProfileIdOutput">iamInstanceProfileIdOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamInstanceProfileUniqueOutput">iamInstanceProfileUniqueOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRoleArnOutput">iamRoleArnOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRoleNameOutput">iamRoleNameOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRoleUniqueIdOutput">iamRoleUniqueIdOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.launchTemplateArnOutput">launchTemplateArnOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.launchTemplateIdOutput">launchTemplateIdOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.launchTemplateLatestVersionOutput">launchTemplateLatestVersionOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.platformOutput">platformOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.securityGroupArnOutput">securityGroupArnOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.securityGroupIdOutput">securityGroupIdOutput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.blockDeviceMappings">blockDeviceMappings</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.capacityReservationSpecification">capacityReservationSpecification</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.instanceMarketOptions">instanceMarketOptions</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.instanceRefresh">instanceRefresh</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.mixedInstancesPolicy">mixedInstancesPolicy</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.securityGroupRules">securityGroupRules</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.warmPool">warmPool</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.amiId">amiId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.availabilityZones">availabilityZones</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.bootstrapExtraArgs">bootstrapExtraArgs</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.capacityRebalance">capacityRebalance</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.clusterAuthBase64">clusterAuthBase64</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.clusterEndpoint">clusterEndpoint</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.clusterIpFamily">clusterIpFamily</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.clusterName">clusterName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.clusterPrimarySecurityGroupId">clusterPrimarySecurityGroupId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.clusterSecurityGroupId">clusterSecurityGroupId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.clusterVersion">clusterVersion</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.cpuOptions">cpuOptions</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.create">create</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.createIamInstanceProfile">createIamInstanceProfile</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.createLaunchTemplate">createLaunchTemplate</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.createSchedule">createSchedule</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.createSecurityGroup">createSecurityGroup</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.creditSpecification">creditSpecification</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.defaultCooldown">defaultCooldown</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.deleteTimeout">deleteTimeout</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.desiredSize">desiredSize</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.disableApiTermination">disableApiTermination</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.ebsOptimized">ebsOptimized</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.elasticGpuSpecifications">elasticGpuSpecifications</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.elasticInferenceAccelerator">elasticInferenceAccelerator</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.enabledMetrics">enabledMetrics</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.enableMonitoring">enableMonitoring</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.enclaveOptions">enclaveOptions</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.forceDelete">forceDelete</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.healthCheckGracePeriod">healthCheckGracePeriod</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.healthCheckType">healthCheckType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.hibernationOptions">hibernationOptions</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamInstanceProfileArn">iamInstanceProfileArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRoleAdditionalPolicies">iamRoleAdditionalPolicies</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRoleAttachCniPolicy">iamRoleAttachCniPolicy</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRoleDescription">iamRoleDescription</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRoleName">iamRoleName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRolePath">iamRolePath</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRolePermissionsBoundary">iamRolePermissionsBoundary</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRoleTags">iamRoleTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRoleUseNamePrefix">iamRoleUseNamePrefix</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.initialLifecycleHooks">initialLifecycleHooks</a></code> | <code>{[ key: string ]: string}[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.instanceInitiatedShutdownBehavior">instanceInitiatedShutdownBehavior</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.instanceType">instanceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.kernelId">kernelId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.keyName">keyName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.launchTemplateDefaultVersion">launchTemplateDefaultVersion</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.launchTemplateDescription">launchTemplateDescription</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.launchTemplateName">launchTemplateName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.launchTemplateTags">launchTemplateTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.launchTemplateUseNamePrefix">launchTemplateUseNamePrefix</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.launchTemplateVersion">launchTemplateVersion</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.licenseSpecifications">licenseSpecifications</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.maxInstanceLifetime">maxInstanceLifetime</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.maxSize">maxSize</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.metadataOptions">metadataOptions</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.metricsGranularity">metricsGranularity</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.minElbCapacity">minElbCapacity</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.minSize">minSize</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.name">name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.networkInterfaces">networkInterfaces</a></code> | <code>any[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.placement">placement</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.placementGroup">placementGroup</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.platform">platform</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.postBootstrapUserData">postBootstrapUserData</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.preBootstrapUserData">preBootstrapUserData</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.protectFromScaleIn">protectFromScaleIn</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.ramDiskId">ramDiskId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.schedules">schedules</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.securityGroupDescription">securityGroupDescription</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.securityGroupName">securityGroupName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.securityGroupTags">securityGroupTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.securityGroupUseNamePrefix">securityGroupUseNamePrefix</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.serviceLinkedRoleArn">serviceLinkedRoleArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.subnetIds">subnetIds</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.suspendedProcesses">suspendedProcesses</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.targetGroupArns">targetGroupArns</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.terminationPolicies">terminationPolicies</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.updateLaunchTemplateDefaultVersion">updateLaunchTemplateDefaultVersion</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.useDefaultTags">useDefaultTags</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.useMixedInstancesPolicy">useMixedInstancesPolicy</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.useNamePrefix">useNamePrefix</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.userDataTemplatePath">userDataTemplatePath</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.vpcId">vpcId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.vpcSecurityGroupIds">vpcSecurityGroupIds</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.waitForCapacityTimeout">waitForCapacityTimeout</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.waitForElbCapacity">waitForElbCapacity</a></code> | <code>number</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -3177,7 +3177,7 @@ The tree node.
 
 ---
 
-##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.cdktfStack"></a>
+##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.cdktfStack"></a>
 
 ```typescript
 public readonly cdktfStack: TerraformStack;
@@ -3187,7 +3187,7 @@ public readonly cdktfStack: TerraformStack;
 
 ---
 
-##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.friendlyUniqueId"></a>
+##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.friendlyUniqueId"></a>
 
 ```typescript
 public readonly friendlyUniqueId: string;
@@ -3197,7 +3197,7 @@ public readonly friendlyUniqueId: string;
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.fqn"></a>
 
 ```typescript
 public readonly fqn: string;
@@ -3207,7 +3207,7 @@ public readonly fqn: string;
 
 ---
 
-##### `source`<sup>Required</sup> <a name="source" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.source"></a>
+##### `source`<sup>Required</sup> <a name="source" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.source"></a>
 
 ```typescript
 public readonly source: string;
@@ -3217,7 +3217,7 @@ public readonly source: string;
 
 ---
 
-##### `providers`<sup>Optional</sup> <a name="providers" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.providers"></a>
+##### `providers`<sup>Optional</sup> <a name="providers" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.providers"></a>
 
 ```typescript
 public readonly providers: TerraformModuleProvider | TerraformProvider[];
@@ -3227,7 +3227,7 @@ public readonly providers: TerraformModuleProvider | TerraformProvider[];
 
 ---
 
-##### `version`<sup>Optional</sup> <a name="version" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.version"></a>
+##### `version`<sup>Optional</sup> <a name="version" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.version"></a>
 
 ```typescript
 public readonly version: string;
@@ -3237,7 +3237,7 @@ public readonly version: string;
 
 ---
 
-##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.dependsOn"></a>
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.dependsOn"></a>
 
 ```typescript
 public readonly dependsOn: string[];
@@ -3247,7 +3247,7 @@ public readonly dependsOn: string[];
 
 ---
 
-##### `autoscalingGroupArnOutput`<sup>Required</sup> <a name="autoscalingGroupArnOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupArnOutput"></a>
+##### `autoscalingGroupArnOutput`<sup>Required</sup> <a name="autoscalingGroupArnOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupArnOutput"></a>
 
 ```typescript
 public readonly autoscalingGroupArnOutput: string;
@@ -3257,7 +3257,7 @@ public readonly autoscalingGroupArnOutput: string;
 
 ---
 
-##### `autoscalingGroupAvailabilityZonesOutput`<sup>Required</sup> <a name="autoscalingGroupAvailabilityZonesOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupAvailabilityZonesOutput"></a>
+##### `autoscalingGroupAvailabilityZonesOutput`<sup>Required</sup> <a name="autoscalingGroupAvailabilityZonesOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupAvailabilityZonesOutput"></a>
 
 ```typescript
 public readonly autoscalingGroupAvailabilityZonesOutput: string;
@@ -3267,7 +3267,7 @@ public readonly autoscalingGroupAvailabilityZonesOutput: string;
 
 ---
 
-##### `autoscalingGroupDefaultCooldownOutput`<sup>Required</sup> <a name="autoscalingGroupDefaultCooldownOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupDefaultCooldownOutput"></a>
+##### `autoscalingGroupDefaultCooldownOutput`<sup>Required</sup> <a name="autoscalingGroupDefaultCooldownOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupDefaultCooldownOutput"></a>
 
 ```typescript
 public readonly autoscalingGroupDefaultCooldownOutput: string;
@@ -3277,7 +3277,7 @@ public readonly autoscalingGroupDefaultCooldownOutput: string;
 
 ---
 
-##### `autoscalingGroupDesiredCapacityOutput`<sup>Required</sup> <a name="autoscalingGroupDesiredCapacityOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupDesiredCapacityOutput"></a>
+##### `autoscalingGroupDesiredCapacityOutput`<sup>Required</sup> <a name="autoscalingGroupDesiredCapacityOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupDesiredCapacityOutput"></a>
 
 ```typescript
 public readonly autoscalingGroupDesiredCapacityOutput: string;
@@ -3287,7 +3287,7 @@ public readonly autoscalingGroupDesiredCapacityOutput: string;
 
 ---
 
-##### `autoscalingGroupHealthCheckGracePeriodOutput`<sup>Required</sup> <a name="autoscalingGroupHealthCheckGracePeriodOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupHealthCheckGracePeriodOutput"></a>
+##### `autoscalingGroupHealthCheckGracePeriodOutput`<sup>Required</sup> <a name="autoscalingGroupHealthCheckGracePeriodOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupHealthCheckGracePeriodOutput"></a>
 
 ```typescript
 public readonly autoscalingGroupHealthCheckGracePeriodOutput: string;
@@ -3297,7 +3297,7 @@ public readonly autoscalingGroupHealthCheckGracePeriodOutput: string;
 
 ---
 
-##### `autoscalingGroupHealthCheckTypeOutput`<sup>Required</sup> <a name="autoscalingGroupHealthCheckTypeOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupHealthCheckTypeOutput"></a>
+##### `autoscalingGroupHealthCheckTypeOutput`<sup>Required</sup> <a name="autoscalingGroupHealthCheckTypeOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupHealthCheckTypeOutput"></a>
 
 ```typescript
 public readonly autoscalingGroupHealthCheckTypeOutput: string;
@@ -3307,7 +3307,7 @@ public readonly autoscalingGroupHealthCheckTypeOutput: string;
 
 ---
 
-##### `autoscalingGroupIdOutput`<sup>Required</sup> <a name="autoscalingGroupIdOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupIdOutput"></a>
+##### `autoscalingGroupIdOutput`<sup>Required</sup> <a name="autoscalingGroupIdOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupIdOutput"></a>
 
 ```typescript
 public readonly autoscalingGroupIdOutput: string;
@@ -3317,7 +3317,7 @@ public readonly autoscalingGroupIdOutput: string;
 
 ---
 
-##### `autoscalingGroupMaxSizeOutput`<sup>Required</sup> <a name="autoscalingGroupMaxSizeOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupMaxSizeOutput"></a>
+##### `autoscalingGroupMaxSizeOutput`<sup>Required</sup> <a name="autoscalingGroupMaxSizeOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupMaxSizeOutput"></a>
 
 ```typescript
 public readonly autoscalingGroupMaxSizeOutput: string;
@@ -3327,7 +3327,7 @@ public readonly autoscalingGroupMaxSizeOutput: string;
 
 ---
 
-##### `autoscalingGroupMinSizeOutput`<sup>Required</sup> <a name="autoscalingGroupMinSizeOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupMinSizeOutput"></a>
+##### `autoscalingGroupMinSizeOutput`<sup>Required</sup> <a name="autoscalingGroupMinSizeOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupMinSizeOutput"></a>
 
 ```typescript
 public readonly autoscalingGroupMinSizeOutput: string;
@@ -3337,7 +3337,7 @@ public readonly autoscalingGroupMinSizeOutput: string;
 
 ---
 
-##### `autoscalingGroupNameOutput`<sup>Required</sup> <a name="autoscalingGroupNameOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupNameOutput"></a>
+##### `autoscalingGroupNameOutput`<sup>Required</sup> <a name="autoscalingGroupNameOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupNameOutput"></a>
 
 ```typescript
 public readonly autoscalingGroupNameOutput: string;
@@ -3347,7 +3347,7 @@ public readonly autoscalingGroupNameOutput: string;
 
 ---
 
-##### `autoscalingGroupScheduleArnsOutput`<sup>Required</sup> <a name="autoscalingGroupScheduleArnsOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupScheduleArnsOutput"></a>
+##### `autoscalingGroupScheduleArnsOutput`<sup>Required</sup> <a name="autoscalingGroupScheduleArnsOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupScheduleArnsOutput"></a>
 
 ```typescript
 public readonly autoscalingGroupScheduleArnsOutput: string;
@@ -3357,7 +3357,7 @@ public readonly autoscalingGroupScheduleArnsOutput: string;
 
 ---
 
-##### `autoscalingGroupVpcZoneIdentifierOutput`<sup>Required</sup> <a name="autoscalingGroupVpcZoneIdentifierOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.autoscalingGroupVpcZoneIdentifierOutput"></a>
+##### `autoscalingGroupVpcZoneIdentifierOutput`<sup>Required</sup> <a name="autoscalingGroupVpcZoneIdentifierOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.autoscalingGroupVpcZoneIdentifierOutput"></a>
 
 ```typescript
 public readonly autoscalingGroupVpcZoneIdentifierOutput: string;
@@ -3367,7 +3367,7 @@ public readonly autoscalingGroupVpcZoneIdentifierOutput: string;
 
 ---
 
-##### `iamInstanceProfileArnOutput`<sup>Required</sup> <a name="iamInstanceProfileArnOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamInstanceProfileArnOutput"></a>
+##### `iamInstanceProfileArnOutput`<sup>Required</sup> <a name="iamInstanceProfileArnOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamInstanceProfileArnOutput"></a>
 
 ```typescript
 public readonly iamInstanceProfileArnOutput: string;
@@ -3377,7 +3377,7 @@ public readonly iamInstanceProfileArnOutput: string;
 
 ---
 
-##### `iamInstanceProfileIdOutput`<sup>Required</sup> <a name="iamInstanceProfileIdOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamInstanceProfileIdOutput"></a>
+##### `iamInstanceProfileIdOutput`<sup>Required</sup> <a name="iamInstanceProfileIdOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamInstanceProfileIdOutput"></a>
 
 ```typescript
 public readonly iamInstanceProfileIdOutput: string;
@@ -3387,7 +3387,7 @@ public readonly iamInstanceProfileIdOutput: string;
 
 ---
 
-##### `iamInstanceProfileUniqueOutput`<sup>Required</sup> <a name="iamInstanceProfileUniqueOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamInstanceProfileUniqueOutput"></a>
+##### `iamInstanceProfileUniqueOutput`<sup>Required</sup> <a name="iamInstanceProfileUniqueOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamInstanceProfileUniqueOutput"></a>
 
 ```typescript
 public readonly iamInstanceProfileUniqueOutput: string;
@@ -3397,7 +3397,7 @@ public readonly iamInstanceProfileUniqueOutput: string;
 
 ---
 
-##### `iamRoleArnOutput`<sup>Required</sup> <a name="iamRoleArnOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRoleArnOutput"></a>
+##### `iamRoleArnOutput`<sup>Required</sup> <a name="iamRoleArnOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRoleArnOutput"></a>
 
 ```typescript
 public readonly iamRoleArnOutput: string;
@@ -3407,7 +3407,7 @@ public readonly iamRoleArnOutput: string;
 
 ---
 
-##### `iamRoleNameOutput`<sup>Required</sup> <a name="iamRoleNameOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRoleNameOutput"></a>
+##### `iamRoleNameOutput`<sup>Required</sup> <a name="iamRoleNameOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRoleNameOutput"></a>
 
 ```typescript
 public readonly iamRoleNameOutput: string;
@@ -3417,7 +3417,7 @@ public readonly iamRoleNameOutput: string;
 
 ---
 
-##### `iamRoleUniqueIdOutput`<sup>Required</sup> <a name="iamRoleUniqueIdOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRoleUniqueIdOutput"></a>
+##### `iamRoleUniqueIdOutput`<sup>Required</sup> <a name="iamRoleUniqueIdOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRoleUniqueIdOutput"></a>
 
 ```typescript
 public readonly iamRoleUniqueIdOutput: string;
@@ -3427,7 +3427,7 @@ public readonly iamRoleUniqueIdOutput: string;
 
 ---
 
-##### `launchTemplateArnOutput`<sup>Required</sup> <a name="launchTemplateArnOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.launchTemplateArnOutput"></a>
+##### `launchTemplateArnOutput`<sup>Required</sup> <a name="launchTemplateArnOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.launchTemplateArnOutput"></a>
 
 ```typescript
 public readonly launchTemplateArnOutput: string;
@@ -3437,7 +3437,7 @@ public readonly launchTemplateArnOutput: string;
 
 ---
 
-##### `launchTemplateIdOutput`<sup>Required</sup> <a name="launchTemplateIdOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.launchTemplateIdOutput"></a>
+##### `launchTemplateIdOutput`<sup>Required</sup> <a name="launchTemplateIdOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.launchTemplateIdOutput"></a>
 
 ```typescript
 public readonly launchTemplateIdOutput: string;
@@ -3447,7 +3447,7 @@ public readonly launchTemplateIdOutput: string;
 
 ---
 
-##### `launchTemplateLatestVersionOutput`<sup>Required</sup> <a name="launchTemplateLatestVersionOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.launchTemplateLatestVersionOutput"></a>
+##### `launchTemplateLatestVersionOutput`<sup>Required</sup> <a name="launchTemplateLatestVersionOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.launchTemplateLatestVersionOutput"></a>
 
 ```typescript
 public readonly launchTemplateLatestVersionOutput: string;
@@ -3457,7 +3457,7 @@ public readonly launchTemplateLatestVersionOutput: string;
 
 ---
 
-##### `platformOutput`<sup>Required</sup> <a name="platformOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.platformOutput"></a>
+##### `platformOutput`<sup>Required</sup> <a name="platformOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.platformOutput"></a>
 
 ```typescript
 public readonly platformOutput: string;
@@ -3467,7 +3467,7 @@ public readonly platformOutput: string;
 
 ---
 
-##### `securityGroupArnOutput`<sup>Required</sup> <a name="securityGroupArnOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.securityGroupArnOutput"></a>
+##### `securityGroupArnOutput`<sup>Required</sup> <a name="securityGroupArnOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.securityGroupArnOutput"></a>
 
 ```typescript
 public readonly securityGroupArnOutput: string;
@@ -3477,7 +3477,7 @@ public readonly securityGroupArnOutput: string;
 
 ---
 
-##### `securityGroupIdOutput`<sup>Required</sup> <a name="securityGroupIdOutput" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.securityGroupIdOutput"></a>
+##### `securityGroupIdOutput`<sup>Required</sup> <a name="securityGroupIdOutput" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.securityGroupIdOutput"></a>
 
 ```typescript
 public readonly securityGroupIdOutput: string;
@@ -3487,7 +3487,7 @@ public readonly securityGroupIdOutput: string;
 
 ---
 
-##### `blockDeviceMappings`<sup>Required</sup> <a name="blockDeviceMappings" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.blockDeviceMappings"></a>
+##### `blockDeviceMappings`<sup>Required</sup> <a name="blockDeviceMappings" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.blockDeviceMappings"></a>
 
 ```typescript
 public readonly blockDeviceMappings: any;
@@ -3497,7 +3497,7 @@ public readonly blockDeviceMappings: any;
 
 ---
 
-##### `capacityReservationSpecification`<sup>Required</sup> <a name="capacityReservationSpecification" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.capacityReservationSpecification"></a>
+##### `capacityReservationSpecification`<sup>Required</sup> <a name="capacityReservationSpecification" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.capacityReservationSpecification"></a>
 
 ```typescript
 public readonly capacityReservationSpecification: any;
@@ -3507,7 +3507,7 @@ public readonly capacityReservationSpecification: any;
 
 ---
 
-##### `instanceMarketOptions`<sup>Required</sup> <a name="instanceMarketOptions" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.instanceMarketOptions"></a>
+##### `instanceMarketOptions`<sup>Required</sup> <a name="instanceMarketOptions" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.instanceMarketOptions"></a>
 
 ```typescript
 public readonly instanceMarketOptions: any;
@@ -3517,7 +3517,7 @@ public readonly instanceMarketOptions: any;
 
 ---
 
-##### `instanceRefresh`<sup>Required</sup> <a name="instanceRefresh" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.instanceRefresh"></a>
+##### `instanceRefresh`<sup>Required</sup> <a name="instanceRefresh" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.instanceRefresh"></a>
 
 ```typescript
 public readonly instanceRefresh: any;
@@ -3527,7 +3527,7 @@ public readonly instanceRefresh: any;
 
 ---
 
-##### `mixedInstancesPolicy`<sup>Required</sup> <a name="mixedInstancesPolicy" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.mixedInstancesPolicy"></a>
+##### `mixedInstancesPolicy`<sup>Required</sup> <a name="mixedInstancesPolicy" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.mixedInstancesPolicy"></a>
 
 ```typescript
 public readonly mixedInstancesPolicy: any;
@@ -3537,7 +3537,7 @@ public readonly mixedInstancesPolicy: any;
 
 ---
 
-##### `securityGroupRules`<sup>Required</sup> <a name="securityGroupRules" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.securityGroupRules"></a>
+##### `securityGroupRules`<sup>Required</sup> <a name="securityGroupRules" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.securityGroupRules"></a>
 
 ```typescript
 public readonly securityGroupRules: any;
@@ -3547,7 +3547,7 @@ public readonly securityGroupRules: any;
 
 ---
 
-##### `warmPool`<sup>Required</sup> <a name="warmPool" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.warmPool"></a>
+##### `warmPool`<sup>Required</sup> <a name="warmPool" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.warmPool"></a>
 
 ```typescript
 public readonly warmPool: any;
@@ -3557,7 +3557,7 @@ public readonly warmPool: any;
 
 ---
 
-##### `amiId`<sup>Optional</sup> <a name="amiId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.amiId"></a>
+##### `amiId`<sup>Optional</sup> <a name="amiId" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.amiId"></a>
 
 ```typescript
 public readonly amiId: string;
@@ -3567,7 +3567,7 @@ public readonly amiId: string;
 
 ---
 
-##### `availabilityZones`<sup>Optional</sup> <a name="availabilityZones" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.availabilityZones"></a>
+##### `availabilityZones`<sup>Optional</sup> <a name="availabilityZones" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.availabilityZones"></a>
 
 ```typescript
 public readonly availabilityZones: string[];
@@ -3577,7 +3577,7 @@ public readonly availabilityZones: string[];
 
 ---
 
-##### `bootstrapExtraArgs`<sup>Optional</sup> <a name="bootstrapExtraArgs" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.bootstrapExtraArgs"></a>
+##### `bootstrapExtraArgs`<sup>Optional</sup> <a name="bootstrapExtraArgs" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.bootstrapExtraArgs"></a>
 
 ```typescript
 public readonly bootstrapExtraArgs: string;
@@ -3587,7 +3587,7 @@ public readonly bootstrapExtraArgs: string;
 
 ---
 
-##### `capacityRebalance`<sup>Optional</sup> <a name="capacityRebalance" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.capacityRebalance"></a>
+##### `capacityRebalance`<sup>Optional</sup> <a name="capacityRebalance" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.capacityRebalance"></a>
 
 ```typescript
 public readonly capacityRebalance: boolean;
@@ -3597,7 +3597,7 @@ public readonly capacityRebalance: boolean;
 
 ---
 
-##### `clusterAuthBase64`<sup>Optional</sup> <a name="clusterAuthBase64" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.clusterAuthBase64"></a>
+##### `clusterAuthBase64`<sup>Optional</sup> <a name="clusterAuthBase64" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.clusterAuthBase64"></a>
 
 ```typescript
 public readonly clusterAuthBase64: string;
@@ -3607,7 +3607,7 @@ public readonly clusterAuthBase64: string;
 
 ---
 
-##### `clusterEndpoint`<sup>Optional</sup> <a name="clusterEndpoint" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.clusterEndpoint"></a>
+##### `clusterEndpoint`<sup>Optional</sup> <a name="clusterEndpoint" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.clusterEndpoint"></a>
 
 ```typescript
 public readonly clusterEndpoint: string;
@@ -3617,7 +3617,7 @@ public readonly clusterEndpoint: string;
 
 ---
 
-##### `clusterIpFamily`<sup>Optional</sup> <a name="clusterIpFamily" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.clusterIpFamily"></a>
+##### `clusterIpFamily`<sup>Optional</sup> <a name="clusterIpFamily" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.clusterIpFamily"></a>
 
 ```typescript
 public readonly clusterIpFamily: string;
@@ -3627,7 +3627,7 @@ public readonly clusterIpFamily: string;
 
 ---
 
-##### `clusterName`<sup>Optional</sup> <a name="clusterName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.clusterName"></a>
+##### `clusterName`<sup>Optional</sup> <a name="clusterName" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.clusterName"></a>
 
 ```typescript
 public readonly clusterName: string;
@@ -3637,7 +3637,7 @@ public readonly clusterName: string;
 
 ---
 
-##### `clusterPrimarySecurityGroupId`<sup>Optional</sup> <a name="clusterPrimarySecurityGroupId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.clusterPrimarySecurityGroupId"></a>
+##### `clusterPrimarySecurityGroupId`<sup>Optional</sup> <a name="clusterPrimarySecurityGroupId" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.clusterPrimarySecurityGroupId"></a>
 
 ```typescript
 public readonly clusterPrimarySecurityGroupId: string;
@@ -3647,7 +3647,7 @@ public readonly clusterPrimarySecurityGroupId: string;
 
 ---
 
-##### `clusterSecurityGroupId`<sup>Optional</sup> <a name="clusterSecurityGroupId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.clusterSecurityGroupId"></a>
+##### `clusterSecurityGroupId`<sup>Optional</sup> <a name="clusterSecurityGroupId" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.clusterSecurityGroupId"></a>
 
 ```typescript
 public readonly clusterSecurityGroupId: string;
@@ -3657,7 +3657,7 @@ public readonly clusterSecurityGroupId: string;
 
 ---
 
-##### `clusterVersion`<sup>Optional</sup> <a name="clusterVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.clusterVersion"></a>
+##### `clusterVersion`<sup>Optional</sup> <a name="clusterVersion" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.clusterVersion"></a>
 
 ```typescript
 public readonly clusterVersion: string;
@@ -3667,7 +3667,7 @@ public readonly clusterVersion: string;
 
 ---
 
-##### `cpuOptions`<sup>Optional</sup> <a name="cpuOptions" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.cpuOptions"></a>
+##### `cpuOptions`<sup>Optional</sup> <a name="cpuOptions" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.cpuOptions"></a>
 
 ```typescript
 public readonly cpuOptions: {[ key: string ]: string};
@@ -3677,7 +3677,7 @@ public readonly cpuOptions: {[ key: string ]: string};
 
 ---
 
-##### `create`<sup>Optional</sup> <a name="create" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.create"></a>
+##### `create`<sup>Optional</sup> <a name="create" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.create"></a>
 
 ```typescript
 public readonly create: boolean;
@@ -3687,7 +3687,7 @@ public readonly create: boolean;
 
 ---
 
-##### `createIamInstanceProfile`<sup>Optional</sup> <a name="createIamInstanceProfile" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.createIamInstanceProfile"></a>
+##### `createIamInstanceProfile`<sup>Optional</sup> <a name="createIamInstanceProfile" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.createIamInstanceProfile"></a>
 
 ```typescript
 public readonly createIamInstanceProfile: boolean;
@@ -3697,7 +3697,7 @@ public readonly createIamInstanceProfile: boolean;
 
 ---
 
-##### `createLaunchTemplate`<sup>Optional</sup> <a name="createLaunchTemplate" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.createLaunchTemplate"></a>
+##### `createLaunchTemplate`<sup>Optional</sup> <a name="createLaunchTemplate" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.createLaunchTemplate"></a>
 
 ```typescript
 public readonly createLaunchTemplate: boolean;
@@ -3707,7 +3707,7 @@ public readonly createLaunchTemplate: boolean;
 
 ---
 
-##### `createSchedule`<sup>Optional</sup> <a name="createSchedule" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.createSchedule"></a>
+##### `createSchedule`<sup>Optional</sup> <a name="createSchedule" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.createSchedule"></a>
 
 ```typescript
 public readonly createSchedule: boolean;
@@ -3717,7 +3717,7 @@ public readonly createSchedule: boolean;
 
 ---
 
-##### `createSecurityGroup`<sup>Optional</sup> <a name="createSecurityGroup" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.createSecurityGroup"></a>
+##### `createSecurityGroup`<sup>Optional</sup> <a name="createSecurityGroup" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.createSecurityGroup"></a>
 
 ```typescript
 public readonly createSecurityGroup: boolean;
@@ -3727,7 +3727,7 @@ public readonly createSecurityGroup: boolean;
 
 ---
 
-##### `creditSpecification`<sup>Optional</sup> <a name="creditSpecification" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.creditSpecification"></a>
+##### `creditSpecification`<sup>Optional</sup> <a name="creditSpecification" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.creditSpecification"></a>
 
 ```typescript
 public readonly creditSpecification: {[ key: string ]: string};
@@ -3737,7 +3737,7 @@ public readonly creditSpecification: {[ key: string ]: string};
 
 ---
 
-##### `defaultCooldown`<sup>Optional</sup> <a name="defaultCooldown" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.defaultCooldown"></a>
+##### `defaultCooldown`<sup>Optional</sup> <a name="defaultCooldown" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.defaultCooldown"></a>
 
 ```typescript
 public readonly defaultCooldown: number;
@@ -3747,7 +3747,7 @@ public readonly defaultCooldown: number;
 
 ---
 
-##### `deleteTimeout`<sup>Optional</sup> <a name="deleteTimeout" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.deleteTimeout"></a>
+##### `deleteTimeout`<sup>Optional</sup> <a name="deleteTimeout" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.deleteTimeout"></a>
 
 ```typescript
 public readonly deleteTimeout: string;
@@ -3757,7 +3757,7 @@ public readonly deleteTimeout: string;
 
 ---
 
-##### `desiredSize`<sup>Optional</sup> <a name="desiredSize" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.desiredSize"></a>
+##### `desiredSize`<sup>Optional</sup> <a name="desiredSize" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.desiredSize"></a>
 
 ```typescript
 public readonly desiredSize: number;
@@ -3767,7 +3767,7 @@ public readonly desiredSize: number;
 
 ---
 
-##### `disableApiTermination`<sup>Optional</sup> <a name="disableApiTermination" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.disableApiTermination"></a>
+##### `disableApiTermination`<sup>Optional</sup> <a name="disableApiTermination" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.disableApiTermination"></a>
 
 ```typescript
 public readonly disableApiTermination: boolean;
@@ -3777,7 +3777,7 @@ public readonly disableApiTermination: boolean;
 
 ---
 
-##### `ebsOptimized`<sup>Optional</sup> <a name="ebsOptimized" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.ebsOptimized"></a>
+##### `ebsOptimized`<sup>Optional</sup> <a name="ebsOptimized" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.ebsOptimized"></a>
 
 ```typescript
 public readonly ebsOptimized: boolean;
@@ -3787,7 +3787,7 @@ public readonly ebsOptimized: boolean;
 
 ---
 
-##### `elasticGpuSpecifications`<sup>Optional</sup> <a name="elasticGpuSpecifications" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.elasticGpuSpecifications"></a>
+##### `elasticGpuSpecifications`<sup>Optional</sup> <a name="elasticGpuSpecifications" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.elasticGpuSpecifications"></a>
 
 ```typescript
 public readonly elasticGpuSpecifications: {[ key: string ]: string};
@@ -3797,7 +3797,7 @@ public readonly elasticGpuSpecifications: {[ key: string ]: string};
 
 ---
 
-##### `elasticInferenceAccelerator`<sup>Optional</sup> <a name="elasticInferenceAccelerator" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.elasticInferenceAccelerator"></a>
+##### `elasticInferenceAccelerator`<sup>Optional</sup> <a name="elasticInferenceAccelerator" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.elasticInferenceAccelerator"></a>
 
 ```typescript
 public readonly elasticInferenceAccelerator: {[ key: string ]: string};
@@ -3807,7 +3807,7 @@ public readonly elasticInferenceAccelerator: {[ key: string ]: string};
 
 ---
 
-##### `enabledMetrics`<sup>Optional</sup> <a name="enabledMetrics" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.enabledMetrics"></a>
+##### `enabledMetrics`<sup>Optional</sup> <a name="enabledMetrics" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.enabledMetrics"></a>
 
 ```typescript
 public readonly enabledMetrics: string[];
@@ -3817,7 +3817,7 @@ public readonly enabledMetrics: string[];
 
 ---
 
-##### `enableMonitoring`<sup>Optional</sup> <a name="enableMonitoring" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.enableMonitoring"></a>
+##### `enableMonitoring`<sup>Optional</sup> <a name="enableMonitoring" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.enableMonitoring"></a>
 
 ```typescript
 public readonly enableMonitoring: boolean;
@@ -3827,7 +3827,7 @@ public readonly enableMonitoring: boolean;
 
 ---
 
-##### `enclaveOptions`<sup>Optional</sup> <a name="enclaveOptions" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.enclaveOptions"></a>
+##### `enclaveOptions`<sup>Optional</sup> <a name="enclaveOptions" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.enclaveOptions"></a>
 
 ```typescript
 public readonly enclaveOptions: {[ key: string ]: string};
@@ -3837,7 +3837,7 @@ public readonly enclaveOptions: {[ key: string ]: string};
 
 ---
 
-##### `forceDelete`<sup>Optional</sup> <a name="forceDelete" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.forceDelete"></a>
+##### `forceDelete`<sup>Optional</sup> <a name="forceDelete" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.forceDelete"></a>
 
 ```typescript
 public readonly forceDelete: boolean;
@@ -3847,7 +3847,7 @@ public readonly forceDelete: boolean;
 
 ---
 
-##### `healthCheckGracePeriod`<sup>Optional</sup> <a name="healthCheckGracePeriod" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.healthCheckGracePeriod"></a>
+##### `healthCheckGracePeriod`<sup>Optional</sup> <a name="healthCheckGracePeriod" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.healthCheckGracePeriod"></a>
 
 ```typescript
 public readonly healthCheckGracePeriod: number;
@@ -3857,7 +3857,7 @@ public readonly healthCheckGracePeriod: number;
 
 ---
 
-##### `healthCheckType`<sup>Optional</sup> <a name="healthCheckType" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.healthCheckType"></a>
+##### `healthCheckType`<sup>Optional</sup> <a name="healthCheckType" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.healthCheckType"></a>
 
 ```typescript
 public readonly healthCheckType: string;
@@ -3867,7 +3867,7 @@ public readonly healthCheckType: string;
 
 ---
 
-##### `hibernationOptions`<sup>Optional</sup> <a name="hibernationOptions" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.hibernationOptions"></a>
+##### `hibernationOptions`<sup>Optional</sup> <a name="hibernationOptions" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.hibernationOptions"></a>
 
 ```typescript
 public readonly hibernationOptions: {[ key: string ]: string};
@@ -3877,7 +3877,7 @@ public readonly hibernationOptions: {[ key: string ]: string};
 
 ---
 
-##### `iamInstanceProfileArn`<sup>Optional</sup> <a name="iamInstanceProfileArn" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamInstanceProfileArn"></a>
+##### `iamInstanceProfileArn`<sup>Optional</sup> <a name="iamInstanceProfileArn" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamInstanceProfileArn"></a>
 
 ```typescript
 public readonly iamInstanceProfileArn: string;
@@ -3887,7 +3887,7 @@ public readonly iamInstanceProfileArn: string;
 
 ---
 
-##### `iamRoleAdditionalPolicies`<sup>Optional</sup> <a name="iamRoleAdditionalPolicies" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRoleAdditionalPolicies"></a>
+##### `iamRoleAdditionalPolicies`<sup>Optional</sup> <a name="iamRoleAdditionalPolicies" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRoleAdditionalPolicies"></a>
 
 ```typescript
 public readonly iamRoleAdditionalPolicies: string[];
@@ -3897,7 +3897,7 @@ public readonly iamRoleAdditionalPolicies: string[];
 
 ---
 
-##### `iamRoleAttachCniPolicy`<sup>Optional</sup> <a name="iamRoleAttachCniPolicy" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRoleAttachCniPolicy"></a>
+##### `iamRoleAttachCniPolicy`<sup>Optional</sup> <a name="iamRoleAttachCniPolicy" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRoleAttachCniPolicy"></a>
 
 ```typescript
 public readonly iamRoleAttachCniPolicy: boolean;
@@ -3907,7 +3907,7 @@ public readonly iamRoleAttachCniPolicy: boolean;
 
 ---
 
-##### `iamRoleDescription`<sup>Optional</sup> <a name="iamRoleDescription" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRoleDescription"></a>
+##### `iamRoleDescription`<sup>Optional</sup> <a name="iamRoleDescription" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRoleDescription"></a>
 
 ```typescript
 public readonly iamRoleDescription: string;
@@ -3917,7 +3917,7 @@ public readonly iamRoleDescription: string;
 
 ---
 
-##### `iamRoleName`<sup>Optional</sup> <a name="iamRoleName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRoleName"></a>
+##### `iamRoleName`<sup>Optional</sup> <a name="iamRoleName" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRoleName"></a>
 
 ```typescript
 public readonly iamRoleName: string;
@@ -3927,7 +3927,7 @@ public readonly iamRoleName: string;
 
 ---
 
-##### `iamRolePath`<sup>Optional</sup> <a name="iamRolePath" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRolePath"></a>
+##### `iamRolePath`<sup>Optional</sup> <a name="iamRolePath" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRolePath"></a>
 
 ```typescript
 public readonly iamRolePath: string;
@@ -3937,7 +3937,7 @@ public readonly iamRolePath: string;
 
 ---
 
-##### `iamRolePermissionsBoundary`<sup>Optional</sup> <a name="iamRolePermissionsBoundary" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRolePermissionsBoundary"></a>
+##### `iamRolePermissionsBoundary`<sup>Optional</sup> <a name="iamRolePermissionsBoundary" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRolePermissionsBoundary"></a>
 
 ```typescript
 public readonly iamRolePermissionsBoundary: string;
@@ -3947,7 +3947,7 @@ public readonly iamRolePermissionsBoundary: string;
 
 ---
 
-##### `iamRoleTags`<sup>Optional</sup> <a name="iamRoleTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRoleTags"></a>
+##### `iamRoleTags`<sup>Optional</sup> <a name="iamRoleTags" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRoleTags"></a>
 
 ```typescript
 public readonly iamRoleTags: {[ key: string ]: string};
@@ -3957,7 +3957,7 @@ public readonly iamRoleTags: {[ key: string ]: string};
 
 ---
 
-##### `iamRoleUseNamePrefix`<sup>Optional</sup> <a name="iamRoleUseNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.iamRoleUseNamePrefix"></a>
+##### `iamRoleUseNamePrefix`<sup>Optional</sup> <a name="iamRoleUseNamePrefix" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.iamRoleUseNamePrefix"></a>
 
 ```typescript
 public readonly iamRoleUseNamePrefix: boolean;
@@ -3967,7 +3967,7 @@ public readonly iamRoleUseNamePrefix: boolean;
 
 ---
 
-##### `initialLifecycleHooks`<sup>Optional</sup> <a name="initialLifecycleHooks" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.initialLifecycleHooks"></a>
+##### `initialLifecycleHooks`<sup>Optional</sup> <a name="initialLifecycleHooks" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.initialLifecycleHooks"></a>
 
 ```typescript
 public readonly initialLifecycleHooks: {[ key: string ]: string}[];
@@ -3977,7 +3977,7 @@ public readonly initialLifecycleHooks: {[ key: string ]: string}[];
 
 ---
 
-##### `instanceInitiatedShutdownBehavior`<sup>Optional</sup> <a name="instanceInitiatedShutdownBehavior" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.instanceInitiatedShutdownBehavior"></a>
+##### `instanceInitiatedShutdownBehavior`<sup>Optional</sup> <a name="instanceInitiatedShutdownBehavior" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.instanceInitiatedShutdownBehavior"></a>
 
 ```typescript
 public readonly instanceInitiatedShutdownBehavior: string;
@@ -3987,7 +3987,7 @@ public readonly instanceInitiatedShutdownBehavior: string;
 
 ---
 
-##### `instanceType`<sup>Optional</sup> <a name="instanceType" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.instanceType"></a>
+##### `instanceType`<sup>Optional</sup> <a name="instanceType" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.instanceType"></a>
 
 ```typescript
 public readonly instanceType: string;
@@ -3997,7 +3997,7 @@ public readonly instanceType: string;
 
 ---
 
-##### `kernelId`<sup>Optional</sup> <a name="kernelId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.kernelId"></a>
+##### `kernelId`<sup>Optional</sup> <a name="kernelId" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.kernelId"></a>
 
 ```typescript
 public readonly kernelId: string;
@@ -4007,7 +4007,7 @@ public readonly kernelId: string;
 
 ---
 
-##### `keyName`<sup>Optional</sup> <a name="keyName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.keyName"></a>
+##### `keyName`<sup>Optional</sup> <a name="keyName" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.keyName"></a>
 
 ```typescript
 public readonly keyName: string;
@@ -4017,7 +4017,7 @@ public readonly keyName: string;
 
 ---
 
-##### `launchTemplateDefaultVersion`<sup>Optional</sup> <a name="launchTemplateDefaultVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.launchTemplateDefaultVersion"></a>
+##### `launchTemplateDefaultVersion`<sup>Optional</sup> <a name="launchTemplateDefaultVersion" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.launchTemplateDefaultVersion"></a>
 
 ```typescript
 public readonly launchTemplateDefaultVersion: string;
@@ -4027,7 +4027,7 @@ public readonly launchTemplateDefaultVersion: string;
 
 ---
 
-##### `launchTemplateDescription`<sup>Optional</sup> <a name="launchTemplateDescription" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.launchTemplateDescription"></a>
+##### `launchTemplateDescription`<sup>Optional</sup> <a name="launchTemplateDescription" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.launchTemplateDescription"></a>
 
 ```typescript
 public readonly launchTemplateDescription: string;
@@ -4037,7 +4037,7 @@ public readonly launchTemplateDescription: string;
 
 ---
 
-##### `launchTemplateName`<sup>Optional</sup> <a name="launchTemplateName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.launchTemplateName"></a>
+##### `launchTemplateName`<sup>Optional</sup> <a name="launchTemplateName" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.launchTemplateName"></a>
 
 ```typescript
 public readonly launchTemplateName: string;
@@ -4047,7 +4047,7 @@ public readonly launchTemplateName: string;
 
 ---
 
-##### `launchTemplateTags`<sup>Optional</sup> <a name="launchTemplateTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.launchTemplateTags"></a>
+##### `launchTemplateTags`<sup>Optional</sup> <a name="launchTemplateTags" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.launchTemplateTags"></a>
 
 ```typescript
 public readonly launchTemplateTags: {[ key: string ]: string};
@@ -4057,7 +4057,7 @@ public readonly launchTemplateTags: {[ key: string ]: string};
 
 ---
 
-##### `launchTemplateUseNamePrefix`<sup>Optional</sup> <a name="launchTemplateUseNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.launchTemplateUseNamePrefix"></a>
+##### `launchTemplateUseNamePrefix`<sup>Optional</sup> <a name="launchTemplateUseNamePrefix" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.launchTemplateUseNamePrefix"></a>
 
 ```typescript
 public readonly launchTemplateUseNamePrefix: boolean;
@@ -4067,7 +4067,7 @@ public readonly launchTemplateUseNamePrefix: boolean;
 
 ---
 
-##### `launchTemplateVersion`<sup>Optional</sup> <a name="launchTemplateVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.launchTemplateVersion"></a>
+##### `launchTemplateVersion`<sup>Optional</sup> <a name="launchTemplateVersion" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.launchTemplateVersion"></a>
 
 ```typescript
 public readonly launchTemplateVersion: string;
@@ -4077,7 +4077,7 @@ public readonly launchTemplateVersion: string;
 
 ---
 
-##### `licenseSpecifications`<sup>Optional</sup> <a name="licenseSpecifications" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.licenseSpecifications"></a>
+##### `licenseSpecifications`<sup>Optional</sup> <a name="licenseSpecifications" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.licenseSpecifications"></a>
 
 ```typescript
 public readonly licenseSpecifications: {[ key: string ]: string};
@@ -4087,7 +4087,7 @@ public readonly licenseSpecifications: {[ key: string ]: string};
 
 ---
 
-##### `maxInstanceLifetime`<sup>Optional</sup> <a name="maxInstanceLifetime" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.maxInstanceLifetime"></a>
+##### `maxInstanceLifetime`<sup>Optional</sup> <a name="maxInstanceLifetime" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.maxInstanceLifetime"></a>
 
 ```typescript
 public readonly maxInstanceLifetime: number;
@@ -4097,7 +4097,7 @@ public readonly maxInstanceLifetime: number;
 
 ---
 
-##### `maxSize`<sup>Optional</sup> <a name="maxSize" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.maxSize"></a>
+##### `maxSize`<sup>Optional</sup> <a name="maxSize" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.maxSize"></a>
 
 ```typescript
 public readonly maxSize: number;
@@ -4107,7 +4107,7 @@ public readonly maxSize: number;
 
 ---
 
-##### `metadataOptions`<sup>Optional</sup> <a name="metadataOptions" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.metadataOptions"></a>
+##### `metadataOptions`<sup>Optional</sup> <a name="metadataOptions" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.metadataOptions"></a>
 
 ```typescript
 public readonly metadataOptions: {[ key: string ]: string};
@@ -4117,7 +4117,7 @@ public readonly metadataOptions: {[ key: string ]: string};
 
 ---
 
-##### `metricsGranularity`<sup>Optional</sup> <a name="metricsGranularity" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.metricsGranularity"></a>
+##### `metricsGranularity`<sup>Optional</sup> <a name="metricsGranularity" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.metricsGranularity"></a>
 
 ```typescript
 public readonly metricsGranularity: string;
@@ -4127,7 +4127,7 @@ public readonly metricsGranularity: string;
 
 ---
 
-##### `minElbCapacity`<sup>Optional</sup> <a name="minElbCapacity" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.minElbCapacity"></a>
+##### `minElbCapacity`<sup>Optional</sup> <a name="minElbCapacity" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.minElbCapacity"></a>
 
 ```typescript
 public readonly minElbCapacity: number;
@@ -4137,7 +4137,7 @@ public readonly minElbCapacity: number;
 
 ---
 
-##### `minSize`<sup>Optional</sup> <a name="minSize" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.minSize"></a>
+##### `minSize`<sup>Optional</sup> <a name="minSize" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.minSize"></a>
 
 ```typescript
 public readonly minSize: number;
@@ -4147,7 +4147,7 @@ public readonly minSize: number;
 
 ---
 
-##### `name`<sup>Optional</sup> <a name="name" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.name"></a>
+##### `name`<sup>Optional</sup> <a name="name" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -4157,7 +4157,7 @@ public readonly name: string;
 
 ---
 
-##### `networkInterfaces`<sup>Optional</sup> <a name="networkInterfaces" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.networkInterfaces"></a>
+##### `networkInterfaces`<sup>Optional</sup> <a name="networkInterfaces" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.networkInterfaces"></a>
 
 ```typescript
 public readonly networkInterfaces: any[];
@@ -4167,7 +4167,7 @@ public readonly networkInterfaces: any[];
 
 ---
 
-##### `placement`<sup>Optional</sup> <a name="placement" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.placement"></a>
+##### `placement`<sup>Optional</sup> <a name="placement" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.placement"></a>
 
 ```typescript
 public readonly placement: {[ key: string ]: string};
@@ -4177,7 +4177,7 @@ public readonly placement: {[ key: string ]: string};
 
 ---
 
-##### `placementGroup`<sup>Optional</sup> <a name="placementGroup" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.placementGroup"></a>
+##### `placementGroup`<sup>Optional</sup> <a name="placementGroup" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.placementGroup"></a>
 
 ```typescript
 public readonly placementGroup: string;
@@ -4187,7 +4187,7 @@ public readonly placementGroup: string;
 
 ---
 
-##### `platform`<sup>Optional</sup> <a name="platform" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.platform"></a>
+##### `platform`<sup>Optional</sup> <a name="platform" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.platform"></a>
 
 ```typescript
 public readonly platform: string;
@@ -4197,7 +4197,7 @@ public readonly platform: string;
 
 ---
 
-##### `postBootstrapUserData`<sup>Optional</sup> <a name="postBootstrapUserData" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.postBootstrapUserData"></a>
+##### `postBootstrapUserData`<sup>Optional</sup> <a name="postBootstrapUserData" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.postBootstrapUserData"></a>
 
 ```typescript
 public readonly postBootstrapUserData: string;
@@ -4207,7 +4207,7 @@ public readonly postBootstrapUserData: string;
 
 ---
 
-##### `preBootstrapUserData`<sup>Optional</sup> <a name="preBootstrapUserData" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.preBootstrapUserData"></a>
+##### `preBootstrapUserData`<sup>Optional</sup> <a name="preBootstrapUserData" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.preBootstrapUserData"></a>
 
 ```typescript
 public readonly preBootstrapUserData: string;
@@ -4217,7 +4217,7 @@ public readonly preBootstrapUserData: string;
 
 ---
 
-##### `protectFromScaleIn`<sup>Optional</sup> <a name="protectFromScaleIn" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.protectFromScaleIn"></a>
+##### `protectFromScaleIn`<sup>Optional</sup> <a name="protectFromScaleIn" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.protectFromScaleIn"></a>
 
 ```typescript
 public readonly protectFromScaleIn: boolean;
@@ -4227,7 +4227,7 @@ public readonly protectFromScaleIn: boolean;
 
 ---
 
-##### `ramDiskId`<sup>Optional</sup> <a name="ramDiskId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.ramDiskId"></a>
+##### `ramDiskId`<sup>Optional</sup> <a name="ramDiskId" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.ramDiskId"></a>
 
 ```typescript
 public readonly ramDiskId: string;
@@ -4237,7 +4237,7 @@ public readonly ramDiskId: string;
 
 ---
 
-##### `schedules`<sup>Optional</sup> <a name="schedules" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.schedules"></a>
+##### `schedules`<sup>Optional</sup> <a name="schedules" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.schedules"></a>
 
 ```typescript
 public readonly schedules: {[ key: string ]: any};
@@ -4247,7 +4247,7 @@ public readonly schedules: {[ key: string ]: any};
 
 ---
 
-##### `securityGroupDescription`<sup>Optional</sup> <a name="securityGroupDescription" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.securityGroupDescription"></a>
+##### `securityGroupDescription`<sup>Optional</sup> <a name="securityGroupDescription" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.securityGroupDescription"></a>
 
 ```typescript
 public readonly securityGroupDescription: string;
@@ -4257,7 +4257,7 @@ public readonly securityGroupDescription: string;
 
 ---
 
-##### `securityGroupName`<sup>Optional</sup> <a name="securityGroupName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.securityGroupName"></a>
+##### `securityGroupName`<sup>Optional</sup> <a name="securityGroupName" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.securityGroupName"></a>
 
 ```typescript
 public readonly securityGroupName: string;
@@ -4267,7 +4267,7 @@ public readonly securityGroupName: string;
 
 ---
 
-##### `securityGroupTags`<sup>Optional</sup> <a name="securityGroupTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.securityGroupTags"></a>
+##### `securityGroupTags`<sup>Optional</sup> <a name="securityGroupTags" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.securityGroupTags"></a>
 
 ```typescript
 public readonly securityGroupTags: {[ key: string ]: string};
@@ -4277,7 +4277,7 @@ public readonly securityGroupTags: {[ key: string ]: string};
 
 ---
 
-##### `securityGroupUseNamePrefix`<sup>Optional</sup> <a name="securityGroupUseNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.securityGroupUseNamePrefix"></a>
+##### `securityGroupUseNamePrefix`<sup>Optional</sup> <a name="securityGroupUseNamePrefix" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.securityGroupUseNamePrefix"></a>
 
 ```typescript
 public readonly securityGroupUseNamePrefix: string;
@@ -4287,7 +4287,7 @@ public readonly securityGroupUseNamePrefix: string;
 
 ---
 
-##### `serviceLinkedRoleArn`<sup>Optional</sup> <a name="serviceLinkedRoleArn" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.serviceLinkedRoleArn"></a>
+##### `serviceLinkedRoleArn`<sup>Optional</sup> <a name="serviceLinkedRoleArn" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.serviceLinkedRoleArn"></a>
 
 ```typescript
 public readonly serviceLinkedRoleArn: string;
@@ -4297,7 +4297,7 @@ public readonly serviceLinkedRoleArn: string;
 
 ---
 
-##### `subnetIds`<sup>Optional</sup> <a name="subnetIds" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.subnetIds"></a>
+##### `subnetIds`<sup>Optional</sup> <a name="subnetIds" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.subnetIds"></a>
 
 ```typescript
 public readonly subnetIds: string[];
@@ -4307,7 +4307,7 @@ public readonly subnetIds: string[];
 
 ---
 
-##### `suspendedProcesses`<sup>Optional</sup> <a name="suspendedProcesses" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.suspendedProcesses"></a>
+##### `suspendedProcesses`<sup>Optional</sup> <a name="suspendedProcesses" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.suspendedProcesses"></a>
 
 ```typescript
 public readonly suspendedProcesses: string[];
@@ -4317,7 +4317,7 @@ public readonly suspendedProcesses: string[];
 
 ---
 
-##### `tags`<sup>Optional</sup> <a name="tags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.tags"></a>
+##### `tags`<sup>Optional</sup> <a name="tags" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.tags"></a>
 
 ```typescript
 public readonly tags: {[ key: string ]: string};
@@ -4327,7 +4327,7 @@ public readonly tags: {[ key: string ]: string};
 
 ---
 
-##### `targetGroupArns`<sup>Optional</sup> <a name="targetGroupArns" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.targetGroupArns"></a>
+##### `targetGroupArns`<sup>Optional</sup> <a name="targetGroupArns" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.targetGroupArns"></a>
 
 ```typescript
 public readonly targetGroupArns: string[];
@@ -4337,7 +4337,7 @@ public readonly targetGroupArns: string[];
 
 ---
 
-##### `terminationPolicies`<sup>Optional</sup> <a name="terminationPolicies" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.terminationPolicies"></a>
+##### `terminationPolicies`<sup>Optional</sup> <a name="terminationPolicies" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.terminationPolicies"></a>
 
 ```typescript
 public readonly terminationPolicies: string[];
@@ -4347,7 +4347,7 @@ public readonly terminationPolicies: string[];
 
 ---
 
-##### `updateLaunchTemplateDefaultVersion`<sup>Optional</sup> <a name="updateLaunchTemplateDefaultVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.updateLaunchTemplateDefaultVersion"></a>
+##### `updateLaunchTemplateDefaultVersion`<sup>Optional</sup> <a name="updateLaunchTemplateDefaultVersion" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.updateLaunchTemplateDefaultVersion"></a>
 
 ```typescript
 public readonly updateLaunchTemplateDefaultVersion: boolean;
@@ -4357,7 +4357,7 @@ public readonly updateLaunchTemplateDefaultVersion: boolean;
 
 ---
 
-##### `useDefaultTags`<sup>Optional</sup> <a name="useDefaultTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.useDefaultTags"></a>
+##### `useDefaultTags`<sup>Optional</sup> <a name="useDefaultTags" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.useDefaultTags"></a>
 
 ```typescript
 public readonly useDefaultTags: boolean;
@@ -4367,7 +4367,7 @@ public readonly useDefaultTags: boolean;
 
 ---
 
-##### `useMixedInstancesPolicy`<sup>Optional</sup> <a name="useMixedInstancesPolicy" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.useMixedInstancesPolicy"></a>
+##### `useMixedInstancesPolicy`<sup>Optional</sup> <a name="useMixedInstancesPolicy" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.useMixedInstancesPolicy"></a>
 
 ```typescript
 public readonly useMixedInstancesPolicy: boolean;
@@ -4377,7 +4377,7 @@ public readonly useMixedInstancesPolicy: boolean;
 
 ---
 
-##### `useNamePrefix`<sup>Optional</sup> <a name="useNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.useNamePrefix"></a>
+##### `useNamePrefix`<sup>Optional</sup> <a name="useNamePrefix" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.useNamePrefix"></a>
 
 ```typescript
 public readonly useNamePrefix: boolean;
@@ -4387,7 +4387,7 @@ public readonly useNamePrefix: boolean;
 
 ---
 
-##### `userDataTemplatePath`<sup>Optional</sup> <a name="userDataTemplatePath" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.userDataTemplatePath"></a>
+##### `userDataTemplatePath`<sup>Optional</sup> <a name="userDataTemplatePath" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.userDataTemplatePath"></a>
 
 ```typescript
 public readonly userDataTemplatePath: string;
@@ -4397,7 +4397,7 @@ public readonly userDataTemplatePath: string;
 
 ---
 
-##### `vpcId`<sup>Optional</sup> <a name="vpcId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.vpcId"></a>
+##### `vpcId`<sup>Optional</sup> <a name="vpcId" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.vpcId"></a>
 
 ```typescript
 public readonly vpcId: string;
@@ -4407,7 +4407,7 @@ public readonly vpcId: string;
 
 ---
 
-##### `vpcSecurityGroupIds`<sup>Optional</sup> <a name="vpcSecurityGroupIds" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.vpcSecurityGroupIds"></a>
+##### `vpcSecurityGroupIds`<sup>Optional</sup> <a name="vpcSecurityGroupIds" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.vpcSecurityGroupIds"></a>
 
 ```typescript
 public readonly vpcSecurityGroupIds: string[];
@@ -4417,7 +4417,7 @@ public readonly vpcSecurityGroupIds: string[];
 
 ---
 
-##### `waitForCapacityTimeout`<sup>Optional</sup> <a name="waitForCapacityTimeout" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.waitForCapacityTimeout"></a>
+##### `waitForCapacityTimeout`<sup>Optional</sup> <a name="waitForCapacityTimeout" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.waitForCapacityTimeout"></a>
 
 ```typescript
 public readonly waitForCapacityTimeout: string;
@@ -4427,7 +4427,7 @@ public readonly waitForCapacityTimeout: string;
 
 ---
 
-##### `waitForElbCapacity`<sup>Optional</sup> <a name="waitForElbCapacity" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroup.property.waitForElbCapacity"></a>
+##### `waitForElbCapacity`<sup>Optional</sup> <a name="waitForElbCapacity" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroup.property.waitForElbCapacity"></a>
 
 ```typescript
 public readonly waitForElbCapacity: number;
@@ -4440,12 +4440,12 @@ public readonly waitForElbCapacity: number;
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### EksEksManagedNodeGroupOptions <a name="EksEksManagedNodeGroupOptions" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions"></a>
+### EksEksManagedNodeGroupOptions <a name="EksEksManagedNodeGroupOptions" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions"></a>
 
-#### Initializer <a name="Initializer" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.Initializer"></a>
 
 ```typescript
-import { EksEksManagedNodeGroupOptions } from 'terraform-cdk-terraform-module-publishing-on-gh-pages'
+import { EksEksManagedNodeGroupOptions } from '@danielmschmidt/eks-cluster'
 
 const eksEksManagedNodeGroupOptions: EksEksManagedNodeGroupOptions = { ... }
 ```
@@ -4454,88 +4454,88 @@ const eksEksManagedNodeGroupOptions: EksEksManagedNodeGroupOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.amiId">amiId</a></code> | <code>string</code> | The AMI from which to launch the instance. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.amiReleaseVersion">amiReleaseVersion</a></code> | <code>string</code> | AMI version of the EKS Node Group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.amiType">amiType</a></code> | <code>string</code> | Type of Amazon Machine Image (AMI) associated with the EKS Node Group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.blockDeviceMappings">blockDeviceMappings</a></code> | <code>any</code> | Specify volumes to attach to the instance besides the volumes specified by the AMI. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.bootstrapExtraArgs">bootstrapExtraArgs</a></code> | <code>string</code> | Additional arguments passed to the bootstrap script. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.capacityReservationSpecification">capacityReservationSpecification</a></code> | <code>any</code> | Targeting for EC2 capacity reservations. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.capacityType">capacityType</a></code> | <code>string</code> | Type of capacity associated with the EKS Node Group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.clusterAuthBase64">clusterAuthBase64</a></code> | <code>string</code> | Base64 encoded CA of associated EKS cluster. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.clusterEndpoint">clusterEndpoint</a></code> | <code>string</code> | Endpoint of associated EKS cluster. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.clusterIpFamily">clusterIpFamily</a></code> | <code>string</code> | The IP family used to assign Kubernetes pod and service addresses. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.clusterName">clusterName</a></code> | <code>string</code> | Name of associated EKS cluster. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.clusterPrimarySecurityGroupId">clusterPrimarySecurityGroupId</a></code> | <code>string</code> | The ID of the EKS cluster primary security group to associate with the instance(s). |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.clusterSecurityGroupId">clusterSecurityGroupId</a></code> | <code>string</code> | Cluster control plane security group ID. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.clusterServiceIpv4Cidr">clusterServiceIpv4Cidr</a></code> | <code>string</code> | The CIDR block to assign Kubernetes service IP addresses from. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.clusterVersion">clusterVersion</a></code> | <code>string</code> | Kubernetes version. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.cpuOptions">cpuOptions</a></code> | <code>{[ key: string ]: string}</code> | The CPU options for the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.create">create</a></code> | <code>boolean</code> | Determines whether to create EKS managed node group or not. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.createIamRole">createIamRole</a></code> | <code>boolean</code> | Determines whether an IAM role is created or to use an existing IAM role. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.createLaunchTemplate">createLaunchTemplate</a></code> | <code>boolean</code> | Determines whether to create a launch template or not. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.createSecurityGroup">createSecurityGroup</a></code> | <code>boolean</code> | Determines whether to create a security group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.creditSpecification">creditSpecification</a></code> | <code>{[ key: string ]: string}</code> | Customize the credit specification of the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.desiredSize">desiredSize</a></code> | <code>number</code> | Desired number of instances/nodes. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.disableApiTermination">disableApiTermination</a></code> | <code>boolean</code> | If true, enables EC2 instance termination protection. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.diskSize">diskSize</a></code> | <code>number</code> | Disk size in GiB for nodes. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.ebsOptimized">ebsOptimized</a></code> | <code>boolean</code> | If true, the launched EC2 instance(s) will be EBS-optimized. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.elasticGpuSpecifications">elasticGpuSpecifications</a></code> | <code>{[ key: string ]: string}</code> | The elastic GPU to attach to the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.elasticInferenceAccelerator">elasticInferenceAccelerator</a></code> | <code>{[ key: string ]: string}</code> | Configuration block containing an Elastic Inference Accelerator to attach to the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.enableBootstrapUserData">enableBootstrapUserData</a></code> | <code>boolean</code> | Determines whether the bootstrap configurations are populated within the user data template. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.enableMonitoring">enableMonitoring</a></code> | <code>boolean</code> | Enables/disables detailed monitoring. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.enclaveOptions">enclaveOptions</a></code> | <code>{[ key: string ]: string}</code> | Enable Nitro Enclaves on launched instances The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.forceUpdateVersion">forceUpdateVersion</a></code> | <code>boolean</code> | Force version update if existing pods are unable to be drained due to a pod disruption budget issue. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.iamRoleAdditionalPolicies">iamRoleAdditionalPolicies</a></code> | <code>string[]</code> | Additional policies to be added to the IAM role. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.iamRoleArn">iamRoleArn</a></code> | <code>string</code> | Existing IAM role ARN for the node group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.iamRoleAttachCniPolicy">iamRoleAttachCniPolicy</a></code> | <code>boolean</code> | Whether to attach the `AmazonEKS_CNI_Policy`/`AmazonEKS_CNI_IPv6_Policy` IAM policy to the IAM IAM role. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.iamRoleDescription">iamRoleDescription</a></code> | <code>string</code> | Description of the role. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.iamRoleName">iamRoleName</a></code> | <code>string</code> | Name to use on IAM role created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.iamRolePath">iamRolePath</a></code> | <code>string</code> | IAM role path. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.iamRolePermissionsBoundary">iamRolePermissionsBoundary</a></code> | <code>string</code> | ARN of the policy that is used to set the permissions boundary for the IAM role. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.iamRoleTags">iamRoleTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the IAM role created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.iamRoleUseNamePrefix">iamRoleUseNamePrefix</a></code> | <code>boolean</code> | Determines whether the IAM role name (`iam_role_name`) is used as a prefix. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.instanceMarketOptions">instanceMarketOptions</a></code> | <code>any</code> | The market (purchasing) option for the instance. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.instanceTypes">instanceTypes</a></code> | <code>string[]</code> | Set of instance types associated with the EKS Node Group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.kernelId">kernelId</a></code> | <code>string</code> | The kernel ID. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.keyName">keyName</a></code> | <code>string</code> | The key name that should be used for the instance(s). |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | Key-value map of Kubernetes labels. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.launchTemplateDefaultVersion">launchTemplateDefaultVersion</a></code> | <code>string</code> | Default version of the launch template. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.launchTemplateDescription">launchTemplateDescription</a></code> | <code>string</code> | Description of the launch template. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.launchTemplateName">launchTemplateName</a></code> | <code>string</code> | Launch template name - either to be created (`var.create_launch_template` = `true`) or existing (`var.create_launch_template` = `false`). |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.launchTemplateTags">launchTemplateTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the tag_specifications of launch template created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.launchTemplateUseNamePrefix">launchTemplateUseNamePrefix</a></code> | <code>boolean</code> | Determines whether to use `launch_template_name` as is or create a unique name beginning with the `launch_template_name` as the prefix. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.launchTemplateVersion">launchTemplateVersion</a></code> | <code>string</code> | Launch template version number. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.licenseSpecifications">licenseSpecifications</a></code> | <code>{[ key: string ]: string}</code> | A list of license specifications to associate with The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.maxSize">maxSize</a></code> | <code>number</code> | Maximum number of instances/nodes. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.metadataOptions">metadataOptions</a></code> | <code>{[ key: string ]: string}</code> | Customize the metadata options for the instance. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.minSize">minSize</a></code> | <code>number</code> | Minimum number of instances/nodes. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.name">name</a></code> | <code>string</code> | Name of the EKS managed node group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.networkInterfaces">networkInterfaces</a></code> | <code>any[]</code> | Customize network interfaces to be attached at instance boot time. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.placement">placement</a></code> | <code>{[ key: string ]: string}</code> | The placement of the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.platform">platform</a></code> | <code>string</code> | Identifies if the OS platform is `bottlerocket` or `linux` based; |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.postBootstrapUserData">postBootstrapUserData</a></code> | <code>string</code> | User data that is appended to the user data script after of the EKS bootstrap script. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.preBootstrapUserData">preBootstrapUserData</a></code> | <code>string</code> | User data that is injected into the user data script ahead of the EKS bootstrap script. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.ramDiskId">ramDiskId</a></code> | <code>string</code> | The ID of the ram disk. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.remoteAccess">remoteAccess</a></code> | <code>any</code> | Configuration block with remote access settings. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.securityGroupDescription">securityGroupDescription</a></code> | <code>string</code> | Description for the security group created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.securityGroupName">securityGroupName</a></code> | <code>string</code> | Name to use on security group created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.securityGroupRules">securityGroupRules</a></code> | <code>any</code> | List of security group rules to add to the security group created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.securityGroupTags">securityGroupTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the security group created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.securityGroupUseNamePrefix">securityGroupUseNamePrefix</a></code> | <code>string</code> | Determines whether the security group name (`security_group_name`) is used as a prefix. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.subnetIds">subnetIds</a></code> | <code>string[]</code> | Identifiers of EC2 Subnets to associate with the EKS Node Group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | A map of tags to add to all resources. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.taints">taints</a></code> | <code>any</code> | The Kubernetes taints to be applied to the nodes in the node group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.timeouts">timeouts</a></code> | <code>{[ key: string ]: string}</code> | Create, update, and delete timeout configurations for the node group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.updateConfig">updateConfig</a></code> | <code>{[ key: string ]: string}</code> | Configuration block of settings for max unavailable resources during node group updates. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.updateLaunchTemplateDefaultVersion">updateLaunchTemplateDefaultVersion</a></code> | <code>boolean</code> | Whether to update the launch templates default version on each update. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.useNamePrefix">useNamePrefix</a></code> | <code>boolean</code> | Determines whether to use `name` as is or create a unique name beginning with the `name` as the prefix. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.userDataTemplatePath">userDataTemplatePath</a></code> | <code>string</code> | Path to a local, custom user data template file to use when rendering user data. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.vpcId">vpcId</a></code> | <code>string</code> | ID of the VPC where the security group/nodes will be provisioned. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.vpcSecurityGroupIds">vpcSecurityGroupIds</a></code> | <code>string[]</code> | A list of security group IDs to associate. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.amiId">amiId</a></code> | <code>string</code> | The AMI from which to launch the instance. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.amiReleaseVersion">amiReleaseVersion</a></code> | <code>string</code> | AMI version of the EKS Node Group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.amiType">amiType</a></code> | <code>string</code> | Type of Amazon Machine Image (AMI) associated with the EKS Node Group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.blockDeviceMappings">blockDeviceMappings</a></code> | <code>any</code> | Specify volumes to attach to the instance besides the volumes specified by the AMI. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.bootstrapExtraArgs">bootstrapExtraArgs</a></code> | <code>string</code> | Additional arguments passed to the bootstrap script. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.capacityReservationSpecification">capacityReservationSpecification</a></code> | <code>any</code> | Targeting for EC2 capacity reservations. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.capacityType">capacityType</a></code> | <code>string</code> | Type of capacity associated with the EKS Node Group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.clusterAuthBase64">clusterAuthBase64</a></code> | <code>string</code> | Base64 encoded CA of associated EKS cluster. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.clusterEndpoint">clusterEndpoint</a></code> | <code>string</code> | Endpoint of associated EKS cluster. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.clusterIpFamily">clusterIpFamily</a></code> | <code>string</code> | The IP family used to assign Kubernetes pod and service addresses. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.clusterName">clusterName</a></code> | <code>string</code> | Name of associated EKS cluster. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.clusterPrimarySecurityGroupId">clusterPrimarySecurityGroupId</a></code> | <code>string</code> | The ID of the EKS cluster primary security group to associate with the instance(s). |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.clusterSecurityGroupId">clusterSecurityGroupId</a></code> | <code>string</code> | Cluster control plane security group ID. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.clusterServiceIpv4Cidr">clusterServiceIpv4Cidr</a></code> | <code>string</code> | The CIDR block to assign Kubernetes service IP addresses from. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.clusterVersion">clusterVersion</a></code> | <code>string</code> | Kubernetes version. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.cpuOptions">cpuOptions</a></code> | <code>{[ key: string ]: string}</code> | The CPU options for the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.create">create</a></code> | <code>boolean</code> | Determines whether to create EKS managed node group or not. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.createIamRole">createIamRole</a></code> | <code>boolean</code> | Determines whether an IAM role is created or to use an existing IAM role. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.createLaunchTemplate">createLaunchTemplate</a></code> | <code>boolean</code> | Determines whether to create a launch template or not. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.createSecurityGroup">createSecurityGroup</a></code> | <code>boolean</code> | Determines whether to create a security group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.creditSpecification">creditSpecification</a></code> | <code>{[ key: string ]: string}</code> | Customize the credit specification of the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.desiredSize">desiredSize</a></code> | <code>number</code> | Desired number of instances/nodes. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.disableApiTermination">disableApiTermination</a></code> | <code>boolean</code> | If true, enables EC2 instance termination protection. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.diskSize">diskSize</a></code> | <code>number</code> | Disk size in GiB for nodes. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.ebsOptimized">ebsOptimized</a></code> | <code>boolean</code> | If true, the launched EC2 instance(s) will be EBS-optimized. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.elasticGpuSpecifications">elasticGpuSpecifications</a></code> | <code>{[ key: string ]: string}</code> | The elastic GPU to attach to the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.elasticInferenceAccelerator">elasticInferenceAccelerator</a></code> | <code>{[ key: string ]: string}</code> | Configuration block containing an Elastic Inference Accelerator to attach to the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.enableBootstrapUserData">enableBootstrapUserData</a></code> | <code>boolean</code> | Determines whether the bootstrap configurations are populated within the user data template. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.enableMonitoring">enableMonitoring</a></code> | <code>boolean</code> | Enables/disables detailed monitoring. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.enclaveOptions">enclaveOptions</a></code> | <code>{[ key: string ]: string}</code> | Enable Nitro Enclaves on launched instances The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.forceUpdateVersion">forceUpdateVersion</a></code> | <code>boolean</code> | Force version update if existing pods are unable to be drained due to a pod disruption budget issue. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.iamRoleAdditionalPolicies">iamRoleAdditionalPolicies</a></code> | <code>string[]</code> | Additional policies to be added to the IAM role. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.iamRoleArn">iamRoleArn</a></code> | <code>string</code> | Existing IAM role ARN for the node group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.iamRoleAttachCniPolicy">iamRoleAttachCniPolicy</a></code> | <code>boolean</code> | Whether to attach the `AmazonEKS_CNI_Policy`/`AmazonEKS_CNI_IPv6_Policy` IAM policy to the IAM IAM role. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.iamRoleDescription">iamRoleDescription</a></code> | <code>string</code> | Description of the role. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.iamRoleName">iamRoleName</a></code> | <code>string</code> | Name to use on IAM role created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.iamRolePath">iamRolePath</a></code> | <code>string</code> | IAM role path. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.iamRolePermissionsBoundary">iamRolePermissionsBoundary</a></code> | <code>string</code> | ARN of the policy that is used to set the permissions boundary for the IAM role. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.iamRoleTags">iamRoleTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the IAM role created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.iamRoleUseNamePrefix">iamRoleUseNamePrefix</a></code> | <code>boolean</code> | Determines whether the IAM role name (`iam_role_name`) is used as a prefix. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.instanceMarketOptions">instanceMarketOptions</a></code> | <code>any</code> | The market (purchasing) option for the instance. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.instanceTypes">instanceTypes</a></code> | <code>string[]</code> | Set of instance types associated with the EKS Node Group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.kernelId">kernelId</a></code> | <code>string</code> | The kernel ID. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.keyName">keyName</a></code> | <code>string</code> | The key name that should be used for the instance(s). |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | Key-value map of Kubernetes labels. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.launchTemplateDefaultVersion">launchTemplateDefaultVersion</a></code> | <code>string</code> | Default version of the launch template. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.launchTemplateDescription">launchTemplateDescription</a></code> | <code>string</code> | Description of the launch template. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.launchTemplateName">launchTemplateName</a></code> | <code>string</code> | Launch template name - either to be created (`var.create_launch_template` = `true`) or existing (`var.create_launch_template` = `false`). |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.launchTemplateTags">launchTemplateTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the tag_specifications of launch template created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.launchTemplateUseNamePrefix">launchTemplateUseNamePrefix</a></code> | <code>boolean</code> | Determines whether to use `launch_template_name` as is or create a unique name beginning with the `launch_template_name` as the prefix. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.launchTemplateVersion">launchTemplateVersion</a></code> | <code>string</code> | Launch template version number. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.licenseSpecifications">licenseSpecifications</a></code> | <code>{[ key: string ]: string}</code> | A list of license specifications to associate with The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.maxSize">maxSize</a></code> | <code>number</code> | Maximum number of instances/nodes. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.metadataOptions">metadataOptions</a></code> | <code>{[ key: string ]: string}</code> | Customize the metadata options for the instance. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.minSize">minSize</a></code> | <code>number</code> | Minimum number of instances/nodes. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.name">name</a></code> | <code>string</code> | Name of the EKS managed node group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.networkInterfaces">networkInterfaces</a></code> | <code>any[]</code> | Customize network interfaces to be attached at instance boot time. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.placement">placement</a></code> | <code>{[ key: string ]: string}</code> | The placement of the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.platform">platform</a></code> | <code>string</code> | Identifies if the OS platform is `bottlerocket` or `linux` based; |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.postBootstrapUserData">postBootstrapUserData</a></code> | <code>string</code> | User data that is appended to the user data script after of the EKS bootstrap script. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.preBootstrapUserData">preBootstrapUserData</a></code> | <code>string</code> | User data that is injected into the user data script ahead of the EKS bootstrap script. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.ramDiskId">ramDiskId</a></code> | <code>string</code> | The ID of the ram disk. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.remoteAccess">remoteAccess</a></code> | <code>any</code> | Configuration block with remote access settings. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.securityGroupDescription">securityGroupDescription</a></code> | <code>string</code> | Description for the security group created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.securityGroupName">securityGroupName</a></code> | <code>string</code> | Name to use on security group created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.securityGroupRules">securityGroupRules</a></code> | <code>any</code> | List of security group rules to add to the security group created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.securityGroupTags">securityGroupTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the security group created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.securityGroupUseNamePrefix">securityGroupUseNamePrefix</a></code> | <code>string</code> | Determines whether the security group name (`security_group_name`) is used as a prefix. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.subnetIds">subnetIds</a></code> | <code>string[]</code> | Identifiers of EC2 Subnets to associate with the EKS Node Group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | A map of tags to add to all resources. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.taints">taints</a></code> | <code>any</code> | The Kubernetes taints to be applied to the nodes in the node group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.timeouts">timeouts</a></code> | <code>{[ key: string ]: string}</code> | Create, update, and delete timeout configurations for the node group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.updateConfig">updateConfig</a></code> | <code>{[ key: string ]: string}</code> | Configuration block of settings for max unavailable resources during node group updates. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.updateLaunchTemplateDefaultVersion">updateLaunchTemplateDefaultVersion</a></code> | <code>boolean</code> | Whether to update the launch templates default version on each update. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.useNamePrefix">useNamePrefix</a></code> | <code>boolean</code> | Determines whether to use `name` as is or create a unique name beginning with the `name` as the prefix. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.userDataTemplatePath">userDataTemplatePath</a></code> | <code>string</code> | Path to a local, custom user data template file to use when rendering user data. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.vpcId">vpcId</a></code> | <code>string</code> | ID of the VPC where the security group/nodes will be provisioned. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.vpcSecurityGroupIds">vpcSecurityGroupIds</a></code> | <code>string[]</code> | A list of security group IDs to associate. |
 
 ---
 
-##### `amiId`<sup>Optional</sup> <a name="amiId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.amiId"></a>
+##### `amiId`<sup>Optional</sup> <a name="amiId" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.amiId"></a>
 
 ```typescript
 public readonly amiId: string;
@@ -4549,7 +4549,7 @@ If not supplied, EKS will use its own default image
 
 ---
 
-##### `amiReleaseVersion`<sup>Optional</sup> <a name="amiReleaseVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.amiReleaseVersion"></a>
+##### `amiReleaseVersion`<sup>Optional</sup> <a name="amiReleaseVersion" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.amiReleaseVersion"></a>
 
 ```typescript
 public readonly amiReleaseVersion: string;
@@ -4563,7 +4563,7 @@ Defaults to latest version for Kubernetes version
 
 ---
 
-##### `amiType`<sup>Optional</sup> <a name="amiType" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.amiType"></a>
+##### `amiType`<sup>Optional</sup> <a name="amiType" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.amiType"></a>
 
 ```typescript
 public readonly amiType: string;
@@ -4577,7 +4577,7 @@ Valid values are `AL2_x86_64`, `AL2_x86_64_GPU`, `AL2_ARM_64`, `CUSTOM`, `BOTTLE
 
 ---
 
-##### `blockDeviceMappings`<sup>Optional</sup> <a name="blockDeviceMappings" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.blockDeviceMappings"></a>
+##### `blockDeviceMappings`<sup>Optional</sup> <a name="blockDeviceMappings" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.blockDeviceMappings"></a>
 
 ```typescript
 public readonly blockDeviceMappings: any;
@@ -4590,7 +4590,7 @@ Specify volumes to attach to the instance besides the volumes specified by the A
 
 ---
 
-##### `bootstrapExtraArgs`<sup>Optional</sup> <a name="bootstrapExtraArgs" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.bootstrapExtraArgs"></a>
+##### `bootstrapExtraArgs`<sup>Optional</sup> <a name="bootstrapExtraArgs" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.bootstrapExtraArgs"></a>
 
 ```typescript
 public readonly bootstrapExtraArgs: string;
@@ -4604,7 +4604,7 @@ When `platform` = `bottlerocket`; these are additional [settings](https://github
 
 ---
 
-##### `capacityReservationSpecification`<sup>Optional</sup> <a name="capacityReservationSpecification" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.capacityReservationSpecification"></a>
+##### `capacityReservationSpecification`<sup>Optional</sup> <a name="capacityReservationSpecification" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.capacityReservationSpecification"></a>
 
 ```typescript
 public readonly capacityReservationSpecification: any;
@@ -4616,7 +4616,7 @@ Targeting for EC2 capacity reservations.
 
 ---
 
-##### `capacityType`<sup>Optional</sup> <a name="capacityType" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.capacityType"></a>
+##### `capacityType`<sup>Optional</sup> <a name="capacityType" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.capacityType"></a>
 
 ```typescript
 public readonly capacityType: string;
@@ -4631,7 +4631,7 @@ Valid values: `ON_DEMAND`, `SPOT`
 
 ---
 
-##### `clusterAuthBase64`<sup>Optional</sup> <a name="clusterAuthBase64" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.clusterAuthBase64"></a>
+##### `clusterAuthBase64`<sup>Optional</sup> <a name="clusterAuthBase64" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.clusterAuthBase64"></a>
 
 ```typescript
 public readonly clusterAuthBase64: string;
@@ -4643,7 +4643,7 @@ Base64 encoded CA of associated EKS cluster.
 
 ---
 
-##### `clusterEndpoint`<sup>Optional</sup> <a name="clusterEndpoint" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.clusterEndpoint"></a>
+##### `clusterEndpoint`<sup>Optional</sup> <a name="clusterEndpoint" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.clusterEndpoint"></a>
 
 ```typescript
 public readonly clusterEndpoint: string;
@@ -4655,7 +4655,7 @@ Endpoint of associated EKS cluster.
 
 ---
 
-##### `clusterIpFamily`<sup>Optional</sup> <a name="clusterIpFamily" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.clusterIpFamily"></a>
+##### `clusterIpFamily`<sup>Optional</sup> <a name="clusterIpFamily" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.clusterIpFamily"></a>
 
 ```typescript
 public readonly clusterIpFamily: string;
@@ -4669,7 +4669,7 @@ Valid values are `ipv4` (default) and `ipv6`
 
 ---
 
-##### `clusterName`<sup>Optional</sup> <a name="clusterName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.clusterName"></a>
+##### `clusterName`<sup>Optional</sup> <a name="clusterName" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.clusterName"></a>
 
 ```typescript
 public readonly clusterName: string;
@@ -4681,7 +4681,7 @@ Name of associated EKS cluster.
 
 ---
 
-##### `clusterPrimarySecurityGroupId`<sup>Optional</sup> <a name="clusterPrimarySecurityGroupId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.clusterPrimarySecurityGroupId"></a>
+##### `clusterPrimarySecurityGroupId`<sup>Optional</sup> <a name="clusterPrimarySecurityGroupId" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.clusterPrimarySecurityGroupId"></a>
 
 ```typescript
 public readonly clusterPrimarySecurityGroupId: string;
@@ -4695,7 +4695,7 @@ This is the security group that is automatically created by the EKS service
 
 ---
 
-##### `clusterSecurityGroupId`<sup>Optional</sup> <a name="clusterSecurityGroupId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.clusterSecurityGroupId"></a>
+##### `clusterSecurityGroupId`<sup>Optional</sup> <a name="clusterSecurityGroupId" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.clusterSecurityGroupId"></a>
 
 ```typescript
 public readonly clusterSecurityGroupId: string;
@@ -4707,7 +4707,7 @@ Cluster control plane security group ID.
 
 ---
 
-##### `clusterServiceIpv4Cidr`<sup>Optional</sup> <a name="clusterServiceIpv4Cidr" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.clusterServiceIpv4Cidr"></a>
+##### `clusterServiceIpv4Cidr`<sup>Optional</sup> <a name="clusterServiceIpv4Cidr" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.clusterServiceIpv4Cidr"></a>
 
 ```typescript
 public readonly clusterServiceIpv4Cidr: string;
@@ -4721,7 +4721,7 @@ If you don't specify a block, Kubernetes assigns addresses from either the 10.10
 
 ---
 
-##### `clusterVersion`<sup>Optional</sup> <a name="clusterVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.clusterVersion"></a>
+##### `clusterVersion`<sup>Optional</sup> <a name="clusterVersion" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.clusterVersion"></a>
 
 ```typescript
 public readonly clusterVersion: string;
@@ -4735,7 +4735,7 @@ Defaults to EKS Cluster Kubernetes version
 
 ---
 
-##### `cpuOptions`<sup>Optional</sup> <a name="cpuOptions" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.cpuOptions"></a>
+##### `cpuOptions`<sup>Optional</sup> <a name="cpuOptions" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.cpuOptions"></a>
 
 ```typescript
 public readonly cpuOptions: {[ key: string ]: string};
@@ -4747,7 +4747,7 @@ The CPU options for the instance The property type contains a map, they have spe
 
 ---
 
-##### `create`<sup>Optional</sup> <a name="create" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.create"></a>
+##### `create`<sup>Optional</sup> <a name="create" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.create"></a>
 
 ```typescript
 public readonly create: boolean;
@@ -4760,7 +4760,7 @@ Determines whether to create EKS managed node group or not.
 
 ---
 
-##### `createIamRole`<sup>Optional</sup> <a name="createIamRole" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.createIamRole"></a>
+##### `createIamRole`<sup>Optional</sup> <a name="createIamRole" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.createIamRole"></a>
 
 ```typescript
 public readonly createIamRole: boolean;
@@ -4773,7 +4773,7 @@ Determines whether an IAM role is created or to use an existing IAM role.
 
 ---
 
-##### `createLaunchTemplate`<sup>Optional</sup> <a name="createLaunchTemplate" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.createLaunchTemplate"></a>
+##### `createLaunchTemplate`<sup>Optional</sup> <a name="createLaunchTemplate" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.createLaunchTemplate"></a>
 
 ```typescript
 public readonly createLaunchTemplate: boolean;
@@ -4788,7 +4788,7 @@ If set to `false`, EKS will use its own default launch template
 
 ---
 
-##### `createSecurityGroup`<sup>Optional</sup> <a name="createSecurityGroup" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.createSecurityGroup"></a>
+##### `createSecurityGroup`<sup>Optional</sup> <a name="createSecurityGroup" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.createSecurityGroup"></a>
 
 ```typescript
 public readonly createSecurityGroup: boolean;
@@ -4801,7 +4801,7 @@ Determines whether to create a security group.
 
 ---
 
-##### `creditSpecification`<sup>Optional</sup> <a name="creditSpecification" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.creditSpecification"></a>
+##### `creditSpecification`<sup>Optional</sup> <a name="creditSpecification" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.creditSpecification"></a>
 
 ```typescript
 public readonly creditSpecification: {[ key: string ]: string};
@@ -4813,7 +4813,7 @@ Customize the credit specification of the instance The property type contains a 
 
 ---
 
-##### `desiredSize`<sup>Optional</sup> <a name="desiredSize" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.desiredSize"></a>
+##### `desiredSize`<sup>Optional</sup> <a name="desiredSize" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.desiredSize"></a>
 
 ```typescript
 public readonly desiredSize: number;
@@ -4826,7 +4826,7 @@ Desired number of instances/nodes.
 
 ---
 
-##### `disableApiTermination`<sup>Optional</sup> <a name="disableApiTermination" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.disableApiTermination"></a>
+##### `disableApiTermination`<sup>Optional</sup> <a name="disableApiTermination" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.disableApiTermination"></a>
 
 ```typescript
 public readonly disableApiTermination: boolean;
@@ -4838,7 +4838,7 @@ If true, enables EC2 instance termination protection.
 
 ---
 
-##### `diskSize`<sup>Optional</sup> <a name="diskSize" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.diskSize"></a>
+##### `diskSize`<sup>Optional</sup> <a name="diskSize" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.diskSize"></a>
 
 ```typescript
 public readonly diskSize: number;
@@ -4852,7 +4852,7 @@ Defaults to `20`
 
 ---
 
-##### `ebsOptimized`<sup>Optional</sup> <a name="ebsOptimized" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.ebsOptimized"></a>
+##### `ebsOptimized`<sup>Optional</sup> <a name="ebsOptimized" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.ebsOptimized"></a>
 
 ```typescript
 public readonly ebsOptimized: boolean;
@@ -4864,7 +4864,7 @@ If true, the launched EC2 instance(s) will be EBS-optimized.
 
 ---
 
-##### `elasticGpuSpecifications`<sup>Optional</sup> <a name="elasticGpuSpecifications" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.elasticGpuSpecifications"></a>
+##### `elasticGpuSpecifications`<sup>Optional</sup> <a name="elasticGpuSpecifications" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.elasticGpuSpecifications"></a>
 
 ```typescript
 public readonly elasticGpuSpecifications: {[ key: string ]: string};
@@ -4876,7 +4876,7 @@ The elastic GPU to attach to the instance The property type contains a map, they
 
 ---
 
-##### `elasticInferenceAccelerator`<sup>Optional</sup> <a name="elasticInferenceAccelerator" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.elasticInferenceAccelerator"></a>
+##### `elasticInferenceAccelerator`<sup>Optional</sup> <a name="elasticInferenceAccelerator" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.elasticInferenceAccelerator"></a>
 
 ```typescript
 public readonly elasticInferenceAccelerator: {[ key: string ]: string};
@@ -4888,7 +4888,7 @@ Configuration block containing an Elastic Inference Accelerator to attach to the
 
 ---
 
-##### `enableBootstrapUserData`<sup>Optional</sup> <a name="enableBootstrapUserData" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.enableBootstrapUserData"></a>
+##### `enableBootstrapUserData`<sup>Optional</sup> <a name="enableBootstrapUserData" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.enableBootstrapUserData"></a>
 
 ```typescript
 public readonly enableBootstrapUserData: boolean;
@@ -4900,7 +4900,7 @@ Determines whether the bootstrap configurations are populated within the user da
 
 ---
 
-##### `enableMonitoring`<sup>Optional</sup> <a name="enableMonitoring" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.enableMonitoring"></a>
+##### `enableMonitoring`<sup>Optional</sup> <a name="enableMonitoring" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.enableMonitoring"></a>
 
 ```typescript
 public readonly enableMonitoring: boolean;
@@ -4913,7 +4913,7 @@ Enables/disables detailed monitoring.
 
 ---
 
-##### `enclaveOptions`<sup>Optional</sup> <a name="enclaveOptions" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.enclaveOptions"></a>
+##### `enclaveOptions`<sup>Optional</sup> <a name="enclaveOptions" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.enclaveOptions"></a>
 
 ```typescript
 public readonly enclaveOptions: {[ key: string ]: string};
@@ -4925,7 +4925,7 @@ Enable Nitro Enclaves on launched instances The property type contains a map, th
 
 ---
 
-##### `forceUpdateVersion`<sup>Optional</sup> <a name="forceUpdateVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.forceUpdateVersion"></a>
+##### `forceUpdateVersion`<sup>Optional</sup> <a name="forceUpdateVersion" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.forceUpdateVersion"></a>
 
 ```typescript
 public readonly forceUpdateVersion: boolean;
@@ -4937,7 +4937,7 @@ Force version update if existing pods are unable to be drained due to a pod disr
 
 ---
 
-##### `iamRoleAdditionalPolicies`<sup>Optional</sup> <a name="iamRoleAdditionalPolicies" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.iamRoleAdditionalPolicies"></a>
+##### `iamRoleAdditionalPolicies`<sup>Optional</sup> <a name="iamRoleAdditionalPolicies" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.iamRoleAdditionalPolicies"></a>
 
 ```typescript
 public readonly iamRoleAdditionalPolicies: string[];
@@ -4949,7 +4949,7 @@ Additional policies to be added to the IAM role.
 
 ---
 
-##### `iamRoleArn`<sup>Optional</sup> <a name="iamRoleArn" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.iamRoleArn"></a>
+##### `iamRoleArn`<sup>Optional</sup> <a name="iamRoleArn" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.iamRoleArn"></a>
 
 ```typescript
 public readonly iamRoleArn: string;
@@ -4963,7 +4963,7 @@ Required if `create_iam_role` is set to `false`
 
 ---
 
-##### `iamRoleAttachCniPolicy`<sup>Optional</sup> <a name="iamRoleAttachCniPolicy" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.iamRoleAttachCniPolicy"></a>
+##### `iamRoleAttachCniPolicy`<sup>Optional</sup> <a name="iamRoleAttachCniPolicy" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.iamRoleAttachCniPolicy"></a>
 
 ```typescript
 public readonly iamRoleAttachCniPolicy: boolean;
@@ -4978,7 +4978,7 @@ WARNING: If set `false` the permissions must be assigned to the `aws-node` Daemo
 
 ---
 
-##### `iamRoleDescription`<sup>Optional</sup> <a name="iamRoleDescription" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.iamRoleDescription"></a>
+##### `iamRoleDescription`<sup>Optional</sup> <a name="iamRoleDescription" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.iamRoleDescription"></a>
 
 ```typescript
 public readonly iamRoleDescription: string;
@@ -4990,7 +4990,7 @@ Description of the role.
 
 ---
 
-##### `iamRoleName`<sup>Optional</sup> <a name="iamRoleName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.iamRoleName"></a>
+##### `iamRoleName`<sup>Optional</sup> <a name="iamRoleName" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.iamRoleName"></a>
 
 ```typescript
 public readonly iamRoleName: string;
@@ -5002,7 +5002,7 @@ Name to use on IAM role created.
 
 ---
 
-##### `iamRolePath`<sup>Optional</sup> <a name="iamRolePath" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.iamRolePath"></a>
+##### `iamRolePath`<sup>Optional</sup> <a name="iamRolePath" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.iamRolePath"></a>
 
 ```typescript
 public readonly iamRolePath: string;
@@ -5014,7 +5014,7 @@ IAM role path.
 
 ---
 
-##### `iamRolePermissionsBoundary`<sup>Optional</sup> <a name="iamRolePermissionsBoundary" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.iamRolePermissionsBoundary"></a>
+##### `iamRolePermissionsBoundary`<sup>Optional</sup> <a name="iamRolePermissionsBoundary" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.iamRolePermissionsBoundary"></a>
 
 ```typescript
 public readonly iamRolePermissionsBoundary: string;
@@ -5026,7 +5026,7 @@ ARN of the policy that is used to set the permissions boundary for the IAM role.
 
 ---
 
-##### `iamRoleTags`<sup>Optional</sup> <a name="iamRoleTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.iamRoleTags"></a>
+##### `iamRoleTags`<sup>Optional</sup> <a name="iamRoleTags" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.iamRoleTags"></a>
 
 ```typescript
 public readonly iamRoleTags: {[ key: string ]: string};
@@ -5039,7 +5039,7 @@ A map of additional tags to add to the IAM role created.
 
 ---
 
-##### `iamRoleUseNamePrefix`<sup>Optional</sup> <a name="iamRoleUseNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.iamRoleUseNamePrefix"></a>
+##### `iamRoleUseNamePrefix`<sup>Optional</sup> <a name="iamRoleUseNamePrefix" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.iamRoleUseNamePrefix"></a>
 
 ```typescript
 public readonly iamRoleUseNamePrefix: boolean;
@@ -5052,7 +5052,7 @@ Determines whether the IAM role name (`iam_role_name`) is used as a prefix.
 
 ---
 
-##### `instanceMarketOptions`<sup>Optional</sup> <a name="instanceMarketOptions" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.instanceMarketOptions"></a>
+##### `instanceMarketOptions`<sup>Optional</sup> <a name="instanceMarketOptions" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.instanceMarketOptions"></a>
 
 ```typescript
 public readonly instanceMarketOptions: any;
@@ -5064,7 +5064,7 @@ The market (purchasing) option for the instance.
 
 ---
 
-##### `instanceTypes`<sup>Optional</sup> <a name="instanceTypes" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.instanceTypes"></a>
+##### `instanceTypes`<sup>Optional</sup> <a name="instanceTypes" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.instanceTypes"></a>
 
 ```typescript
 public readonly instanceTypes: string[];
@@ -5078,7 +5078,7 @@ Defaults to `["t3.medium"]`
 
 ---
 
-##### `kernelId`<sup>Optional</sup> <a name="kernelId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.kernelId"></a>
+##### `kernelId`<sup>Optional</sup> <a name="kernelId" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.kernelId"></a>
 
 ```typescript
 public readonly kernelId: string;
@@ -5090,7 +5090,7 @@ The kernel ID.
 
 ---
 
-##### `keyName`<sup>Optional</sup> <a name="keyName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.keyName"></a>
+##### `keyName`<sup>Optional</sup> <a name="keyName" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.keyName"></a>
 
 ```typescript
 public readonly keyName: string;
@@ -5102,7 +5102,7 @@ The key name that should be used for the instance(s).
 
 ---
 
-##### `labels`<sup>Optional</sup> <a name="labels" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.labels"></a>
+##### `labels`<sup>Optional</sup> <a name="labels" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.labels"></a>
 
 ```typescript
 public readonly labels: {[ key: string ]: string};
@@ -5117,7 +5117,7 @@ The property type contains a map, they have special handling, please see {@link 
 
 ---
 
-##### `launchTemplateDefaultVersion`<sup>Optional</sup> <a name="launchTemplateDefaultVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.launchTemplateDefaultVersion"></a>
+##### `launchTemplateDefaultVersion`<sup>Optional</sup> <a name="launchTemplateDefaultVersion" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.launchTemplateDefaultVersion"></a>
 
 ```typescript
 public readonly launchTemplateDefaultVersion: string;
@@ -5129,7 +5129,7 @@ Default version of the launch template.
 
 ---
 
-##### `launchTemplateDescription`<sup>Optional</sup> <a name="launchTemplateDescription" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.launchTemplateDescription"></a>
+##### `launchTemplateDescription`<sup>Optional</sup> <a name="launchTemplateDescription" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.launchTemplateDescription"></a>
 
 ```typescript
 public readonly launchTemplateDescription: string;
@@ -5141,7 +5141,7 @@ Description of the launch template.
 
 ---
 
-##### `launchTemplateName`<sup>Optional</sup> <a name="launchTemplateName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.launchTemplateName"></a>
+##### `launchTemplateName`<sup>Optional</sup> <a name="launchTemplateName" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.launchTemplateName"></a>
 
 ```typescript
 public readonly launchTemplateName: string;
@@ -5153,7 +5153,7 @@ Launch template name - either to be created (`var.create_launch_template` = `tru
 
 ---
 
-##### `launchTemplateTags`<sup>Optional</sup> <a name="launchTemplateTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.launchTemplateTags"></a>
+##### `launchTemplateTags`<sup>Optional</sup> <a name="launchTemplateTags" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.launchTemplateTags"></a>
 
 ```typescript
 public readonly launchTemplateTags: {[ key: string ]: string};
@@ -5166,7 +5166,7 @@ A map of additional tags to add to the tag_specifications of launch template cre
 
 ---
 
-##### `launchTemplateUseNamePrefix`<sup>Optional</sup> <a name="launchTemplateUseNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.launchTemplateUseNamePrefix"></a>
+##### `launchTemplateUseNamePrefix`<sup>Optional</sup> <a name="launchTemplateUseNamePrefix" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.launchTemplateUseNamePrefix"></a>
 
 ```typescript
 public readonly launchTemplateUseNamePrefix: boolean;
@@ -5179,7 +5179,7 @@ Determines whether to use `launch_template_name` as is or create a unique name b
 
 ---
 
-##### `launchTemplateVersion`<sup>Optional</sup> <a name="launchTemplateVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.launchTemplateVersion"></a>
+##### `launchTemplateVersion`<sup>Optional</sup> <a name="launchTemplateVersion" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.launchTemplateVersion"></a>
 
 ```typescript
 public readonly launchTemplateVersion: string;
@@ -5193,7 +5193,7 @@ The default is `$Default`
 
 ---
 
-##### `licenseSpecifications`<sup>Optional</sup> <a name="licenseSpecifications" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.licenseSpecifications"></a>
+##### `licenseSpecifications`<sup>Optional</sup> <a name="licenseSpecifications" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.licenseSpecifications"></a>
 
 ```typescript
 public readonly licenseSpecifications: {[ key: string ]: string};
@@ -5205,7 +5205,7 @@ A list of license specifications to associate with The property type contains a 
 
 ---
 
-##### `maxSize`<sup>Optional</sup> <a name="maxSize" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.maxSize"></a>
+##### `maxSize`<sup>Optional</sup> <a name="maxSize" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.maxSize"></a>
 
 ```typescript
 public readonly maxSize: number;
@@ -5218,7 +5218,7 @@ Maximum number of instances/nodes.
 
 ---
 
-##### `metadataOptions`<sup>Optional</sup> <a name="metadataOptions" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.metadataOptions"></a>
+##### `metadataOptions`<sup>Optional</sup> <a name="metadataOptions" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.metadataOptions"></a>
 
 ```typescript
 public readonly metadataOptions: {[ key: string ]: string};
@@ -5231,7 +5231,7 @@ Customize the metadata options for the instance.
 
 ---
 
-##### `minSize`<sup>Optional</sup> <a name="minSize" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.minSize"></a>
+##### `minSize`<sup>Optional</sup> <a name="minSize" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.minSize"></a>
 
 ```typescript
 public readonly minSize: number;
@@ -5243,7 +5243,7 @@ Minimum number of instances/nodes.
 
 ---
 
-##### `name`<sup>Optional</sup> <a name="name" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.name"></a>
+##### `name`<sup>Optional</sup> <a name="name" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -5255,7 +5255,7 @@ Name of the EKS managed node group.
 
 ---
 
-##### `networkInterfaces`<sup>Optional</sup> <a name="networkInterfaces" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.networkInterfaces"></a>
+##### `networkInterfaces`<sup>Optional</sup> <a name="networkInterfaces" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.networkInterfaces"></a>
 
 ```typescript
 public readonly networkInterfaces: any[];
@@ -5267,7 +5267,7 @@ Customize network interfaces to be attached at instance boot time.
 
 ---
 
-##### `placement`<sup>Optional</sup> <a name="placement" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.placement"></a>
+##### `placement`<sup>Optional</sup> <a name="placement" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.placement"></a>
 
 ```typescript
 public readonly placement: {[ key: string ]: string};
@@ -5279,7 +5279,7 @@ The placement of the instance The property type contains a map, they have specia
 
 ---
 
-##### `platform`<sup>Optional</sup> <a name="platform" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.platform"></a>
+##### `platform`<sup>Optional</sup> <a name="platform" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.platform"></a>
 
 ```typescript
 public readonly platform: string;
@@ -5294,7 +5294,7 @@ Identifies if the OS platform is `bottlerocket` or `linux` based;
 
 ---
 
-##### `postBootstrapUserData`<sup>Optional</sup> <a name="postBootstrapUserData" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.postBootstrapUserData"></a>
+##### `postBootstrapUserData`<sup>Optional</sup> <a name="postBootstrapUserData" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.postBootstrapUserData"></a>
 
 ```typescript
 public readonly postBootstrapUserData: string;
@@ -5308,7 +5308,7 @@ Not used when `platform` = `bottlerocket`
 
 ---
 
-##### `preBootstrapUserData`<sup>Optional</sup> <a name="preBootstrapUserData" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.preBootstrapUserData"></a>
+##### `preBootstrapUserData`<sup>Optional</sup> <a name="preBootstrapUserData" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.preBootstrapUserData"></a>
 
 ```typescript
 public readonly preBootstrapUserData: string;
@@ -5322,7 +5322,7 @@ Not used when `platform` = `bottlerocket`
 
 ---
 
-##### `ramDiskId`<sup>Optional</sup> <a name="ramDiskId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.ramDiskId"></a>
+##### `ramDiskId`<sup>Optional</sup> <a name="ramDiskId" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.ramDiskId"></a>
 
 ```typescript
 public readonly ramDiskId: string;
@@ -5334,7 +5334,7 @@ The ID of the ram disk.
 
 ---
 
-##### `remoteAccess`<sup>Optional</sup> <a name="remoteAccess" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.remoteAccess"></a>
+##### `remoteAccess`<sup>Optional</sup> <a name="remoteAccess" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.remoteAccess"></a>
 
 ```typescript
 public readonly remoteAccess: any;
@@ -5347,7 +5347,7 @@ Configuration block with remote access settings.
 
 ---
 
-##### `securityGroupDescription`<sup>Optional</sup> <a name="securityGroupDescription" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.securityGroupDescription"></a>
+##### `securityGroupDescription`<sup>Optional</sup> <a name="securityGroupDescription" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.securityGroupDescription"></a>
 
 ```typescript
 public readonly securityGroupDescription: string;
@@ -5360,7 +5360,7 @@ Description for the security group created.
 
 ---
 
-##### `securityGroupName`<sup>Optional</sup> <a name="securityGroupName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.securityGroupName"></a>
+##### `securityGroupName`<sup>Optional</sup> <a name="securityGroupName" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.securityGroupName"></a>
 
 ```typescript
 public readonly securityGroupName: string;
@@ -5372,7 +5372,7 @@ Name to use on security group created.
 
 ---
 
-##### `securityGroupRules`<sup>Optional</sup> <a name="securityGroupRules" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.securityGroupRules"></a>
+##### `securityGroupRules`<sup>Optional</sup> <a name="securityGroupRules" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.securityGroupRules"></a>
 
 ```typescript
 public readonly securityGroupRules: any;
@@ -5385,7 +5385,7 @@ List of security group rules to add to the security group created.
 
 ---
 
-##### `securityGroupTags`<sup>Optional</sup> <a name="securityGroupTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.securityGroupTags"></a>
+##### `securityGroupTags`<sup>Optional</sup> <a name="securityGroupTags" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.securityGroupTags"></a>
 
 ```typescript
 public readonly securityGroupTags: {[ key: string ]: string};
@@ -5398,7 +5398,7 @@ A map of additional tags to add to the security group created.
 
 ---
 
-##### `securityGroupUseNamePrefix`<sup>Optional</sup> <a name="securityGroupUseNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.securityGroupUseNamePrefix"></a>
+##### `securityGroupUseNamePrefix`<sup>Optional</sup> <a name="securityGroupUseNamePrefix" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.securityGroupUseNamePrefix"></a>
 
 ```typescript
 public readonly securityGroupUseNamePrefix: string;
@@ -5411,7 +5411,7 @@ Determines whether the security group name (`security_group_name`) is used as a 
 
 ---
 
-##### `subnetIds`<sup>Optional</sup> <a name="subnetIds" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.subnetIds"></a>
+##### `subnetIds`<sup>Optional</sup> <a name="subnetIds" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.subnetIds"></a>
 
 ```typescript
 public readonly subnetIds: string[];
@@ -5425,7 +5425,7 @@ These subnets must have the following resource tag: `kubernetes.io/cluster/CLUST
 
 ---
 
-##### `tags`<sup>Optional</sup> <a name="tags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.tags"></a>
+##### `tags`<sup>Optional</sup> <a name="tags" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.tags"></a>
 
 ```typescript
 public readonly tags: {[ key: string ]: string};
@@ -5438,7 +5438,7 @@ A map of tags to add to all resources.
 
 ---
 
-##### `taints`<sup>Optional</sup> <a name="taints" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.taints"></a>
+##### `taints`<sup>Optional</sup> <a name="taints" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.taints"></a>
 
 ```typescript
 public readonly taints: any;
@@ -5453,7 +5453,7 @@ Maximum of 50 taints per node group
 
 ---
 
-##### `timeouts`<sup>Optional</sup> <a name="timeouts" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.timeouts"></a>
+##### `timeouts`<sup>Optional</sup> <a name="timeouts" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.timeouts"></a>
 
 ```typescript
 public readonly timeouts: {[ key: string ]: string};
@@ -5466,7 +5466,7 @@ Create, update, and delete timeout configurations for the node group.
 
 ---
 
-##### `updateConfig`<sup>Optional</sup> <a name="updateConfig" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.updateConfig"></a>
+##### `updateConfig`<sup>Optional</sup> <a name="updateConfig" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.updateConfig"></a>
 
 ```typescript
 public readonly updateConfig: {[ key: string ]: string};
@@ -5479,7 +5479,7 @@ Configuration block of settings for max unavailable resources during node group 
 
 ---
 
-##### `updateLaunchTemplateDefaultVersion`<sup>Optional</sup> <a name="updateLaunchTemplateDefaultVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.updateLaunchTemplateDefaultVersion"></a>
+##### `updateLaunchTemplateDefaultVersion`<sup>Optional</sup> <a name="updateLaunchTemplateDefaultVersion" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.updateLaunchTemplateDefaultVersion"></a>
 
 ```typescript
 public readonly updateLaunchTemplateDefaultVersion: boolean;
@@ -5494,7 +5494,7 @@ Conflicts with `launch_template_default_version`
 
 ---
 
-##### `useNamePrefix`<sup>Optional</sup> <a name="useNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.useNamePrefix"></a>
+##### `useNamePrefix`<sup>Optional</sup> <a name="useNamePrefix" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.useNamePrefix"></a>
 
 ```typescript
 public readonly useNamePrefix: boolean;
@@ -5507,7 +5507,7 @@ Determines whether to use `name` as is or create a unique name beginning with th
 
 ---
 
-##### `userDataTemplatePath`<sup>Optional</sup> <a name="userDataTemplatePath" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.userDataTemplatePath"></a>
+##### `userDataTemplatePath`<sup>Optional</sup> <a name="userDataTemplatePath" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.userDataTemplatePath"></a>
 
 ```typescript
 public readonly userDataTemplatePath: string;
@@ -5519,7 +5519,7 @@ Path to a local, custom user data template file to use when rendering user data.
 
 ---
 
-##### `vpcId`<sup>Optional</sup> <a name="vpcId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.vpcId"></a>
+##### `vpcId`<sup>Optional</sup> <a name="vpcId" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.vpcId"></a>
 
 ```typescript
 public readonly vpcId: string;
@@ -5531,7 +5531,7 @@ ID of the VPC where the security group/nodes will be provisioned.
 
 ---
 
-##### `vpcSecurityGroupIds`<sup>Optional</sup> <a name="vpcSecurityGroupIds" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksEksManagedNodeGroupOptions.property.vpcSecurityGroupIds"></a>
+##### `vpcSecurityGroupIds`<sup>Optional</sup> <a name="vpcSecurityGroupIds" id="@danielmschmidt/eks-cluster.EksEksManagedNodeGroupOptions.property.vpcSecurityGroupIds"></a>
 
 ```typescript
 public readonly vpcSecurityGroupIds: string[];
@@ -5543,12 +5543,12 @@ A list of security group IDs to associate.
 
 ---
 
-### EksOptions <a name="EksOptions" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions"></a>
+### EksOptions <a name="EksOptions" id="@danielmschmidt/eks-cluster.EksOptions"></a>
 
-#### Initializer <a name="Initializer" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="@danielmschmidt/eks-cluster.EksOptions.Initializer"></a>
 
 ```typescript
-import { EksOptions } from 'terraform-cdk-terraform-module-publishing-on-gh-pages'
+import { EksOptions } from '@danielmschmidt/eks-cluster'
 
 const eksOptions: EksOptions = { ... }
 ```
@@ -5557,82 +5557,82 @@ const eksOptions: EksOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.attachClusterEncryptionPolicy">attachClusterEncryptionPolicy</a></code> | <code>boolean</code> | Indicates whether or not to attach an additional policy for the cluster IAM role to utilize the encryption key provided. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.awsAuthAccounts">awsAuthAccounts</a></code> | <code>any[]</code> | List of account maps to add to the aws-auth configmap. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.awsAuthFargateProfilePodExecutionRoleArns">awsAuthFargateProfilePodExecutionRoleArns</a></code> | <code>string[]</code> | List of Fargate profile pod execution role ARNs to add to the aws-auth configmap. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.awsAuthNodeIamRoleArnsNonWindows">awsAuthNodeIamRoleArnsNonWindows</a></code> | <code>string[]</code> | List of non-Windows based node IAM role ARNs to add to the aws-auth configmap. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.awsAuthNodeIamRoleArnsWindows">awsAuthNodeIamRoleArnsWindows</a></code> | <code>string[]</code> | List of Windows based node IAM role ARNs to add to the aws-auth configmap. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.awsAuthRoles">awsAuthRoles</a></code> | <code>any[]</code> | List of role maps to add to the aws-auth configmap. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.awsAuthUsers">awsAuthUsers</a></code> | <code>any[]</code> | List of user maps to add to the aws-auth configmap. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.cloudwatchLogGroupKmsKeyId">cloudwatchLogGroupKmsKeyId</a></code> | <code>string</code> | If a KMS Key ARN is set, this key will be used to encrypt the corresponding log group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.cloudwatchLogGroupRetentionInDays">cloudwatchLogGroupRetentionInDays</a></code> | <code>number</code> | Number of days to retain log events. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterAdditionalSecurityGroupIds">clusterAdditionalSecurityGroupIds</a></code> | <code>string[]</code> | List of additional, externally created security group IDs to attach to the cluster control plane. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterAddons">clusterAddons</a></code> | <code>any</code> | Map of cluster addon configurations to enable for the cluster. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterEnabledLogTypes">clusterEnabledLogTypes</a></code> | <code>string[]</code> | A list of the desired control plane logs to enable. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterEncryptionConfig">clusterEncryptionConfig</a></code> | <code>any</code> | Configuration block with encryption configuration for the cluster. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterEncryptionPolicyDescription">clusterEncryptionPolicyDescription</a></code> | <code>string</code> | Description of the cluster encryption policy created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterEncryptionPolicyName">clusterEncryptionPolicyName</a></code> | <code>string</code> | Name to use on cluster encryption policy created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterEncryptionPolicyPath">clusterEncryptionPolicyPath</a></code> | <code>string</code> | Cluster encryption policy path. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterEncryptionPolicyTags">clusterEncryptionPolicyTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the cluster encryption policy created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterEncryptionPolicyUseNamePrefix">clusterEncryptionPolicyUseNamePrefix</a></code> | <code>string</code> | Determines whether cluster encryption policy name (`cluster_encryption_policy_name`) is used as a prefix. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterEndpointPrivateAccess">clusterEndpointPrivateAccess</a></code> | <code>boolean</code> | Indicates whether or not the Amazon EKS private API server endpoint is enabled. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterEndpointPublicAccess">clusterEndpointPublicAccess</a></code> | <code>boolean</code> | Indicates whether or not the Amazon EKS public API server endpoint is enabled. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterEndpointPublicAccessCidrs">clusterEndpointPublicAccessCidrs</a></code> | <code>string[]</code> | List of CIDR blocks which can access the Amazon EKS public API server endpoint. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterIamRoleDnsSuffix">clusterIamRoleDnsSuffix</a></code> | <code>string</code> | Base DNS domain name for the current partition (e.g., amazonaws.com in AWS Commercial, amazonaws.com.cn in AWS China). |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterIdentityProviders">clusterIdentityProviders</a></code> | <code>any</code> | Map of cluster identity provider configurations to enable for the cluster. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterIpFamily">clusterIpFamily</a></code> | <code>string</code> | The IP family used to assign Kubernetes pod and service addresses. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterName">clusterName</a></code> | <code>string</code> | Name of the EKS cluster. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterSecurityGroupAdditionalRules">clusterSecurityGroupAdditionalRules</a></code> | <code>any</code> | List of additional security group rules to add to the cluster security group created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterSecurityGroupDescription">clusterSecurityGroupDescription</a></code> | <code>string</code> | Description of the cluster security group created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterSecurityGroupId">clusterSecurityGroupId</a></code> | <code>string</code> | Existing security group ID to be attached to the cluster. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterSecurityGroupName">clusterSecurityGroupName</a></code> | <code>string</code> | Name to use on cluster security group created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterSecurityGroupTags">clusterSecurityGroupTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the cluster security group created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterSecurityGroupUseNamePrefix">clusterSecurityGroupUseNamePrefix</a></code> | <code>string</code> | Determines whether cluster security group name (`cluster_security_group_name`) is used as a prefix. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterServiceIpv4Cidr">clusterServiceIpv4Cidr</a></code> | <code>string</code> | The CIDR block to assign Kubernetes service IP addresses from. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterTags">clusterTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the cluster. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterTimeouts">clusterTimeouts</a></code> | <code>{[ key: string ]: string}</code> | Create, update, and delete timeout configurations for the cluster. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterVersion">clusterVersion</a></code> | <code>string</code> | Kubernetes `<major>.<minor>` version to use for the EKS cluster (i.e.: `1.21`). |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.create">create</a></code> | <code>boolean</code> | Controls if EKS resources should be created (affects nearly all resources). |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.createAwsAuthConfigmap">createAwsAuthConfigmap</a></code> | <code>boolean</code> | Determines whether to create the aws-auth configmap. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.createCloudwatchLogGroup">createCloudwatchLogGroup</a></code> | <code>boolean</code> | Determines whether a log group is created by this module for the cluster logs. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.createClusterPrimarySecurityGroupTags">createClusterPrimarySecurityGroupTags</a></code> | <code>boolean</code> | Indicates whether or not to tag the cluster's primary security group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.createClusterSecurityGroup">createClusterSecurityGroup</a></code> | <code>boolean</code> | Determines if a security group is created for the cluster or use the existing `cluster_security_group_id`. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.createCniIpv6IamPolicy">createCniIpv6IamPolicy</a></code> | <code>boolean</code> | Determines whether to create an [`AmazonEKS_CNI_IPv6_Policy`](https://docs.aws.amazon.com/eks/latest/userguide/cni-iam-role.html#cni-iam-role-create-ipv6-policy). |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.createIamRole">createIamRole</a></code> | <code>boolean</code> | Determines whether a an IAM role is created or to use an existing IAM role. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.createNodeSecurityGroup">createNodeSecurityGroup</a></code> | <code>boolean</code> | Determines whether to create a security group for the node groups or use the existing `node_security_group_id`. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.customOidcThumbprints">customOidcThumbprints</a></code> | <code>string[]</code> | Additional list of server certificate thumbprints for the OpenID Connect (OIDC) identity provider's server certificate(s). |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.eksManagedNodeGroupDefaults">eksManagedNodeGroupDefaults</a></code> | <code>any</code> | Map of EKS managed node group default configurations. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.eksManagedNodeGroups">eksManagedNodeGroups</a></code> | <code>any</code> | Map of EKS managed node group definitions to create. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.enableIrsa">enableIrsa</a></code> | <code>boolean</code> | Determines whether to create an OpenID Connect Provider for EKS to enable IRSA. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.fargateProfileDefaults">fargateProfileDefaults</a></code> | <code>any</code> | Map of Fargate Profile default configurations. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.fargateProfiles">fargateProfiles</a></code> | <code>any</code> | Map of Fargate Profile definitions to create. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.iamRoleAdditionalPolicies">iamRoleAdditionalPolicies</a></code> | <code>string[]</code> | Additional policies to be added to the IAM role. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.iamRoleArn">iamRoleArn</a></code> | <code>string</code> | Existing IAM role ARN for the cluster. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.iamRoleDescription">iamRoleDescription</a></code> | <code>string</code> | Description of the role. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.iamRoleName">iamRoleName</a></code> | <code>string</code> | Name to use on IAM role created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.iamRolePath">iamRolePath</a></code> | <code>string</code> | Cluster IAM role path. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.iamRolePermissionsBoundary">iamRolePermissionsBoundary</a></code> | <code>string</code> | ARN of the policy that is used to set the permissions boundary for the IAM role. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.iamRoleTags">iamRoleTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the IAM role created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.iamRoleUseNamePrefix">iamRoleUseNamePrefix</a></code> | <code>boolean</code> | Determines whether the IAM role name (`iam_role_name`) is used as a prefix. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.manageAwsAuthConfigmap">manageAwsAuthConfigmap</a></code> | <code>boolean</code> | Determines whether to manage the aws-auth configmap. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.nodeSecurityGroupAdditionalRules">nodeSecurityGroupAdditionalRules</a></code> | <code>any</code> | List of additional security group rules to add to the node security group created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.nodeSecurityGroupDescription">nodeSecurityGroupDescription</a></code> | <code>string</code> | Description of the node security group created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.nodeSecurityGroupId">nodeSecurityGroupId</a></code> | <code>string</code> | ID of an existing security group to attach to the node groups created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.nodeSecurityGroupName">nodeSecurityGroupName</a></code> | <code>string</code> | Name to use on node security group created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.nodeSecurityGroupTags">nodeSecurityGroupTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the node security group created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.nodeSecurityGroupUseNamePrefix">nodeSecurityGroupUseNamePrefix</a></code> | <code>string</code> | Determines whether node security group name (`node_security_group_name`) is used as a prefix. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.openidConnectAudiences">openidConnectAudiences</a></code> | <code>string[]</code> | List of OpenID Connect audience client IDs to add to the IRSA provider. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.prefixSeparator">prefixSeparator</a></code> | <code>string</code> | The separator to use between the prefix and the generated timestamp for resource names. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.putinKhuylo">putinKhuylo</a></code> | <code>boolean</code> | Do you agree that Putin doesn't respect Ukrainian sovereignty and territorial integrity? |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.selfManagedNodeGroupDefaults">selfManagedNodeGroupDefaults</a></code> | <code>any</code> | Map of self-managed node group default configurations. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.selfManagedNodeGroups">selfManagedNodeGroups</a></code> | <code>any</code> | Map of self-managed node group definitions to create. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.subnetIds">subnetIds</a></code> | <code>string[]</code> | A list of subnet IDs where the EKS cluster (ENIs) will be provisioned along with the nodes/node groups. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | A map of tags to add to all resources. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.vpcId">vpcId</a></code> | <code>string</code> | ID of the VPC where the cluster and its nodes will be provisioned. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.attachClusterEncryptionPolicy">attachClusterEncryptionPolicy</a></code> | <code>boolean</code> | Indicates whether or not to attach an additional policy for the cluster IAM role to utilize the encryption key provided. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.awsAuthAccounts">awsAuthAccounts</a></code> | <code>any[]</code> | List of account maps to add to the aws-auth configmap. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.awsAuthFargateProfilePodExecutionRoleArns">awsAuthFargateProfilePodExecutionRoleArns</a></code> | <code>string[]</code> | List of Fargate profile pod execution role ARNs to add to the aws-auth configmap. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.awsAuthNodeIamRoleArnsNonWindows">awsAuthNodeIamRoleArnsNonWindows</a></code> | <code>string[]</code> | List of non-Windows based node IAM role ARNs to add to the aws-auth configmap. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.awsAuthNodeIamRoleArnsWindows">awsAuthNodeIamRoleArnsWindows</a></code> | <code>string[]</code> | List of Windows based node IAM role ARNs to add to the aws-auth configmap. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.awsAuthRoles">awsAuthRoles</a></code> | <code>any[]</code> | List of role maps to add to the aws-auth configmap. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.awsAuthUsers">awsAuthUsers</a></code> | <code>any[]</code> | List of user maps to add to the aws-auth configmap. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.cloudwatchLogGroupKmsKeyId">cloudwatchLogGroupKmsKeyId</a></code> | <code>string</code> | If a KMS Key ARN is set, this key will be used to encrypt the corresponding log group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.cloudwatchLogGroupRetentionInDays">cloudwatchLogGroupRetentionInDays</a></code> | <code>number</code> | Number of days to retain log events. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterAdditionalSecurityGroupIds">clusterAdditionalSecurityGroupIds</a></code> | <code>string[]</code> | List of additional, externally created security group IDs to attach to the cluster control plane. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterAddons">clusterAddons</a></code> | <code>any</code> | Map of cluster addon configurations to enable for the cluster. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterEnabledLogTypes">clusterEnabledLogTypes</a></code> | <code>string[]</code> | A list of the desired control plane logs to enable. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterEncryptionConfig">clusterEncryptionConfig</a></code> | <code>any</code> | Configuration block with encryption configuration for the cluster. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterEncryptionPolicyDescription">clusterEncryptionPolicyDescription</a></code> | <code>string</code> | Description of the cluster encryption policy created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterEncryptionPolicyName">clusterEncryptionPolicyName</a></code> | <code>string</code> | Name to use on cluster encryption policy created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterEncryptionPolicyPath">clusterEncryptionPolicyPath</a></code> | <code>string</code> | Cluster encryption policy path. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterEncryptionPolicyTags">clusterEncryptionPolicyTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the cluster encryption policy created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterEncryptionPolicyUseNamePrefix">clusterEncryptionPolicyUseNamePrefix</a></code> | <code>string</code> | Determines whether cluster encryption policy name (`cluster_encryption_policy_name`) is used as a prefix. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterEndpointPrivateAccess">clusterEndpointPrivateAccess</a></code> | <code>boolean</code> | Indicates whether or not the Amazon EKS private API server endpoint is enabled. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterEndpointPublicAccess">clusterEndpointPublicAccess</a></code> | <code>boolean</code> | Indicates whether or not the Amazon EKS public API server endpoint is enabled. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterEndpointPublicAccessCidrs">clusterEndpointPublicAccessCidrs</a></code> | <code>string[]</code> | List of CIDR blocks which can access the Amazon EKS public API server endpoint. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterIamRoleDnsSuffix">clusterIamRoleDnsSuffix</a></code> | <code>string</code> | Base DNS domain name for the current partition (e.g., amazonaws.com in AWS Commercial, amazonaws.com.cn in AWS China). |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterIdentityProviders">clusterIdentityProviders</a></code> | <code>any</code> | Map of cluster identity provider configurations to enable for the cluster. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterIpFamily">clusterIpFamily</a></code> | <code>string</code> | The IP family used to assign Kubernetes pod and service addresses. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterName">clusterName</a></code> | <code>string</code> | Name of the EKS cluster. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterSecurityGroupAdditionalRules">clusterSecurityGroupAdditionalRules</a></code> | <code>any</code> | List of additional security group rules to add to the cluster security group created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterSecurityGroupDescription">clusterSecurityGroupDescription</a></code> | <code>string</code> | Description of the cluster security group created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterSecurityGroupId">clusterSecurityGroupId</a></code> | <code>string</code> | Existing security group ID to be attached to the cluster. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterSecurityGroupName">clusterSecurityGroupName</a></code> | <code>string</code> | Name to use on cluster security group created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterSecurityGroupTags">clusterSecurityGroupTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the cluster security group created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterSecurityGroupUseNamePrefix">clusterSecurityGroupUseNamePrefix</a></code> | <code>string</code> | Determines whether cluster security group name (`cluster_security_group_name`) is used as a prefix. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterServiceIpv4Cidr">clusterServiceIpv4Cidr</a></code> | <code>string</code> | The CIDR block to assign Kubernetes service IP addresses from. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterTags">clusterTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the cluster. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterTimeouts">clusterTimeouts</a></code> | <code>{[ key: string ]: string}</code> | Create, update, and delete timeout configurations for the cluster. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.clusterVersion">clusterVersion</a></code> | <code>string</code> | Kubernetes `<major>.<minor>` version to use for the EKS cluster (i.e.: `1.21`). |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.create">create</a></code> | <code>boolean</code> | Controls if EKS resources should be created (affects nearly all resources). |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.createAwsAuthConfigmap">createAwsAuthConfigmap</a></code> | <code>boolean</code> | Determines whether to create the aws-auth configmap. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.createCloudwatchLogGroup">createCloudwatchLogGroup</a></code> | <code>boolean</code> | Determines whether a log group is created by this module for the cluster logs. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.createClusterPrimarySecurityGroupTags">createClusterPrimarySecurityGroupTags</a></code> | <code>boolean</code> | Indicates whether or not to tag the cluster's primary security group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.createClusterSecurityGroup">createClusterSecurityGroup</a></code> | <code>boolean</code> | Determines if a security group is created for the cluster or use the existing `cluster_security_group_id`. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.createCniIpv6IamPolicy">createCniIpv6IamPolicy</a></code> | <code>boolean</code> | Determines whether to create an [`AmazonEKS_CNI_IPv6_Policy`](https://docs.aws.amazon.com/eks/latest/userguide/cni-iam-role.html#cni-iam-role-create-ipv6-policy). |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.createIamRole">createIamRole</a></code> | <code>boolean</code> | Determines whether a an IAM role is created or to use an existing IAM role. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.createNodeSecurityGroup">createNodeSecurityGroup</a></code> | <code>boolean</code> | Determines whether to create a security group for the node groups or use the existing `node_security_group_id`. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.customOidcThumbprints">customOidcThumbprints</a></code> | <code>string[]</code> | Additional list of server certificate thumbprints for the OpenID Connect (OIDC) identity provider's server certificate(s). |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.eksManagedNodeGroupDefaults">eksManagedNodeGroupDefaults</a></code> | <code>any</code> | Map of EKS managed node group default configurations. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.eksManagedNodeGroups">eksManagedNodeGroups</a></code> | <code>any</code> | Map of EKS managed node group definitions to create. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.enableIrsa">enableIrsa</a></code> | <code>boolean</code> | Determines whether to create an OpenID Connect Provider for EKS to enable IRSA. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.fargateProfileDefaults">fargateProfileDefaults</a></code> | <code>any</code> | Map of Fargate Profile default configurations. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.fargateProfiles">fargateProfiles</a></code> | <code>any</code> | Map of Fargate Profile definitions to create. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.iamRoleAdditionalPolicies">iamRoleAdditionalPolicies</a></code> | <code>string[]</code> | Additional policies to be added to the IAM role. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.iamRoleArn">iamRoleArn</a></code> | <code>string</code> | Existing IAM role ARN for the cluster. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.iamRoleDescription">iamRoleDescription</a></code> | <code>string</code> | Description of the role. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.iamRoleName">iamRoleName</a></code> | <code>string</code> | Name to use on IAM role created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.iamRolePath">iamRolePath</a></code> | <code>string</code> | Cluster IAM role path. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.iamRolePermissionsBoundary">iamRolePermissionsBoundary</a></code> | <code>string</code> | ARN of the policy that is used to set the permissions boundary for the IAM role. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.iamRoleTags">iamRoleTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the IAM role created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.iamRoleUseNamePrefix">iamRoleUseNamePrefix</a></code> | <code>boolean</code> | Determines whether the IAM role name (`iam_role_name`) is used as a prefix. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.manageAwsAuthConfigmap">manageAwsAuthConfigmap</a></code> | <code>boolean</code> | Determines whether to manage the aws-auth configmap. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.nodeSecurityGroupAdditionalRules">nodeSecurityGroupAdditionalRules</a></code> | <code>any</code> | List of additional security group rules to add to the node security group created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.nodeSecurityGroupDescription">nodeSecurityGroupDescription</a></code> | <code>string</code> | Description of the node security group created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.nodeSecurityGroupId">nodeSecurityGroupId</a></code> | <code>string</code> | ID of an existing security group to attach to the node groups created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.nodeSecurityGroupName">nodeSecurityGroupName</a></code> | <code>string</code> | Name to use on node security group created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.nodeSecurityGroupTags">nodeSecurityGroupTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the node security group created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.nodeSecurityGroupUseNamePrefix">nodeSecurityGroupUseNamePrefix</a></code> | <code>string</code> | Determines whether node security group name (`node_security_group_name`) is used as a prefix. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.openidConnectAudiences">openidConnectAudiences</a></code> | <code>string[]</code> | List of OpenID Connect audience client IDs to add to the IRSA provider. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.prefixSeparator">prefixSeparator</a></code> | <code>string</code> | The separator to use between the prefix and the generated timestamp for resource names. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.putinKhuylo">putinKhuylo</a></code> | <code>boolean</code> | Do you agree that Putin doesn't respect Ukrainian sovereignty and territorial integrity? |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.selfManagedNodeGroupDefaults">selfManagedNodeGroupDefaults</a></code> | <code>any</code> | Map of self-managed node group default configurations. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.selfManagedNodeGroups">selfManagedNodeGroups</a></code> | <code>any</code> | Map of self-managed node group definitions to create. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.subnetIds">subnetIds</a></code> | <code>string[]</code> | A list of subnet IDs where the EKS cluster (ENIs) will be provisioned along with the nodes/node groups. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | A map of tags to add to all resources. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksOptions.property.vpcId">vpcId</a></code> | <code>string</code> | ID of the VPC where the cluster and its nodes will be provisioned. |
 
 ---
 
-##### `attachClusterEncryptionPolicy`<sup>Optional</sup> <a name="attachClusterEncryptionPolicy" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.attachClusterEncryptionPolicy"></a>
+##### `attachClusterEncryptionPolicy`<sup>Optional</sup> <a name="attachClusterEncryptionPolicy" id="@danielmschmidt/eks-cluster.EksOptions.property.attachClusterEncryptionPolicy"></a>
 
 ```typescript
 public readonly attachClusterEncryptionPolicy: boolean;
@@ -5645,7 +5645,7 @@ Indicates whether or not to attach an additional policy for the cluster IAM role
 
 ---
 
-##### `awsAuthAccounts`<sup>Optional</sup> <a name="awsAuthAccounts" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.awsAuthAccounts"></a>
+##### `awsAuthAccounts`<sup>Optional</sup> <a name="awsAuthAccounts" id="@danielmschmidt/eks-cluster.EksOptions.property.awsAuthAccounts"></a>
 
 ```typescript
 public readonly awsAuthAccounts: any[];
@@ -5657,7 +5657,7 @@ List of account maps to add to the aws-auth configmap.
 
 ---
 
-##### `awsAuthFargateProfilePodExecutionRoleArns`<sup>Optional</sup> <a name="awsAuthFargateProfilePodExecutionRoleArns" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.awsAuthFargateProfilePodExecutionRoleArns"></a>
+##### `awsAuthFargateProfilePodExecutionRoleArns`<sup>Optional</sup> <a name="awsAuthFargateProfilePodExecutionRoleArns" id="@danielmschmidt/eks-cluster.EksOptions.property.awsAuthFargateProfilePodExecutionRoleArns"></a>
 
 ```typescript
 public readonly awsAuthFargateProfilePodExecutionRoleArns: string[];
@@ -5669,7 +5669,7 @@ List of Fargate profile pod execution role ARNs to add to the aws-auth configmap
 
 ---
 
-##### `awsAuthNodeIamRoleArnsNonWindows`<sup>Optional</sup> <a name="awsAuthNodeIamRoleArnsNonWindows" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.awsAuthNodeIamRoleArnsNonWindows"></a>
+##### `awsAuthNodeIamRoleArnsNonWindows`<sup>Optional</sup> <a name="awsAuthNodeIamRoleArnsNonWindows" id="@danielmschmidt/eks-cluster.EksOptions.property.awsAuthNodeIamRoleArnsNonWindows"></a>
 
 ```typescript
 public readonly awsAuthNodeIamRoleArnsNonWindows: string[];
@@ -5681,7 +5681,7 @@ List of non-Windows based node IAM role ARNs to add to the aws-auth configmap.
 
 ---
 
-##### `awsAuthNodeIamRoleArnsWindows`<sup>Optional</sup> <a name="awsAuthNodeIamRoleArnsWindows" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.awsAuthNodeIamRoleArnsWindows"></a>
+##### `awsAuthNodeIamRoleArnsWindows`<sup>Optional</sup> <a name="awsAuthNodeIamRoleArnsWindows" id="@danielmschmidt/eks-cluster.EksOptions.property.awsAuthNodeIamRoleArnsWindows"></a>
 
 ```typescript
 public readonly awsAuthNodeIamRoleArnsWindows: string[];
@@ -5693,7 +5693,7 @@ List of Windows based node IAM role ARNs to add to the aws-auth configmap.
 
 ---
 
-##### `awsAuthRoles`<sup>Optional</sup> <a name="awsAuthRoles" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.awsAuthRoles"></a>
+##### `awsAuthRoles`<sup>Optional</sup> <a name="awsAuthRoles" id="@danielmschmidt/eks-cluster.EksOptions.property.awsAuthRoles"></a>
 
 ```typescript
 public readonly awsAuthRoles: any[];
@@ -5705,7 +5705,7 @@ List of role maps to add to the aws-auth configmap.
 
 ---
 
-##### `awsAuthUsers`<sup>Optional</sup> <a name="awsAuthUsers" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.awsAuthUsers"></a>
+##### `awsAuthUsers`<sup>Optional</sup> <a name="awsAuthUsers" id="@danielmschmidt/eks-cluster.EksOptions.property.awsAuthUsers"></a>
 
 ```typescript
 public readonly awsAuthUsers: any[];
@@ -5717,7 +5717,7 @@ List of user maps to add to the aws-auth configmap.
 
 ---
 
-##### `cloudwatchLogGroupKmsKeyId`<sup>Optional</sup> <a name="cloudwatchLogGroupKmsKeyId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.cloudwatchLogGroupKmsKeyId"></a>
+##### `cloudwatchLogGroupKmsKeyId`<sup>Optional</sup> <a name="cloudwatchLogGroupKmsKeyId" id="@danielmschmidt/eks-cluster.EksOptions.property.cloudwatchLogGroupKmsKeyId"></a>
 
 ```typescript
 public readonly cloudwatchLogGroupKmsKeyId: string;
@@ -5731,7 +5731,7 @@ Please be sure that the KMS Key has an appropriate key policy (https://docs.aws.
 
 ---
 
-##### `cloudwatchLogGroupRetentionInDays`<sup>Optional</sup> <a name="cloudwatchLogGroupRetentionInDays" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.cloudwatchLogGroupRetentionInDays"></a>
+##### `cloudwatchLogGroupRetentionInDays`<sup>Optional</sup> <a name="cloudwatchLogGroupRetentionInDays" id="@danielmschmidt/eks-cluster.EksOptions.property.cloudwatchLogGroupRetentionInDays"></a>
 
 ```typescript
 public readonly cloudwatchLogGroupRetentionInDays: number;
@@ -5746,7 +5746,7 @@ Default retention - 90 days
 
 ---
 
-##### `clusterAdditionalSecurityGroupIds`<sup>Optional</sup> <a name="clusterAdditionalSecurityGroupIds" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterAdditionalSecurityGroupIds"></a>
+##### `clusterAdditionalSecurityGroupIds`<sup>Optional</sup> <a name="clusterAdditionalSecurityGroupIds" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterAdditionalSecurityGroupIds"></a>
 
 ```typescript
 public readonly clusterAdditionalSecurityGroupIds: string[];
@@ -5758,7 +5758,7 @@ List of additional, externally created security group IDs to attach to the clust
 
 ---
 
-##### `clusterAddons`<sup>Optional</sup> <a name="clusterAddons" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterAddons"></a>
+##### `clusterAddons`<sup>Optional</sup> <a name="clusterAddons" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterAddons"></a>
 
 ```typescript
 public readonly clusterAddons: any;
@@ -5773,7 +5773,7 @@ Addon name can be the map keys or set with `name`
 
 ---
 
-##### `clusterEnabledLogTypes`<sup>Optional</sup> <a name="clusterEnabledLogTypes" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterEnabledLogTypes"></a>
+##### `clusterEnabledLogTypes`<sup>Optional</sup> <a name="clusterEnabledLogTypes" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterEnabledLogTypes"></a>
 
 ```typescript
 public readonly clusterEnabledLogTypes: string[];
@@ -5788,7 +5788,7 @@ For more information, see Amazon EKS Control Plane Logging documentation (https:
 
 ---
 
-##### `clusterEncryptionConfig`<sup>Optional</sup> <a name="clusterEncryptionConfig" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterEncryptionConfig"></a>
+##### `clusterEncryptionConfig`<sup>Optional</sup> <a name="clusterEncryptionConfig" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterEncryptionConfig"></a>
 
 ```typescript
 public readonly clusterEncryptionConfig: any;
@@ -5800,7 +5800,7 @@ Configuration block with encryption configuration for the cluster.
 
 ---
 
-##### `clusterEncryptionPolicyDescription`<sup>Optional</sup> <a name="clusterEncryptionPolicyDescription" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterEncryptionPolicyDescription"></a>
+##### `clusterEncryptionPolicyDescription`<sup>Optional</sup> <a name="clusterEncryptionPolicyDescription" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterEncryptionPolicyDescription"></a>
 
 ```typescript
 public readonly clusterEncryptionPolicyDescription: string;
@@ -5813,7 +5813,7 @@ Description of the cluster encryption policy created.
 
 ---
 
-##### `clusterEncryptionPolicyName`<sup>Optional</sup> <a name="clusterEncryptionPolicyName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterEncryptionPolicyName"></a>
+##### `clusterEncryptionPolicyName`<sup>Optional</sup> <a name="clusterEncryptionPolicyName" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterEncryptionPolicyName"></a>
 
 ```typescript
 public readonly clusterEncryptionPolicyName: string;
@@ -5825,7 +5825,7 @@ Name to use on cluster encryption policy created.
 
 ---
 
-##### `clusterEncryptionPolicyPath`<sup>Optional</sup> <a name="clusterEncryptionPolicyPath" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterEncryptionPolicyPath"></a>
+##### `clusterEncryptionPolicyPath`<sup>Optional</sup> <a name="clusterEncryptionPolicyPath" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterEncryptionPolicyPath"></a>
 
 ```typescript
 public readonly clusterEncryptionPolicyPath: string;
@@ -5837,7 +5837,7 @@ Cluster encryption policy path.
 
 ---
 
-##### `clusterEncryptionPolicyTags`<sup>Optional</sup> <a name="clusterEncryptionPolicyTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterEncryptionPolicyTags"></a>
+##### `clusterEncryptionPolicyTags`<sup>Optional</sup> <a name="clusterEncryptionPolicyTags" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterEncryptionPolicyTags"></a>
 
 ```typescript
 public readonly clusterEncryptionPolicyTags: {[ key: string ]: string};
@@ -5850,7 +5850,7 @@ A map of additional tags to add to the cluster encryption policy created.
 
 ---
 
-##### `clusterEncryptionPolicyUseNamePrefix`<sup>Optional</sup> <a name="clusterEncryptionPolicyUseNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterEncryptionPolicyUseNamePrefix"></a>
+##### `clusterEncryptionPolicyUseNamePrefix`<sup>Optional</sup> <a name="clusterEncryptionPolicyUseNamePrefix" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterEncryptionPolicyUseNamePrefix"></a>
 
 ```typescript
 public readonly clusterEncryptionPolicyUseNamePrefix: string;
@@ -5863,7 +5863,7 @@ Determines whether cluster encryption policy name (`cluster_encryption_policy_na
 
 ---
 
-##### `clusterEndpointPrivateAccess`<sup>Optional</sup> <a name="clusterEndpointPrivateAccess" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterEndpointPrivateAccess"></a>
+##### `clusterEndpointPrivateAccess`<sup>Optional</sup> <a name="clusterEndpointPrivateAccess" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterEndpointPrivateAccess"></a>
 
 ```typescript
 public readonly clusterEndpointPrivateAccess: boolean;
@@ -5875,7 +5875,7 @@ Indicates whether or not the Amazon EKS private API server endpoint is enabled.
 
 ---
 
-##### `clusterEndpointPublicAccess`<sup>Optional</sup> <a name="clusterEndpointPublicAccess" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterEndpointPublicAccess"></a>
+##### `clusterEndpointPublicAccess`<sup>Optional</sup> <a name="clusterEndpointPublicAccess" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterEndpointPublicAccess"></a>
 
 ```typescript
 public readonly clusterEndpointPublicAccess: boolean;
@@ -5888,7 +5888,7 @@ Indicates whether or not the Amazon EKS public API server endpoint is enabled.
 
 ---
 
-##### `clusterEndpointPublicAccessCidrs`<sup>Optional</sup> <a name="clusterEndpointPublicAccessCidrs" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterEndpointPublicAccessCidrs"></a>
+##### `clusterEndpointPublicAccessCidrs`<sup>Optional</sup> <a name="clusterEndpointPublicAccessCidrs" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterEndpointPublicAccessCidrs"></a>
 
 ```typescript
 public readonly clusterEndpointPublicAccessCidrs: string[];
@@ -5901,7 +5901,7 @@ List of CIDR blocks which can access the Amazon EKS public API server endpoint.
 
 ---
 
-##### `clusterIamRoleDnsSuffix`<sup>Optional</sup> <a name="clusterIamRoleDnsSuffix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterIamRoleDnsSuffix"></a>
+##### `clusterIamRoleDnsSuffix`<sup>Optional</sup> <a name="clusterIamRoleDnsSuffix" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterIamRoleDnsSuffix"></a>
 
 ```typescript
 public readonly clusterIamRoleDnsSuffix: string;
@@ -5913,7 +5913,7 @@ Base DNS domain name for the current partition (e.g., amazonaws.com in AWS Comme
 
 ---
 
-##### `clusterIdentityProviders`<sup>Optional</sup> <a name="clusterIdentityProviders" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterIdentityProviders"></a>
+##### `clusterIdentityProviders`<sup>Optional</sup> <a name="clusterIdentityProviders" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterIdentityProviders"></a>
 
 ```typescript
 public readonly clusterIdentityProviders: any;
@@ -5928,7 +5928,7 @@ Note - this is different/separate from IRSA
 
 ---
 
-##### `clusterIpFamily`<sup>Optional</sup> <a name="clusterIpFamily" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterIpFamily"></a>
+##### `clusterIpFamily`<sup>Optional</sup> <a name="clusterIpFamily" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterIpFamily"></a>
 
 ```typescript
 public readonly clusterIpFamily: string;
@@ -5942,7 +5942,7 @@ Valid values are `ipv4` (default) and `ipv6`. You can only specify an IP family 
 
 ---
 
-##### `clusterName`<sup>Optional</sup> <a name="clusterName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterName"></a>
+##### `clusterName`<sup>Optional</sup> <a name="clusterName" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterName"></a>
 
 ```typescript
 public readonly clusterName: string;
@@ -5954,7 +5954,7 @@ Name of the EKS cluster.
 
 ---
 
-##### `clusterSecurityGroupAdditionalRules`<sup>Optional</sup> <a name="clusterSecurityGroupAdditionalRules" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterSecurityGroupAdditionalRules"></a>
+##### `clusterSecurityGroupAdditionalRules`<sup>Optional</sup> <a name="clusterSecurityGroupAdditionalRules" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterSecurityGroupAdditionalRules"></a>
 
 ```typescript
 public readonly clusterSecurityGroupAdditionalRules: any;
@@ -5969,7 +5969,7 @@ Set `source_node_security_group = true` inside rules to set the `node_security_g
 
 ---
 
-##### `clusterSecurityGroupDescription`<sup>Optional</sup> <a name="clusterSecurityGroupDescription" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterSecurityGroupDescription"></a>
+##### `clusterSecurityGroupDescription`<sup>Optional</sup> <a name="clusterSecurityGroupDescription" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterSecurityGroupDescription"></a>
 
 ```typescript
 public readonly clusterSecurityGroupDescription: string;
@@ -5982,7 +5982,7 @@ Description of the cluster security group created.
 
 ---
 
-##### `clusterSecurityGroupId`<sup>Optional</sup> <a name="clusterSecurityGroupId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterSecurityGroupId"></a>
+##### `clusterSecurityGroupId`<sup>Optional</sup> <a name="clusterSecurityGroupId" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterSecurityGroupId"></a>
 
 ```typescript
 public readonly clusterSecurityGroupId: string;
@@ -5996,7 +5996,7 @@ Required if `create_cluster_security_group` = `false`
 
 ---
 
-##### `clusterSecurityGroupName`<sup>Optional</sup> <a name="clusterSecurityGroupName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterSecurityGroupName"></a>
+##### `clusterSecurityGroupName`<sup>Optional</sup> <a name="clusterSecurityGroupName" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterSecurityGroupName"></a>
 
 ```typescript
 public readonly clusterSecurityGroupName: string;
@@ -6008,7 +6008,7 @@ Name to use on cluster security group created.
 
 ---
 
-##### `clusterSecurityGroupTags`<sup>Optional</sup> <a name="clusterSecurityGroupTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterSecurityGroupTags"></a>
+##### `clusterSecurityGroupTags`<sup>Optional</sup> <a name="clusterSecurityGroupTags" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterSecurityGroupTags"></a>
 
 ```typescript
 public readonly clusterSecurityGroupTags: {[ key: string ]: string};
@@ -6021,7 +6021,7 @@ A map of additional tags to add to the cluster security group created.
 
 ---
 
-##### `clusterSecurityGroupUseNamePrefix`<sup>Optional</sup> <a name="clusterSecurityGroupUseNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterSecurityGroupUseNamePrefix"></a>
+##### `clusterSecurityGroupUseNamePrefix`<sup>Optional</sup> <a name="clusterSecurityGroupUseNamePrefix" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterSecurityGroupUseNamePrefix"></a>
 
 ```typescript
 public readonly clusterSecurityGroupUseNamePrefix: string;
@@ -6034,7 +6034,7 @@ Determines whether cluster security group name (`cluster_security_group_name`) i
 
 ---
 
-##### `clusterServiceIpv4Cidr`<sup>Optional</sup> <a name="clusterServiceIpv4Cidr" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterServiceIpv4Cidr"></a>
+##### `clusterServiceIpv4Cidr`<sup>Optional</sup> <a name="clusterServiceIpv4Cidr" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterServiceIpv4Cidr"></a>
 
 ```typescript
 public readonly clusterServiceIpv4Cidr: string;
@@ -6048,7 +6048,7 @@ If you don't specify a block, Kubernetes assigns addresses from either the 10.10
 
 ---
 
-##### `clusterTags`<sup>Optional</sup> <a name="clusterTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterTags"></a>
+##### `clusterTags`<sup>Optional</sup> <a name="clusterTags" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterTags"></a>
 
 ```typescript
 public readonly clusterTags: {[ key: string ]: string};
@@ -6061,7 +6061,7 @@ A map of additional tags to add to the cluster.
 
 ---
 
-##### `clusterTimeouts`<sup>Optional</sup> <a name="clusterTimeouts" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterTimeouts"></a>
+##### `clusterTimeouts`<sup>Optional</sup> <a name="clusterTimeouts" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterTimeouts"></a>
 
 ```typescript
 public readonly clusterTimeouts: {[ key: string ]: string};
@@ -6074,7 +6074,7 @@ Create, update, and delete timeout configurations for the cluster.
 
 ---
 
-##### `clusterVersion`<sup>Optional</sup> <a name="clusterVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.clusterVersion"></a>
+##### `clusterVersion`<sup>Optional</sup> <a name="clusterVersion" id="@danielmschmidt/eks-cluster.EksOptions.property.clusterVersion"></a>
 
 ```typescript
 public readonly clusterVersion: string;
@@ -6086,7 +6086,7 @@ Kubernetes `<major>.<minor>` version to use for the EKS cluster (i.e.: `1.21`).
 
 ---
 
-##### `create`<sup>Optional</sup> <a name="create" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.create"></a>
+##### `create`<sup>Optional</sup> <a name="create" id="@danielmschmidt/eks-cluster.EksOptions.property.create"></a>
 
 ```typescript
 public readonly create: boolean;
@@ -6099,7 +6099,7 @@ Controls if EKS resources should be created (affects nearly all resources).
 
 ---
 
-##### `createAwsAuthConfigmap`<sup>Optional</sup> <a name="createAwsAuthConfigmap" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.createAwsAuthConfigmap"></a>
+##### `createAwsAuthConfigmap`<sup>Optional</sup> <a name="createAwsAuthConfigmap" id="@danielmschmidt/eks-cluster.EksOptions.property.createAwsAuthConfigmap"></a>
 
 ```typescript
 public readonly createAwsAuthConfigmap: boolean;
@@ -6113,7 +6113,7 @@ NOTE - this is only intended for scenarios where the configmap does not exist (i
 
 ---
 
-##### `createCloudwatchLogGroup`<sup>Optional</sup> <a name="createCloudwatchLogGroup" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.createCloudwatchLogGroup"></a>
+##### `createCloudwatchLogGroup`<sup>Optional</sup> <a name="createCloudwatchLogGroup" id="@danielmschmidt/eks-cluster.EksOptions.property.createCloudwatchLogGroup"></a>
 
 ```typescript
 public readonly createCloudwatchLogGroup: boolean;
@@ -6128,7 +6128,7 @@ If not, AWS will automatically create one if logging is enabled
 
 ---
 
-##### `createClusterPrimarySecurityGroupTags`<sup>Optional</sup> <a name="createClusterPrimarySecurityGroupTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.createClusterPrimarySecurityGroupTags"></a>
+##### `createClusterPrimarySecurityGroupTags`<sup>Optional</sup> <a name="createClusterPrimarySecurityGroupTags" id="@danielmschmidt/eks-cluster.EksOptions.property.createClusterPrimarySecurityGroupTags"></a>
 
 ```typescript
 public readonly createClusterPrimarySecurityGroupTags: boolean;
@@ -6143,7 +6143,7 @@ This security group is created by the EKS service, not the module, and therefore
 
 ---
 
-##### `createClusterSecurityGroup`<sup>Optional</sup> <a name="createClusterSecurityGroup" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.createClusterSecurityGroup"></a>
+##### `createClusterSecurityGroup`<sup>Optional</sup> <a name="createClusterSecurityGroup" id="@danielmschmidt/eks-cluster.EksOptions.property.createClusterSecurityGroup"></a>
 
 ```typescript
 public readonly createClusterSecurityGroup: boolean;
@@ -6156,7 +6156,7 @@ Determines if a security group is created for the cluster or use the existing `c
 
 ---
 
-##### `createCniIpv6IamPolicy`<sup>Optional</sup> <a name="createCniIpv6IamPolicy" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.createCniIpv6IamPolicy"></a>
+##### `createCniIpv6IamPolicy`<sup>Optional</sup> <a name="createCniIpv6IamPolicy" id="@danielmschmidt/eks-cluster.EksOptions.property.createCniIpv6IamPolicy"></a>
 
 ```typescript
 public readonly createCniIpv6IamPolicy: boolean;
@@ -6168,7 +6168,7 @@ Determines whether to create an [`AmazonEKS_CNI_IPv6_Policy`](https://docs.aws.a
 
 ---
 
-##### `createIamRole`<sup>Optional</sup> <a name="createIamRole" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.createIamRole"></a>
+##### `createIamRole`<sup>Optional</sup> <a name="createIamRole" id="@danielmschmidt/eks-cluster.EksOptions.property.createIamRole"></a>
 
 ```typescript
 public readonly createIamRole: boolean;
@@ -6181,7 +6181,7 @@ Determines whether a an IAM role is created or to use an existing IAM role.
 
 ---
 
-##### `createNodeSecurityGroup`<sup>Optional</sup> <a name="createNodeSecurityGroup" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.createNodeSecurityGroup"></a>
+##### `createNodeSecurityGroup`<sup>Optional</sup> <a name="createNodeSecurityGroup" id="@danielmschmidt/eks-cluster.EksOptions.property.createNodeSecurityGroup"></a>
 
 ```typescript
 public readonly createNodeSecurityGroup: boolean;
@@ -6194,7 +6194,7 @@ Determines whether to create a security group for the node groups or use the exi
 
 ---
 
-##### `customOidcThumbprints`<sup>Optional</sup> <a name="customOidcThumbprints" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.customOidcThumbprints"></a>
+##### `customOidcThumbprints`<sup>Optional</sup> <a name="customOidcThumbprints" id="@danielmschmidt/eks-cluster.EksOptions.property.customOidcThumbprints"></a>
 
 ```typescript
 public readonly customOidcThumbprints: string[];
@@ -6206,7 +6206,7 @@ Additional list of server certificate thumbprints for the OpenID Connect (OIDC) 
 
 ---
 
-##### `eksManagedNodeGroupDefaults`<sup>Optional</sup> <a name="eksManagedNodeGroupDefaults" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.eksManagedNodeGroupDefaults"></a>
+##### `eksManagedNodeGroupDefaults`<sup>Optional</sup> <a name="eksManagedNodeGroupDefaults" id="@danielmschmidt/eks-cluster.EksOptions.property.eksManagedNodeGroupDefaults"></a>
 
 ```typescript
 public readonly eksManagedNodeGroupDefaults: any;
@@ -6219,7 +6219,7 @@ Map of EKS managed node group default configurations.
 
 ---
 
-##### `eksManagedNodeGroups`<sup>Optional</sup> <a name="eksManagedNodeGroups" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.eksManagedNodeGroups"></a>
+##### `eksManagedNodeGroups`<sup>Optional</sup> <a name="eksManagedNodeGroups" id="@danielmschmidt/eks-cluster.EksOptions.property.eksManagedNodeGroups"></a>
 
 ```typescript
 public readonly eksManagedNodeGroups: any;
@@ -6232,7 +6232,7 @@ Map of EKS managed node group definitions to create.
 
 ---
 
-##### `enableIrsa`<sup>Optional</sup> <a name="enableIrsa" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.enableIrsa"></a>
+##### `enableIrsa`<sup>Optional</sup> <a name="enableIrsa" id="@danielmschmidt/eks-cluster.EksOptions.property.enableIrsa"></a>
 
 ```typescript
 public readonly enableIrsa: boolean;
@@ -6245,7 +6245,7 @@ Determines whether to create an OpenID Connect Provider for EKS to enable IRSA.
 
 ---
 
-##### `fargateProfileDefaults`<sup>Optional</sup> <a name="fargateProfileDefaults" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.fargateProfileDefaults"></a>
+##### `fargateProfileDefaults`<sup>Optional</sup> <a name="fargateProfileDefaults" id="@danielmschmidt/eks-cluster.EksOptions.property.fargateProfileDefaults"></a>
 
 ```typescript
 public readonly fargateProfileDefaults: any;
@@ -6258,7 +6258,7 @@ Map of Fargate Profile default configurations.
 
 ---
 
-##### `fargateProfiles`<sup>Optional</sup> <a name="fargateProfiles" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.fargateProfiles"></a>
+##### `fargateProfiles`<sup>Optional</sup> <a name="fargateProfiles" id="@danielmschmidt/eks-cluster.EksOptions.property.fargateProfiles"></a>
 
 ```typescript
 public readonly fargateProfiles: any;
@@ -6271,7 +6271,7 @@ Map of Fargate Profile definitions to create.
 
 ---
 
-##### `iamRoleAdditionalPolicies`<sup>Optional</sup> <a name="iamRoleAdditionalPolicies" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.iamRoleAdditionalPolicies"></a>
+##### `iamRoleAdditionalPolicies`<sup>Optional</sup> <a name="iamRoleAdditionalPolicies" id="@danielmschmidt/eks-cluster.EksOptions.property.iamRoleAdditionalPolicies"></a>
 
 ```typescript
 public readonly iamRoleAdditionalPolicies: string[];
@@ -6283,7 +6283,7 @@ Additional policies to be added to the IAM role.
 
 ---
 
-##### `iamRoleArn`<sup>Optional</sup> <a name="iamRoleArn" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.iamRoleArn"></a>
+##### `iamRoleArn`<sup>Optional</sup> <a name="iamRoleArn" id="@danielmschmidt/eks-cluster.EksOptions.property.iamRoleArn"></a>
 
 ```typescript
 public readonly iamRoleArn: string;
@@ -6297,7 +6297,7 @@ Required if `create_iam_role` is set to `false`
 
 ---
 
-##### `iamRoleDescription`<sup>Optional</sup> <a name="iamRoleDescription" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.iamRoleDescription"></a>
+##### `iamRoleDescription`<sup>Optional</sup> <a name="iamRoleDescription" id="@danielmschmidt/eks-cluster.EksOptions.property.iamRoleDescription"></a>
 
 ```typescript
 public readonly iamRoleDescription: string;
@@ -6309,7 +6309,7 @@ Description of the role.
 
 ---
 
-##### `iamRoleName`<sup>Optional</sup> <a name="iamRoleName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.iamRoleName"></a>
+##### `iamRoleName`<sup>Optional</sup> <a name="iamRoleName" id="@danielmschmidt/eks-cluster.EksOptions.property.iamRoleName"></a>
 
 ```typescript
 public readonly iamRoleName: string;
@@ -6321,7 +6321,7 @@ Name to use on IAM role created.
 
 ---
 
-##### `iamRolePath`<sup>Optional</sup> <a name="iamRolePath" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.iamRolePath"></a>
+##### `iamRolePath`<sup>Optional</sup> <a name="iamRolePath" id="@danielmschmidt/eks-cluster.EksOptions.property.iamRolePath"></a>
 
 ```typescript
 public readonly iamRolePath: string;
@@ -6333,7 +6333,7 @@ Cluster IAM role path.
 
 ---
 
-##### `iamRolePermissionsBoundary`<sup>Optional</sup> <a name="iamRolePermissionsBoundary" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.iamRolePermissionsBoundary"></a>
+##### `iamRolePermissionsBoundary`<sup>Optional</sup> <a name="iamRolePermissionsBoundary" id="@danielmschmidt/eks-cluster.EksOptions.property.iamRolePermissionsBoundary"></a>
 
 ```typescript
 public readonly iamRolePermissionsBoundary: string;
@@ -6345,7 +6345,7 @@ ARN of the policy that is used to set the permissions boundary for the IAM role.
 
 ---
 
-##### `iamRoleTags`<sup>Optional</sup> <a name="iamRoleTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.iamRoleTags"></a>
+##### `iamRoleTags`<sup>Optional</sup> <a name="iamRoleTags" id="@danielmschmidt/eks-cluster.EksOptions.property.iamRoleTags"></a>
 
 ```typescript
 public readonly iamRoleTags: {[ key: string ]: string};
@@ -6358,7 +6358,7 @@ A map of additional tags to add to the IAM role created.
 
 ---
 
-##### `iamRoleUseNamePrefix`<sup>Optional</sup> <a name="iamRoleUseNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.iamRoleUseNamePrefix"></a>
+##### `iamRoleUseNamePrefix`<sup>Optional</sup> <a name="iamRoleUseNamePrefix" id="@danielmschmidt/eks-cluster.EksOptions.property.iamRoleUseNamePrefix"></a>
 
 ```typescript
 public readonly iamRoleUseNamePrefix: boolean;
@@ -6371,7 +6371,7 @@ Determines whether the IAM role name (`iam_role_name`) is used as a prefix.
 
 ---
 
-##### `manageAwsAuthConfigmap`<sup>Optional</sup> <a name="manageAwsAuthConfigmap" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.manageAwsAuthConfigmap"></a>
+##### `manageAwsAuthConfigmap`<sup>Optional</sup> <a name="manageAwsAuthConfigmap" id="@danielmschmidt/eks-cluster.EksOptions.property.manageAwsAuthConfigmap"></a>
 
 ```typescript
 public readonly manageAwsAuthConfigmap: boolean;
@@ -6383,7 +6383,7 @@ Determines whether to manage the aws-auth configmap.
 
 ---
 
-##### `nodeSecurityGroupAdditionalRules`<sup>Optional</sup> <a name="nodeSecurityGroupAdditionalRules" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.nodeSecurityGroupAdditionalRules"></a>
+##### `nodeSecurityGroupAdditionalRules`<sup>Optional</sup> <a name="nodeSecurityGroupAdditionalRules" id="@danielmschmidt/eks-cluster.EksOptions.property.nodeSecurityGroupAdditionalRules"></a>
 
 ```typescript
 public readonly nodeSecurityGroupAdditionalRules: any;
@@ -6398,7 +6398,7 @@ Set `source_cluster_security_group = true` inside rules to set the `cluster_secu
 
 ---
 
-##### `nodeSecurityGroupDescription`<sup>Optional</sup> <a name="nodeSecurityGroupDescription" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.nodeSecurityGroupDescription"></a>
+##### `nodeSecurityGroupDescription`<sup>Optional</sup> <a name="nodeSecurityGroupDescription" id="@danielmschmidt/eks-cluster.EksOptions.property.nodeSecurityGroupDescription"></a>
 
 ```typescript
 public readonly nodeSecurityGroupDescription: string;
@@ -6411,7 +6411,7 @@ Description of the node security group created.
 
 ---
 
-##### `nodeSecurityGroupId`<sup>Optional</sup> <a name="nodeSecurityGroupId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.nodeSecurityGroupId"></a>
+##### `nodeSecurityGroupId`<sup>Optional</sup> <a name="nodeSecurityGroupId" id="@danielmschmidt/eks-cluster.EksOptions.property.nodeSecurityGroupId"></a>
 
 ```typescript
 public readonly nodeSecurityGroupId: string;
@@ -6423,7 +6423,7 @@ ID of an existing security group to attach to the node groups created.
 
 ---
 
-##### `nodeSecurityGroupName`<sup>Optional</sup> <a name="nodeSecurityGroupName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.nodeSecurityGroupName"></a>
+##### `nodeSecurityGroupName`<sup>Optional</sup> <a name="nodeSecurityGroupName" id="@danielmschmidt/eks-cluster.EksOptions.property.nodeSecurityGroupName"></a>
 
 ```typescript
 public readonly nodeSecurityGroupName: string;
@@ -6435,7 +6435,7 @@ Name to use on node security group created.
 
 ---
 
-##### `nodeSecurityGroupTags`<sup>Optional</sup> <a name="nodeSecurityGroupTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.nodeSecurityGroupTags"></a>
+##### `nodeSecurityGroupTags`<sup>Optional</sup> <a name="nodeSecurityGroupTags" id="@danielmschmidt/eks-cluster.EksOptions.property.nodeSecurityGroupTags"></a>
 
 ```typescript
 public readonly nodeSecurityGroupTags: {[ key: string ]: string};
@@ -6448,7 +6448,7 @@ A map of additional tags to add to the node security group created.
 
 ---
 
-##### `nodeSecurityGroupUseNamePrefix`<sup>Optional</sup> <a name="nodeSecurityGroupUseNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.nodeSecurityGroupUseNamePrefix"></a>
+##### `nodeSecurityGroupUseNamePrefix`<sup>Optional</sup> <a name="nodeSecurityGroupUseNamePrefix" id="@danielmschmidt/eks-cluster.EksOptions.property.nodeSecurityGroupUseNamePrefix"></a>
 
 ```typescript
 public readonly nodeSecurityGroupUseNamePrefix: string;
@@ -6461,7 +6461,7 @@ Determines whether node security group name (`node_security_group_name`) is used
 
 ---
 
-##### `openidConnectAudiences`<sup>Optional</sup> <a name="openidConnectAudiences" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.openidConnectAudiences"></a>
+##### `openidConnectAudiences`<sup>Optional</sup> <a name="openidConnectAudiences" id="@danielmschmidt/eks-cluster.EksOptions.property.openidConnectAudiences"></a>
 
 ```typescript
 public readonly openidConnectAudiences: string[];
@@ -6473,7 +6473,7 @@ List of OpenID Connect audience client IDs to add to the IRSA provider.
 
 ---
 
-##### `prefixSeparator`<sup>Optional</sup> <a name="prefixSeparator" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.prefixSeparator"></a>
+##### `prefixSeparator`<sup>Optional</sup> <a name="prefixSeparator" id="@danielmschmidt/eks-cluster.EksOptions.property.prefixSeparator"></a>
 
 ```typescript
 public readonly prefixSeparator: string;
@@ -6486,7 +6486,7 @@ The separator to use between the prefix and the generated timestamp for resource
 
 ---
 
-##### `putinKhuylo`<sup>Optional</sup> <a name="putinKhuylo" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.putinKhuylo"></a>
+##### `putinKhuylo`<sup>Optional</sup> <a name="putinKhuylo" id="@danielmschmidt/eks-cluster.EksOptions.property.putinKhuylo"></a>
 
 ```typescript
 public readonly putinKhuylo: boolean;
@@ -6501,7 +6501,7 @@ More info: https://en.wikipedia.org/wiki/Putin_khuylo!
 
 ---
 
-##### `selfManagedNodeGroupDefaults`<sup>Optional</sup> <a name="selfManagedNodeGroupDefaults" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.selfManagedNodeGroupDefaults"></a>
+##### `selfManagedNodeGroupDefaults`<sup>Optional</sup> <a name="selfManagedNodeGroupDefaults" id="@danielmschmidt/eks-cluster.EksOptions.property.selfManagedNodeGroupDefaults"></a>
 
 ```typescript
 public readonly selfManagedNodeGroupDefaults: any;
@@ -6514,7 +6514,7 @@ Map of self-managed node group default configurations.
 
 ---
 
-##### `selfManagedNodeGroups`<sup>Optional</sup> <a name="selfManagedNodeGroups" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.selfManagedNodeGroups"></a>
+##### `selfManagedNodeGroups`<sup>Optional</sup> <a name="selfManagedNodeGroups" id="@danielmschmidt/eks-cluster.EksOptions.property.selfManagedNodeGroups"></a>
 
 ```typescript
 public readonly selfManagedNodeGroups: any;
@@ -6527,7 +6527,7 @@ Map of self-managed node group definitions to create.
 
 ---
 
-##### `subnetIds`<sup>Optional</sup> <a name="subnetIds" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.subnetIds"></a>
+##### `subnetIds`<sup>Optional</sup> <a name="subnetIds" id="@danielmschmidt/eks-cluster.EksOptions.property.subnetIds"></a>
 
 ```typescript
 public readonly subnetIds: string[];
@@ -6541,7 +6541,7 @@ Node groups can be deployed within a different set of subnet IDs from within the
 
 ---
 
-##### `tags`<sup>Optional</sup> <a name="tags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.tags"></a>
+##### `tags`<sup>Optional</sup> <a name="tags" id="@danielmschmidt/eks-cluster.EksOptions.property.tags"></a>
 
 ```typescript
 public readonly tags: {[ key: string ]: string};
@@ -6554,7 +6554,7 @@ A map of tags to add to all resources.
 
 ---
 
-##### `vpcId`<sup>Optional</sup> <a name="vpcId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksOptions.property.vpcId"></a>
+##### `vpcId`<sup>Optional</sup> <a name="vpcId" id="@danielmschmidt/eks-cluster.EksOptions.property.vpcId"></a>
 
 ```typescript
 public readonly vpcId: string;
@@ -6566,12 +6566,12 @@ ID of the VPC where the cluster and its nodes will be provisioned.
 
 ---
 
-### EksSelfManagedNodeGroupOptions <a name="EksSelfManagedNodeGroupOptions" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions"></a>
+### EksSelfManagedNodeGroupOptions <a name="EksSelfManagedNodeGroupOptions" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions"></a>
 
-#### Initializer <a name="Initializer" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.Initializer"></a>
 
 ```typescript
-import { EksSelfManagedNodeGroupOptions } from 'terraform-cdk-terraform-module-publishing-on-gh-pages'
+import { EksSelfManagedNodeGroupOptions } from '@danielmschmidt/eks-cluster'
 
 const eksSelfManagedNodeGroupOptions: EksSelfManagedNodeGroupOptions = { ... }
 ```
@@ -6580,105 +6580,105 @@ const eksSelfManagedNodeGroupOptions: EksSelfManagedNodeGroupOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.amiId">amiId</a></code> | <code>string</code> | The AMI from which to launch the instance. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.availabilityZones">availabilityZones</a></code> | <code>string[]</code> | A list of one or more availability zones for the group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.blockDeviceMappings">blockDeviceMappings</a></code> | <code>any</code> | Specify volumes to attach to the instance besides the volumes specified by the AMI. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.bootstrapExtraArgs">bootstrapExtraArgs</a></code> | <code>string</code> | Additional arguments passed to the bootstrap script. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.capacityRebalance">capacityRebalance</a></code> | <code>boolean</code> | Indicates whether capacity rebalance is enabled. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.capacityReservationSpecification">capacityReservationSpecification</a></code> | <code>any</code> | Targeting for EC2 capacity reservations. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.clusterAuthBase64">clusterAuthBase64</a></code> | <code>string</code> | Base64 encoded CA of associated EKS cluster. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.clusterEndpoint">clusterEndpoint</a></code> | <code>string</code> | Endpoint of associated EKS cluster. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.clusterIpFamily">clusterIpFamily</a></code> | <code>string</code> | The IP family used to assign Kubernetes pod and service addresses. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.clusterName">clusterName</a></code> | <code>string</code> | Name of associated EKS cluster. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.clusterPrimarySecurityGroupId">clusterPrimarySecurityGroupId</a></code> | <code>string</code> | The ID of the EKS cluster primary security group to associate with the instance(s). |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.clusterSecurityGroupId">clusterSecurityGroupId</a></code> | <code>string</code> | Cluster control plane security group ID. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.clusterVersion">clusterVersion</a></code> | <code>string</code> | Kubernetes cluster version - used to lookup default AMI ID if one is not provided. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.cpuOptions">cpuOptions</a></code> | <code>{[ key: string ]: string}</code> | The CPU options for the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.create">create</a></code> | <code>boolean</code> | Determines whether to create self managed node group or not. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.createIamInstanceProfile">createIamInstanceProfile</a></code> | <code>boolean</code> | Determines whether an IAM instance profile is created or to use an existing IAM instance profile. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.createLaunchTemplate">createLaunchTemplate</a></code> | <code>boolean</code> | Determines whether to create launch template or not. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.createSchedule">createSchedule</a></code> | <code>boolean</code> | Determines whether to create autoscaling group schedule or not. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.createSecurityGroup">createSecurityGroup</a></code> | <code>boolean</code> | Determines whether to create a security group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.creditSpecification">creditSpecification</a></code> | <code>{[ key: string ]: string}</code> | Customize the credit specification of the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.defaultCooldown">defaultCooldown</a></code> | <code>number</code> | The amount of time, in seconds, after a scaling activity completes before another scaling activity can start. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.deleteTimeout">deleteTimeout</a></code> | <code>string</code> | Delete timeout to wait for destroying autoscaling group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.desiredSize">desiredSize</a></code> | <code>number</code> | The number of Amazon EC2 instances that should be running in the autoscaling group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.disableApiTermination">disableApiTermination</a></code> | <code>boolean</code> | If true, enables EC2 instance termination protection. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.ebsOptimized">ebsOptimized</a></code> | <code>boolean</code> | If true, the launched EC2 instance will be EBS-optimized. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.elasticGpuSpecifications">elasticGpuSpecifications</a></code> | <code>{[ key: string ]: string}</code> | The elastic GPU to attach to the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.elasticInferenceAccelerator">elasticInferenceAccelerator</a></code> | <code>{[ key: string ]: string}</code> | Configuration block containing an Elastic Inference Accelerator to attach to the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.enabledMetrics">enabledMetrics</a></code> | <code>string[]</code> | A list of metrics to collect. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.enableMonitoring">enableMonitoring</a></code> | <code>boolean</code> | Enables/disables detailed monitoring. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.enclaveOptions">enclaveOptions</a></code> | <code>{[ key: string ]: string}</code> | Enable Nitro Enclaves on launched instances The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.forceDelete">forceDelete</a></code> | <code>boolean</code> | Allows deleting the Auto Scaling Group without waiting for all instances in the pool to terminate. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.healthCheckGracePeriod">healthCheckGracePeriod</a></code> | <code>number</code> | Time (in seconds) after instance comes into service before checking health. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.healthCheckType">healthCheckType</a></code> | <code>string</code> | `EC2` or `ELB`. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.hibernationOptions">hibernationOptions</a></code> | <code>{[ key: string ]: string}</code> | The hibernation options for the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.iamInstanceProfileArn">iamInstanceProfileArn</a></code> | <code>string</code> | Amazon Resource Name (ARN) of an existing IAM instance profile that provides permissions for the node group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.iamRoleAdditionalPolicies">iamRoleAdditionalPolicies</a></code> | <code>string[]</code> | Additional policies to be added to the IAM role. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.iamRoleAttachCniPolicy">iamRoleAttachCniPolicy</a></code> | <code>boolean</code> | Whether to attach the `AmazonEKS_CNI_Policy`/`AmazonEKS_CNI_IPv6_Policy` IAM policy to the IAM IAM role. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.iamRoleDescription">iamRoleDescription</a></code> | <code>string</code> | Description of the role. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.iamRoleName">iamRoleName</a></code> | <code>string</code> | Name to use on IAM role created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.iamRolePath">iamRolePath</a></code> | <code>string</code> | IAM role path. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.iamRolePermissionsBoundary">iamRolePermissionsBoundary</a></code> | <code>string</code> | ARN of the policy that is used to set the permissions boundary for the IAM role. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.iamRoleTags">iamRoleTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the IAM role created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.iamRoleUseNamePrefix">iamRoleUseNamePrefix</a></code> | <code>boolean</code> | Determines whether cluster IAM role name (`iam_role_name`) is used as a prefix. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.initialLifecycleHooks">initialLifecycleHooks</a></code> | <code>{[ key: string ]: string}[]</code> | One or more Lifecycle Hooks to attach to the Auto Scaling Group before instances are launched. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.instanceInitiatedShutdownBehavior">instanceInitiatedShutdownBehavior</a></code> | <code>string</code> | Shutdown behavior for the instance. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.instanceMarketOptions">instanceMarketOptions</a></code> | <code>any</code> | The market (purchasing) option for the instance. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.instanceRefresh">instanceRefresh</a></code> | <code>any</code> | If this block is configured, start an Instance Refresh when this Auto Scaling Group is updated. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.instanceType">instanceType</a></code> | <code>string</code> | The type of the instance to launch. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.kernelId">kernelId</a></code> | <code>string</code> | The kernel ID. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.keyName">keyName</a></code> | <code>string</code> | The key name that should be used for the instance. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.launchTemplateDefaultVersion">launchTemplateDefaultVersion</a></code> | <code>string</code> | Default Version of the launch template. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.launchTemplateDescription">launchTemplateDescription</a></code> | <code>string</code> | Description of the launch template. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.launchTemplateName">launchTemplateName</a></code> | <code>string</code> | Launch template name - either to be created (`var.create_launch_template` = `true`) or existing (`var.create_launch_template` = `false`). |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.launchTemplateTags">launchTemplateTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the tag_specifications of launch template created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.launchTemplateUseNamePrefix">launchTemplateUseNamePrefix</a></code> | <code>boolean</code> | Determines whether to use `launch_template_name` as is or create a unique name beginning with the `launch_template_name` as the prefix. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.launchTemplateVersion">launchTemplateVersion</a></code> | <code>string</code> | Launch template version. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.licenseSpecifications">licenseSpecifications</a></code> | <code>{[ key: string ]: string}</code> | A list of license specifications to associate with The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.maxInstanceLifetime">maxInstanceLifetime</a></code> | <code>number</code> | The maximum amount of time, in seconds, that an instance can be in service, values must be either equal to 0 or between 604800 and 31536000 seconds. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.maxSize">maxSize</a></code> | <code>number</code> | The maximum size of the autoscaling group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.metadataOptions">metadataOptions</a></code> | <code>{[ key: string ]: string}</code> | Customize the metadata options for the instance. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.metricsGranularity">metricsGranularity</a></code> | <code>string</code> | The granularity to associate with the metrics to collect. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.minElbCapacity">minElbCapacity</a></code> | <code>number</code> | Setting this causes Terraform to wait for this number of instances to show up healthy in the ELB only on creation. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.minSize">minSize</a></code> | <code>number</code> | The minimum size of the autoscaling group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.mixedInstancesPolicy">mixedInstancesPolicy</a></code> | <code>any</code> | Configuration block containing settings to define launch targets for Auto Scaling groups. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.name">name</a></code> | <code>string</code> | Name of the Self managed Node Group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.networkInterfaces">networkInterfaces</a></code> | <code>any[]</code> | Customize network interfaces to be attached at instance boot time. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.placement">placement</a></code> | <code>{[ key: string ]: string}</code> | The placement of the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.placementGroup">placementGroup</a></code> | <code>string</code> | The name of the placement group into which you'll launch your instances, if any. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.platform">platform</a></code> | <code>string</code> | Identifies if the OS platform is `bottlerocket`, `linux`, or `windows` based. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.postBootstrapUserData">postBootstrapUserData</a></code> | <code>string</code> | User data that is appended to the user data script after of the EKS bootstrap script. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.preBootstrapUserData">preBootstrapUserData</a></code> | <code>string</code> | User data that is injected into the user data script ahead of the EKS bootstrap script. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.protectFromScaleIn">protectFromScaleIn</a></code> | <code>boolean</code> | Allows setting instance protection. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.ramDiskId">ramDiskId</a></code> | <code>string</code> | The ID of the ram disk. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.schedules">schedules</a></code> | <code>{[ key: string ]: any}</code> | Map of autoscaling group schedule to create. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.securityGroupDescription">securityGroupDescription</a></code> | <code>string</code> | Description for the security group created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.securityGroupName">securityGroupName</a></code> | <code>string</code> | Name to use on security group created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.securityGroupRules">securityGroupRules</a></code> | <code>any</code> | List of security group rules to add to the security group created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.securityGroupTags">securityGroupTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the security group created. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.securityGroupUseNamePrefix">securityGroupUseNamePrefix</a></code> | <code>string</code> | Determines whether the security group name (`security_group_name`) is used as a prefix. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.serviceLinkedRoleArn">serviceLinkedRoleArn</a></code> | <code>string</code> | The ARN of the service-linked role that the ASG will use to call other AWS services. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.subnetIds">subnetIds</a></code> | <code>string[]</code> | A list of subnet IDs to launch resources in. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.suspendedProcesses">suspendedProcesses</a></code> | <code>string[]</code> | A list of processes to suspend for the Auto Scaling Group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | A map of tags to add to all resources. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.targetGroupArns">targetGroupArns</a></code> | <code>string[]</code> | A set of `aws_alb_target_group` ARNs, for use with Application or Network Load Balancing. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.terminationPolicies">terminationPolicies</a></code> | <code>string[]</code> | A list of policies to decide how the instances in the Auto Scaling Group should be terminated. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.updateLaunchTemplateDefaultVersion">updateLaunchTemplateDefaultVersion</a></code> | <code>boolean</code> | Whether to update Default Version each update. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.useDefaultTags">useDefaultTags</a></code> | <code>boolean</code> | Enables/disables the use of provider default tags in the tag_specifications of the Auto Scaling group. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.useMixedInstancesPolicy">useMixedInstancesPolicy</a></code> | <code>boolean</code> | Determines whether to use a mixed instances policy in the autoscaling group or not. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.useNamePrefix">useNamePrefix</a></code> | <code>boolean</code> | Determines whether to use `name` as is or create a unique name beginning with the `name` as the prefix. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.userDataTemplatePath">userDataTemplatePath</a></code> | <code>string</code> | Path to a local, custom user data template file to use when rendering user data. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.vpcId">vpcId</a></code> | <code>string</code> | ID of the VPC where the security group/nodes will be provisioned. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.vpcSecurityGroupIds">vpcSecurityGroupIds</a></code> | <code>string[]</code> | A list of security group IDs to associate. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.waitForCapacityTimeout">waitForCapacityTimeout</a></code> | <code>string</code> | A maximum duration that Terraform should wait for ASG instances to be healthy before timing out. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.waitForElbCapacity">waitForElbCapacity</a></code> | <code>number</code> | Setting this will cause Terraform to wait for exactly this number of healthy instances in all attached load balancers on both create and update operations. |
-| <code><a href="#terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.warmPool">warmPool</a></code> | <code>any</code> | If this block is configured, add a Warm Pool to the specified Auto Scaling group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.amiId">amiId</a></code> | <code>string</code> | The AMI from which to launch the instance. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.availabilityZones">availabilityZones</a></code> | <code>string[]</code> | A list of one or more availability zones for the group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.blockDeviceMappings">blockDeviceMappings</a></code> | <code>any</code> | Specify volumes to attach to the instance besides the volumes specified by the AMI. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.bootstrapExtraArgs">bootstrapExtraArgs</a></code> | <code>string</code> | Additional arguments passed to the bootstrap script. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.capacityRebalance">capacityRebalance</a></code> | <code>boolean</code> | Indicates whether capacity rebalance is enabled. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.capacityReservationSpecification">capacityReservationSpecification</a></code> | <code>any</code> | Targeting for EC2 capacity reservations. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.clusterAuthBase64">clusterAuthBase64</a></code> | <code>string</code> | Base64 encoded CA of associated EKS cluster. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.clusterEndpoint">clusterEndpoint</a></code> | <code>string</code> | Endpoint of associated EKS cluster. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.clusterIpFamily">clusterIpFamily</a></code> | <code>string</code> | The IP family used to assign Kubernetes pod and service addresses. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.clusterName">clusterName</a></code> | <code>string</code> | Name of associated EKS cluster. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.clusterPrimarySecurityGroupId">clusterPrimarySecurityGroupId</a></code> | <code>string</code> | The ID of the EKS cluster primary security group to associate with the instance(s). |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.clusterSecurityGroupId">clusterSecurityGroupId</a></code> | <code>string</code> | Cluster control plane security group ID. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.clusterVersion">clusterVersion</a></code> | <code>string</code> | Kubernetes cluster version - used to lookup default AMI ID if one is not provided. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.cpuOptions">cpuOptions</a></code> | <code>{[ key: string ]: string}</code> | The CPU options for the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.create">create</a></code> | <code>boolean</code> | Determines whether to create self managed node group or not. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.createIamInstanceProfile">createIamInstanceProfile</a></code> | <code>boolean</code> | Determines whether an IAM instance profile is created or to use an existing IAM instance profile. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.createLaunchTemplate">createLaunchTemplate</a></code> | <code>boolean</code> | Determines whether to create launch template or not. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.createSchedule">createSchedule</a></code> | <code>boolean</code> | Determines whether to create autoscaling group schedule or not. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.createSecurityGroup">createSecurityGroup</a></code> | <code>boolean</code> | Determines whether to create a security group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.creditSpecification">creditSpecification</a></code> | <code>{[ key: string ]: string}</code> | Customize the credit specification of the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.defaultCooldown">defaultCooldown</a></code> | <code>number</code> | The amount of time, in seconds, after a scaling activity completes before another scaling activity can start. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.deleteTimeout">deleteTimeout</a></code> | <code>string</code> | Delete timeout to wait for destroying autoscaling group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.desiredSize">desiredSize</a></code> | <code>number</code> | The number of Amazon EC2 instances that should be running in the autoscaling group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.disableApiTermination">disableApiTermination</a></code> | <code>boolean</code> | If true, enables EC2 instance termination protection. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.ebsOptimized">ebsOptimized</a></code> | <code>boolean</code> | If true, the launched EC2 instance will be EBS-optimized. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.elasticGpuSpecifications">elasticGpuSpecifications</a></code> | <code>{[ key: string ]: string}</code> | The elastic GPU to attach to the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.elasticInferenceAccelerator">elasticInferenceAccelerator</a></code> | <code>{[ key: string ]: string}</code> | Configuration block containing an Elastic Inference Accelerator to attach to the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.enabledMetrics">enabledMetrics</a></code> | <code>string[]</code> | A list of metrics to collect. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.enableMonitoring">enableMonitoring</a></code> | <code>boolean</code> | Enables/disables detailed monitoring. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.enclaveOptions">enclaveOptions</a></code> | <code>{[ key: string ]: string}</code> | Enable Nitro Enclaves on launched instances The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.forceDelete">forceDelete</a></code> | <code>boolean</code> | Allows deleting the Auto Scaling Group without waiting for all instances in the pool to terminate. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.healthCheckGracePeriod">healthCheckGracePeriod</a></code> | <code>number</code> | Time (in seconds) after instance comes into service before checking health. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.healthCheckType">healthCheckType</a></code> | <code>string</code> | `EC2` or `ELB`. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.hibernationOptions">hibernationOptions</a></code> | <code>{[ key: string ]: string}</code> | The hibernation options for the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.iamInstanceProfileArn">iamInstanceProfileArn</a></code> | <code>string</code> | Amazon Resource Name (ARN) of an existing IAM instance profile that provides permissions for the node group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.iamRoleAdditionalPolicies">iamRoleAdditionalPolicies</a></code> | <code>string[]</code> | Additional policies to be added to the IAM role. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.iamRoleAttachCniPolicy">iamRoleAttachCniPolicy</a></code> | <code>boolean</code> | Whether to attach the `AmazonEKS_CNI_Policy`/`AmazonEKS_CNI_IPv6_Policy` IAM policy to the IAM IAM role. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.iamRoleDescription">iamRoleDescription</a></code> | <code>string</code> | Description of the role. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.iamRoleName">iamRoleName</a></code> | <code>string</code> | Name to use on IAM role created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.iamRolePath">iamRolePath</a></code> | <code>string</code> | IAM role path. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.iamRolePermissionsBoundary">iamRolePermissionsBoundary</a></code> | <code>string</code> | ARN of the policy that is used to set the permissions boundary for the IAM role. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.iamRoleTags">iamRoleTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the IAM role created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.iamRoleUseNamePrefix">iamRoleUseNamePrefix</a></code> | <code>boolean</code> | Determines whether cluster IAM role name (`iam_role_name`) is used as a prefix. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.initialLifecycleHooks">initialLifecycleHooks</a></code> | <code>{[ key: string ]: string}[]</code> | One or more Lifecycle Hooks to attach to the Auto Scaling Group before instances are launched. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.instanceInitiatedShutdownBehavior">instanceInitiatedShutdownBehavior</a></code> | <code>string</code> | Shutdown behavior for the instance. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.instanceMarketOptions">instanceMarketOptions</a></code> | <code>any</code> | The market (purchasing) option for the instance. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.instanceRefresh">instanceRefresh</a></code> | <code>any</code> | If this block is configured, start an Instance Refresh when this Auto Scaling Group is updated. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.instanceType">instanceType</a></code> | <code>string</code> | The type of the instance to launch. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.kernelId">kernelId</a></code> | <code>string</code> | The kernel ID. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.keyName">keyName</a></code> | <code>string</code> | The key name that should be used for the instance. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.launchTemplateDefaultVersion">launchTemplateDefaultVersion</a></code> | <code>string</code> | Default Version of the launch template. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.launchTemplateDescription">launchTemplateDescription</a></code> | <code>string</code> | Description of the launch template. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.launchTemplateName">launchTemplateName</a></code> | <code>string</code> | Launch template name - either to be created (`var.create_launch_template` = `true`) or existing (`var.create_launch_template` = `false`). |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.launchTemplateTags">launchTemplateTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the tag_specifications of launch template created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.launchTemplateUseNamePrefix">launchTemplateUseNamePrefix</a></code> | <code>boolean</code> | Determines whether to use `launch_template_name` as is or create a unique name beginning with the `launch_template_name` as the prefix. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.launchTemplateVersion">launchTemplateVersion</a></code> | <code>string</code> | Launch template version. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.licenseSpecifications">licenseSpecifications</a></code> | <code>{[ key: string ]: string}</code> | A list of license specifications to associate with The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.maxInstanceLifetime">maxInstanceLifetime</a></code> | <code>number</code> | The maximum amount of time, in seconds, that an instance can be in service, values must be either equal to 0 or between 604800 and 31536000 seconds. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.maxSize">maxSize</a></code> | <code>number</code> | The maximum size of the autoscaling group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.metadataOptions">metadataOptions</a></code> | <code>{[ key: string ]: string}</code> | Customize the metadata options for the instance. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.metricsGranularity">metricsGranularity</a></code> | <code>string</code> | The granularity to associate with the metrics to collect. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.minElbCapacity">minElbCapacity</a></code> | <code>number</code> | Setting this causes Terraform to wait for this number of instances to show up healthy in the ELB only on creation. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.minSize">minSize</a></code> | <code>number</code> | The minimum size of the autoscaling group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.mixedInstancesPolicy">mixedInstancesPolicy</a></code> | <code>any</code> | Configuration block containing settings to define launch targets for Auto Scaling groups. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.name">name</a></code> | <code>string</code> | Name of the Self managed Node Group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.networkInterfaces">networkInterfaces</a></code> | <code>any[]</code> | Customize network interfaces to be attached at instance boot time. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.placement">placement</a></code> | <code>{[ key: string ]: string}</code> | The placement of the instance The property type contains a map, they have special handling, please see {@link cdk.tf/module-map-inputs the docs}. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.placementGroup">placementGroup</a></code> | <code>string</code> | The name of the placement group into which you'll launch your instances, if any. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.platform">platform</a></code> | <code>string</code> | Identifies if the OS platform is `bottlerocket`, `linux`, or `windows` based. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.postBootstrapUserData">postBootstrapUserData</a></code> | <code>string</code> | User data that is appended to the user data script after of the EKS bootstrap script. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.preBootstrapUserData">preBootstrapUserData</a></code> | <code>string</code> | User data that is injected into the user data script ahead of the EKS bootstrap script. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.protectFromScaleIn">protectFromScaleIn</a></code> | <code>boolean</code> | Allows setting instance protection. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.ramDiskId">ramDiskId</a></code> | <code>string</code> | The ID of the ram disk. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.schedules">schedules</a></code> | <code>{[ key: string ]: any}</code> | Map of autoscaling group schedule to create. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.securityGroupDescription">securityGroupDescription</a></code> | <code>string</code> | Description for the security group created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.securityGroupName">securityGroupName</a></code> | <code>string</code> | Name to use on security group created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.securityGroupRules">securityGroupRules</a></code> | <code>any</code> | List of security group rules to add to the security group created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.securityGroupTags">securityGroupTags</a></code> | <code>{[ key: string ]: string}</code> | A map of additional tags to add to the security group created. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.securityGroupUseNamePrefix">securityGroupUseNamePrefix</a></code> | <code>string</code> | Determines whether the security group name (`security_group_name`) is used as a prefix. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.serviceLinkedRoleArn">serviceLinkedRoleArn</a></code> | <code>string</code> | The ARN of the service-linked role that the ASG will use to call other AWS services. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.subnetIds">subnetIds</a></code> | <code>string[]</code> | A list of subnet IDs to launch resources in. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.suspendedProcesses">suspendedProcesses</a></code> | <code>string[]</code> | A list of processes to suspend for the Auto Scaling Group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | A map of tags to add to all resources. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.targetGroupArns">targetGroupArns</a></code> | <code>string[]</code> | A set of `aws_alb_target_group` ARNs, for use with Application or Network Load Balancing. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.terminationPolicies">terminationPolicies</a></code> | <code>string[]</code> | A list of policies to decide how the instances in the Auto Scaling Group should be terminated. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.updateLaunchTemplateDefaultVersion">updateLaunchTemplateDefaultVersion</a></code> | <code>boolean</code> | Whether to update Default Version each update. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.useDefaultTags">useDefaultTags</a></code> | <code>boolean</code> | Enables/disables the use of provider default tags in the tag_specifications of the Auto Scaling group. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.useMixedInstancesPolicy">useMixedInstancesPolicy</a></code> | <code>boolean</code> | Determines whether to use a mixed instances policy in the autoscaling group or not. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.useNamePrefix">useNamePrefix</a></code> | <code>boolean</code> | Determines whether to use `name` as is or create a unique name beginning with the `name` as the prefix. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.userDataTemplatePath">userDataTemplatePath</a></code> | <code>string</code> | Path to a local, custom user data template file to use when rendering user data. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.vpcId">vpcId</a></code> | <code>string</code> | ID of the VPC where the security group/nodes will be provisioned. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.vpcSecurityGroupIds">vpcSecurityGroupIds</a></code> | <code>string[]</code> | A list of security group IDs to associate. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.waitForCapacityTimeout">waitForCapacityTimeout</a></code> | <code>string</code> | A maximum duration that Terraform should wait for ASG instances to be healthy before timing out. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.waitForElbCapacity">waitForElbCapacity</a></code> | <code>number</code> | Setting this will cause Terraform to wait for exactly this number of healthy instances in all attached load balancers on both create and update operations. |
+| <code><a href="#@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.warmPool">warmPool</a></code> | <code>any</code> | If this block is configured, add a Warm Pool to the specified Auto Scaling group. |
 
 ---
 
-##### `amiId`<sup>Optional</sup> <a name="amiId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.amiId"></a>
+##### `amiId`<sup>Optional</sup> <a name="amiId" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.amiId"></a>
 
 ```typescript
 public readonly amiId: string;
@@ -6690,7 +6690,7 @@ The AMI from which to launch the instance.
 
 ---
 
-##### `availabilityZones`<sup>Optional</sup> <a name="availabilityZones" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.availabilityZones"></a>
+##### `availabilityZones`<sup>Optional</sup> <a name="availabilityZones" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.availabilityZones"></a>
 
 ```typescript
 public readonly availabilityZones: string[];
@@ -6704,7 +6704,7 @@ Used for EC2-Classic and default subnets when not specified with `subnet_ids` ar
 
 ---
 
-##### `blockDeviceMappings`<sup>Optional</sup> <a name="blockDeviceMappings" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.blockDeviceMappings"></a>
+##### `blockDeviceMappings`<sup>Optional</sup> <a name="blockDeviceMappings" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.blockDeviceMappings"></a>
 
 ```typescript
 public readonly blockDeviceMappings: any;
@@ -6717,7 +6717,7 @@ Specify volumes to attach to the instance besides the volumes specified by the A
 
 ---
 
-##### `bootstrapExtraArgs`<sup>Optional</sup> <a name="bootstrapExtraArgs" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.bootstrapExtraArgs"></a>
+##### `bootstrapExtraArgs`<sup>Optional</sup> <a name="bootstrapExtraArgs" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.bootstrapExtraArgs"></a>
 
 ```typescript
 public readonly bootstrapExtraArgs: string;
@@ -6731,7 +6731,7 @@ When `platform` = `bottlerocket`; these are additional [settings](https://github
 
 ---
 
-##### `capacityRebalance`<sup>Optional</sup> <a name="capacityRebalance" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.capacityRebalance"></a>
+##### `capacityRebalance`<sup>Optional</sup> <a name="capacityRebalance" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.capacityRebalance"></a>
 
 ```typescript
 public readonly capacityRebalance: boolean;
@@ -6743,7 +6743,7 @@ Indicates whether capacity rebalance is enabled.
 
 ---
 
-##### `capacityReservationSpecification`<sup>Optional</sup> <a name="capacityReservationSpecification" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.capacityReservationSpecification"></a>
+##### `capacityReservationSpecification`<sup>Optional</sup> <a name="capacityReservationSpecification" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.capacityReservationSpecification"></a>
 
 ```typescript
 public readonly capacityReservationSpecification: any;
@@ -6755,7 +6755,7 @@ Targeting for EC2 capacity reservations.
 
 ---
 
-##### `clusterAuthBase64`<sup>Optional</sup> <a name="clusterAuthBase64" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.clusterAuthBase64"></a>
+##### `clusterAuthBase64`<sup>Optional</sup> <a name="clusterAuthBase64" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.clusterAuthBase64"></a>
 
 ```typescript
 public readonly clusterAuthBase64: string;
@@ -6767,7 +6767,7 @@ Base64 encoded CA of associated EKS cluster.
 
 ---
 
-##### `clusterEndpoint`<sup>Optional</sup> <a name="clusterEndpoint" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.clusterEndpoint"></a>
+##### `clusterEndpoint`<sup>Optional</sup> <a name="clusterEndpoint" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.clusterEndpoint"></a>
 
 ```typescript
 public readonly clusterEndpoint: string;
@@ -6779,7 +6779,7 @@ Endpoint of associated EKS cluster.
 
 ---
 
-##### `clusterIpFamily`<sup>Optional</sup> <a name="clusterIpFamily" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.clusterIpFamily"></a>
+##### `clusterIpFamily`<sup>Optional</sup> <a name="clusterIpFamily" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.clusterIpFamily"></a>
 
 ```typescript
 public readonly clusterIpFamily: string;
@@ -6793,7 +6793,7 @@ Valid values are `ipv4` (default) and `ipv6`
 
 ---
 
-##### `clusterName`<sup>Optional</sup> <a name="clusterName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.clusterName"></a>
+##### `clusterName`<sup>Optional</sup> <a name="clusterName" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.clusterName"></a>
 
 ```typescript
 public readonly clusterName: string;
@@ -6805,7 +6805,7 @@ Name of associated EKS cluster.
 
 ---
 
-##### `clusterPrimarySecurityGroupId`<sup>Optional</sup> <a name="clusterPrimarySecurityGroupId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.clusterPrimarySecurityGroupId"></a>
+##### `clusterPrimarySecurityGroupId`<sup>Optional</sup> <a name="clusterPrimarySecurityGroupId" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.clusterPrimarySecurityGroupId"></a>
 
 ```typescript
 public readonly clusterPrimarySecurityGroupId: string;
@@ -6819,7 +6819,7 @@ This is the security group that is automatically created by the EKS service
 
 ---
 
-##### `clusterSecurityGroupId`<sup>Optional</sup> <a name="clusterSecurityGroupId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.clusterSecurityGroupId"></a>
+##### `clusterSecurityGroupId`<sup>Optional</sup> <a name="clusterSecurityGroupId" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.clusterSecurityGroupId"></a>
 
 ```typescript
 public readonly clusterSecurityGroupId: string;
@@ -6831,7 +6831,7 @@ Cluster control plane security group ID.
 
 ---
 
-##### `clusterVersion`<sup>Optional</sup> <a name="clusterVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.clusterVersion"></a>
+##### `clusterVersion`<sup>Optional</sup> <a name="clusterVersion" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.clusterVersion"></a>
 
 ```typescript
 public readonly clusterVersion: string;
@@ -6843,7 +6843,7 @@ Kubernetes cluster version - used to lookup default AMI ID if one is not provide
 
 ---
 
-##### `cpuOptions`<sup>Optional</sup> <a name="cpuOptions" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.cpuOptions"></a>
+##### `cpuOptions`<sup>Optional</sup> <a name="cpuOptions" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.cpuOptions"></a>
 
 ```typescript
 public readonly cpuOptions: {[ key: string ]: string};
@@ -6855,7 +6855,7 @@ The CPU options for the instance The property type contains a map, they have spe
 
 ---
 
-##### `create`<sup>Optional</sup> <a name="create" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.create"></a>
+##### `create`<sup>Optional</sup> <a name="create" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.create"></a>
 
 ```typescript
 public readonly create: boolean;
@@ -6868,7 +6868,7 @@ Determines whether to create self managed node group or not.
 
 ---
 
-##### `createIamInstanceProfile`<sup>Optional</sup> <a name="createIamInstanceProfile" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.createIamInstanceProfile"></a>
+##### `createIamInstanceProfile`<sup>Optional</sup> <a name="createIamInstanceProfile" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.createIamInstanceProfile"></a>
 
 ```typescript
 public readonly createIamInstanceProfile: boolean;
@@ -6881,7 +6881,7 @@ Determines whether an IAM instance profile is created or to use an existing IAM 
 
 ---
 
-##### `createLaunchTemplate`<sup>Optional</sup> <a name="createLaunchTemplate" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.createLaunchTemplate"></a>
+##### `createLaunchTemplate`<sup>Optional</sup> <a name="createLaunchTemplate" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.createLaunchTemplate"></a>
 
 ```typescript
 public readonly createLaunchTemplate: boolean;
@@ -6894,7 +6894,7 @@ Determines whether to create launch template or not.
 
 ---
 
-##### `createSchedule`<sup>Optional</sup> <a name="createSchedule" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.createSchedule"></a>
+##### `createSchedule`<sup>Optional</sup> <a name="createSchedule" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.createSchedule"></a>
 
 ```typescript
 public readonly createSchedule: boolean;
@@ -6907,7 +6907,7 @@ Determines whether to create autoscaling group schedule or not.
 
 ---
 
-##### `createSecurityGroup`<sup>Optional</sup> <a name="createSecurityGroup" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.createSecurityGroup"></a>
+##### `createSecurityGroup`<sup>Optional</sup> <a name="createSecurityGroup" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.createSecurityGroup"></a>
 
 ```typescript
 public readonly createSecurityGroup: boolean;
@@ -6920,7 +6920,7 @@ Determines whether to create a security group.
 
 ---
 
-##### `creditSpecification`<sup>Optional</sup> <a name="creditSpecification" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.creditSpecification"></a>
+##### `creditSpecification`<sup>Optional</sup> <a name="creditSpecification" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.creditSpecification"></a>
 
 ```typescript
 public readonly creditSpecification: {[ key: string ]: string};
@@ -6932,7 +6932,7 @@ Customize the credit specification of the instance The property type contains a 
 
 ---
 
-##### `defaultCooldown`<sup>Optional</sup> <a name="defaultCooldown" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.defaultCooldown"></a>
+##### `defaultCooldown`<sup>Optional</sup> <a name="defaultCooldown" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.defaultCooldown"></a>
 
 ```typescript
 public readonly defaultCooldown: number;
@@ -6944,7 +6944,7 @@ The amount of time, in seconds, after a scaling activity completes before anothe
 
 ---
 
-##### `deleteTimeout`<sup>Optional</sup> <a name="deleteTimeout" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.deleteTimeout"></a>
+##### `deleteTimeout`<sup>Optional</sup> <a name="deleteTimeout" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.deleteTimeout"></a>
 
 ```typescript
 public readonly deleteTimeout: string;
@@ -6956,7 +6956,7 @@ Delete timeout to wait for destroying autoscaling group.
 
 ---
 
-##### `desiredSize`<sup>Optional</sup> <a name="desiredSize" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.desiredSize"></a>
+##### `desiredSize`<sup>Optional</sup> <a name="desiredSize" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.desiredSize"></a>
 
 ```typescript
 public readonly desiredSize: number;
@@ -6969,7 +6969,7 @@ The number of Amazon EC2 instances that should be running in the autoscaling gro
 
 ---
 
-##### `disableApiTermination`<sup>Optional</sup> <a name="disableApiTermination" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.disableApiTermination"></a>
+##### `disableApiTermination`<sup>Optional</sup> <a name="disableApiTermination" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.disableApiTermination"></a>
 
 ```typescript
 public readonly disableApiTermination: boolean;
@@ -6981,7 +6981,7 @@ If true, enables EC2 instance termination protection.
 
 ---
 
-##### `ebsOptimized`<sup>Optional</sup> <a name="ebsOptimized" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.ebsOptimized"></a>
+##### `ebsOptimized`<sup>Optional</sup> <a name="ebsOptimized" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.ebsOptimized"></a>
 
 ```typescript
 public readonly ebsOptimized: boolean;
@@ -6993,7 +6993,7 @@ If true, the launched EC2 instance will be EBS-optimized.
 
 ---
 
-##### `elasticGpuSpecifications`<sup>Optional</sup> <a name="elasticGpuSpecifications" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.elasticGpuSpecifications"></a>
+##### `elasticGpuSpecifications`<sup>Optional</sup> <a name="elasticGpuSpecifications" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.elasticGpuSpecifications"></a>
 
 ```typescript
 public readonly elasticGpuSpecifications: {[ key: string ]: string};
@@ -7005,7 +7005,7 @@ The elastic GPU to attach to the instance The property type contains a map, they
 
 ---
 
-##### `elasticInferenceAccelerator`<sup>Optional</sup> <a name="elasticInferenceAccelerator" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.elasticInferenceAccelerator"></a>
+##### `elasticInferenceAccelerator`<sup>Optional</sup> <a name="elasticInferenceAccelerator" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.elasticInferenceAccelerator"></a>
 
 ```typescript
 public readonly elasticInferenceAccelerator: {[ key: string ]: string};
@@ -7017,7 +7017,7 @@ Configuration block containing an Elastic Inference Accelerator to attach to the
 
 ---
 
-##### `enabledMetrics`<sup>Optional</sup> <a name="enabledMetrics" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.enabledMetrics"></a>
+##### `enabledMetrics`<sup>Optional</sup> <a name="enabledMetrics" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.enabledMetrics"></a>
 
 ```typescript
 public readonly enabledMetrics: string[];
@@ -7031,7 +7031,7 @@ The allowed values are `GroupDesiredCapacity`, `GroupInServiceCapacity`, `GroupP
 
 ---
 
-##### `enableMonitoring`<sup>Optional</sup> <a name="enableMonitoring" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.enableMonitoring"></a>
+##### `enableMonitoring`<sup>Optional</sup> <a name="enableMonitoring" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.enableMonitoring"></a>
 
 ```typescript
 public readonly enableMonitoring: boolean;
@@ -7044,7 +7044,7 @@ Enables/disables detailed monitoring.
 
 ---
 
-##### `enclaveOptions`<sup>Optional</sup> <a name="enclaveOptions" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.enclaveOptions"></a>
+##### `enclaveOptions`<sup>Optional</sup> <a name="enclaveOptions" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.enclaveOptions"></a>
 
 ```typescript
 public readonly enclaveOptions: {[ key: string ]: string};
@@ -7056,7 +7056,7 @@ Enable Nitro Enclaves on launched instances The property type contains a map, th
 
 ---
 
-##### `forceDelete`<sup>Optional</sup> <a name="forceDelete" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.forceDelete"></a>
+##### `forceDelete`<sup>Optional</sup> <a name="forceDelete" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.forceDelete"></a>
 
 ```typescript
 public readonly forceDelete: boolean;
@@ -7070,7 +7070,7 @@ You can force an Auto Scaling Group to delete even if it's in the process of sca
 
 ---
 
-##### `healthCheckGracePeriod`<sup>Optional</sup> <a name="healthCheckGracePeriod" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.healthCheckGracePeriod"></a>
+##### `healthCheckGracePeriod`<sup>Optional</sup> <a name="healthCheckGracePeriod" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.healthCheckGracePeriod"></a>
 
 ```typescript
 public readonly healthCheckGracePeriod: number;
@@ -7082,7 +7082,7 @@ Time (in seconds) after instance comes into service before checking health.
 
 ---
 
-##### `healthCheckType`<sup>Optional</sup> <a name="healthCheckType" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.healthCheckType"></a>
+##### `healthCheckType`<sup>Optional</sup> <a name="healthCheckType" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.healthCheckType"></a>
 
 ```typescript
 public readonly healthCheckType: string;
@@ -7096,7 +7096,7 @@ Controls how health checking is done
 
 ---
 
-##### `hibernationOptions`<sup>Optional</sup> <a name="hibernationOptions" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.hibernationOptions"></a>
+##### `hibernationOptions`<sup>Optional</sup> <a name="hibernationOptions" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.hibernationOptions"></a>
 
 ```typescript
 public readonly hibernationOptions: {[ key: string ]: string};
@@ -7108,7 +7108,7 @@ The hibernation options for the instance The property type contains a map, they 
 
 ---
 
-##### `iamInstanceProfileArn`<sup>Optional</sup> <a name="iamInstanceProfileArn" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.iamInstanceProfileArn"></a>
+##### `iamInstanceProfileArn`<sup>Optional</sup> <a name="iamInstanceProfileArn" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.iamInstanceProfileArn"></a>
 
 ```typescript
 public readonly iamInstanceProfileArn: string;
@@ -7122,7 +7122,7 @@ Required if `create_iam_instance_profile` = `false`
 
 ---
 
-##### `iamRoleAdditionalPolicies`<sup>Optional</sup> <a name="iamRoleAdditionalPolicies" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.iamRoleAdditionalPolicies"></a>
+##### `iamRoleAdditionalPolicies`<sup>Optional</sup> <a name="iamRoleAdditionalPolicies" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.iamRoleAdditionalPolicies"></a>
 
 ```typescript
 public readonly iamRoleAdditionalPolicies: string[];
@@ -7134,7 +7134,7 @@ Additional policies to be added to the IAM role.
 
 ---
 
-##### `iamRoleAttachCniPolicy`<sup>Optional</sup> <a name="iamRoleAttachCniPolicy" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.iamRoleAttachCniPolicy"></a>
+##### `iamRoleAttachCniPolicy`<sup>Optional</sup> <a name="iamRoleAttachCniPolicy" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.iamRoleAttachCniPolicy"></a>
 
 ```typescript
 public readonly iamRoleAttachCniPolicy: boolean;
@@ -7149,7 +7149,7 @@ WARNING: If set `false` the permissions must be assigned to the `aws-node` Daemo
 
 ---
 
-##### `iamRoleDescription`<sup>Optional</sup> <a name="iamRoleDescription" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.iamRoleDescription"></a>
+##### `iamRoleDescription`<sup>Optional</sup> <a name="iamRoleDescription" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.iamRoleDescription"></a>
 
 ```typescript
 public readonly iamRoleDescription: string;
@@ -7161,7 +7161,7 @@ Description of the role.
 
 ---
 
-##### `iamRoleName`<sup>Optional</sup> <a name="iamRoleName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.iamRoleName"></a>
+##### `iamRoleName`<sup>Optional</sup> <a name="iamRoleName" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.iamRoleName"></a>
 
 ```typescript
 public readonly iamRoleName: string;
@@ -7173,7 +7173,7 @@ Name to use on IAM role created.
 
 ---
 
-##### `iamRolePath`<sup>Optional</sup> <a name="iamRolePath" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.iamRolePath"></a>
+##### `iamRolePath`<sup>Optional</sup> <a name="iamRolePath" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.iamRolePath"></a>
 
 ```typescript
 public readonly iamRolePath: string;
@@ -7185,7 +7185,7 @@ IAM role path.
 
 ---
 
-##### `iamRolePermissionsBoundary`<sup>Optional</sup> <a name="iamRolePermissionsBoundary" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.iamRolePermissionsBoundary"></a>
+##### `iamRolePermissionsBoundary`<sup>Optional</sup> <a name="iamRolePermissionsBoundary" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.iamRolePermissionsBoundary"></a>
 
 ```typescript
 public readonly iamRolePermissionsBoundary: string;
@@ -7197,7 +7197,7 @@ ARN of the policy that is used to set the permissions boundary for the IAM role.
 
 ---
 
-##### `iamRoleTags`<sup>Optional</sup> <a name="iamRoleTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.iamRoleTags"></a>
+##### `iamRoleTags`<sup>Optional</sup> <a name="iamRoleTags" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.iamRoleTags"></a>
 
 ```typescript
 public readonly iamRoleTags: {[ key: string ]: string};
@@ -7210,7 +7210,7 @@ A map of additional tags to add to the IAM role created.
 
 ---
 
-##### `iamRoleUseNamePrefix`<sup>Optional</sup> <a name="iamRoleUseNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.iamRoleUseNamePrefix"></a>
+##### `iamRoleUseNamePrefix`<sup>Optional</sup> <a name="iamRoleUseNamePrefix" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.iamRoleUseNamePrefix"></a>
 
 ```typescript
 public readonly iamRoleUseNamePrefix: boolean;
@@ -7223,7 +7223,7 @@ Determines whether cluster IAM role name (`iam_role_name`) is used as a prefix.
 
 ---
 
-##### `initialLifecycleHooks`<sup>Optional</sup> <a name="initialLifecycleHooks" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.initialLifecycleHooks"></a>
+##### `initialLifecycleHooks`<sup>Optional</sup> <a name="initialLifecycleHooks" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.initialLifecycleHooks"></a>
 
 ```typescript
 public readonly initialLifecycleHooks: {[ key: string ]: string}[];
@@ -7238,7 +7238,7 @@ The syntax is exactly the same as the separate `aws_autoscaling_lifecycle_hook` 
 
 ---
 
-##### `instanceInitiatedShutdownBehavior`<sup>Optional</sup> <a name="instanceInitiatedShutdownBehavior" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.instanceInitiatedShutdownBehavior"></a>
+##### `instanceInitiatedShutdownBehavior`<sup>Optional</sup> <a name="instanceInitiatedShutdownBehavior" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.instanceInitiatedShutdownBehavior"></a>
 
 ```typescript
 public readonly instanceInitiatedShutdownBehavior: string;
@@ -7252,7 +7252,7 @@ Can be `stop` or `terminate`. (Default: `stop`)
 
 ---
 
-##### `instanceMarketOptions`<sup>Optional</sup> <a name="instanceMarketOptions" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.instanceMarketOptions"></a>
+##### `instanceMarketOptions`<sup>Optional</sup> <a name="instanceMarketOptions" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.instanceMarketOptions"></a>
 
 ```typescript
 public readonly instanceMarketOptions: any;
@@ -7264,7 +7264,7 @@ The market (purchasing) option for the instance.
 
 ---
 
-##### `instanceRefresh`<sup>Optional</sup> <a name="instanceRefresh" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.instanceRefresh"></a>
+##### `instanceRefresh`<sup>Optional</sup> <a name="instanceRefresh" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.instanceRefresh"></a>
 
 ```typescript
 public readonly instanceRefresh: any;
@@ -7276,7 +7276,7 @@ If this block is configured, start an Instance Refresh when this Auto Scaling Gr
 
 ---
 
-##### `instanceType`<sup>Optional</sup> <a name="instanceType" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.instanceType"></a>
+##### `instanceType`<sup>Optional</sup> <a name="instanceType" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.instanceType"></a>
 
 ```typescript
 public readonly instanceType: string;
@@ -7288,7 +7288,7 @@ The type of the instance to launch.
 
 ---
 
-##### `kernelId`<sup>Optional</sup> <a name="kernelId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.kernelId"></a>
+##### `kernelId`<sup>Optional</sup> <a name="kernelId" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.kernelId"></a>
 
 ```typescript
 public readonly kernelId: string;
@@ -7300,7 +7300,7 @@ The kernel ID.
 
 ---
 
-##### `keyName`<sup>Optional</sup> <a name="keyName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.keyName"></a>
+##### `keyName`<sup>Optional</sup> <a name="keyName" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.keyName"></a>
 
 ```typescript
 public readonly keyName: string;
@@ -7312,7 +7312,7 @@ The key name that should be used for the instance.
 
 ---
 
-##### `launchTemplateDefaultVersion`<sup>Optional</sup> <a name="launchTemplateDefaultVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.launchTemplateDefaultVersion"></a>
+##### `launchTemplateDefaultVersion`<sup>Optional</sup> <a name="launchTemplateDefaultVersion" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.launchTemplateDefaultVersion"></a>
 
 ```typescript
 public readonly launchTemplateDefaultVersion: string;
@@ -7324,7 +7324,7 @@ Default Version of the launch template.
 
 ---
 
-##### `launchTemplateDescription`<sup>Optional</sup> <a name="launchTemplateDescription" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.launchTemplateDescription"></a>
+##### `launchTemplateDescription`<sup>Optional</sup> <a name="launchTemplateDescription" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.launchTemplateDescription"></a>
 
 ```typescript
 public readonly launchTemplateDescription: string;
@@ -7336,7 +7336,7 @@ Description of the launch template.
 
 ---
 
-##### `launchTemplateName`<sup>Optional</sup> <a name="launchTemplateName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.launchTemplateName"></a>
+##### `launchTemplateName`<sup>Optional</sup> <a name="launchTemplateName" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.launchTemplateName"></a>
 
 ```typescript
 public readonly launchTemplateName: string;
@@ -7348,7 +7348,7 @@ Launch template name - either to be created (`var.create_launch_template` = `tru
 
 ---
 
-##### `launchTemplateTags`<sup>Optional</sup> <a name="launchTemplateTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.launchTemplateTags"></a>
+##### `launchTemplateTags`<sup>Optional</sup> <a name="launchTemplateTags" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.launchTemplateTags"></a>
 
 ```typescript
 public readonly launchTemplateTags: {[ key: string ]: string};
@@ -7361,7 +7361,7 @@ A map of additional tags to add to the tag_specifications of launch template cre
 
 ---
 
-##### `launchTemplateUseNamePrefix`<sup>Optional</sup> <a name="launchTemplateUseNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.launchTemplateUseNamePrefix"></a>
+##### `launchTemplateUseNamePrefix`<sup>Optional</sup> <a name="launchTemplateUseNamePrefix" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.launchTemplateUseNamePrefix"></a>
 
 ```typescript
 public readonly launchTemplateUseNamePrefix: boolean;
@@ -7374,7 +7374,7 @@ Determines whether to use `launch_template_name` as is or create a unique name b
 
 ---
 
-##### `launchTemplateVersion`<sup>Optional</sup> <a name="launchTemplateVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.launchTemplateVersion"></a>
+##### `launchTemplateVersion`<sup>Optional</sup> <a name="launchTemplateVersion" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.launchTemplateVersion"></a>
 
 ```typescript
 public readonly launchTemplateVersion: string;
@@ -7388,7 +7388,7 @@ Can be version number, `$Latest`, or `$Default`
 
 ---
 
-##### `licenseSpecifications`<sup>Optional</sup> <a name="licenseSpecifications" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.licenseSpecifications"></a>
+##### `licenseSpecifications`<sup>Optional</sup> <a name="licenseSpecifications" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.licenseSpecifications"></a>
 
 ```typescript
 public readonly licenseSpecifications: {[ key: string ]: string};
@@ -7400,7 +7400,7 @@ A list of license specifications to associate with The property type contains a 
 
 ---
 
-##### `maxInstanceLifetime`<sup>Optional</sup> <a name="maxInstanceLifetime" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.maxInstanceLifetime"></a>
+##### `maxInstanceLifetime`<sup>Optional</sup> <a name="maxInstanceLifetime" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.maxInstanceLifetime"></a>
 
 ```typescript
 public readonly maxInstanceLifetime: number;
@@ -7412,7 +7412,7 @@ The maximum amount of time, in seconds, that an instance can be in service, valu
 
 ---
 
-##### `maxSize`<sup>Optional</sup> <a name="maxSize" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.maxSize"></a>
+##### `maxSize`<sup>Optional</sup> <a name="maxSize" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.maxSize"></a>
 
 ```typescript
 public readonly maxSize: number;
@@ -7425,7 +7425,7 @@ The maximum size of the autoscaling group.
 
 ---
 
-##### `metadataOptions`<sup>Optional</sup> <a name="metadataOptions" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.metadataOptions"></a>
+##### `metadataOptions`<sup>Optional</sup> <a name="metadataOptions" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.metadataOptions"></a>
 
 ```typescript
 public readonly metadataOptions: {[ key: string ]: string};
@@ -7438,7 +7438,7 @@ Customize the metadata options for the instance.
 
 ---
 
-##### `metricsGranularity`<sup>Optional</sup> <a name="metricsGranularity" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.metricsGranularity"></a>
+##### `metricsGranularity`<sup>Optional</sup> <a name="metricsGranularity" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.metricsGranularity"></a>
 
 ```typescript
 public readonly metricsGranularity: string;
@@ -7452,7 +7452,7 @@ The only valid value is `1Minute`
 
 ---
 
-##### `minElbCapacity`<sup>Optional</sup> <a name="minElbCapacity" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.minElbCapacity"></a>
+##### `minElbCapacity`<sup>Optional</sup> <a name="minElbCapacity" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.minElbCapacity"></a>
 
 ```typescript
 public readonly minElbCapacity: number;
@@ -7466,7 +7466,7 @@ Updates will not wait on ELB instance number changes
 
 ---
 
-##### `minSize`<sup>Optional</sup> <a name="minSize" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.minSize"></a>
+##### `minSize`<sup>Optional</sup> <a name="minSize" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.minSize"></a>
 
 ```typescript
 public readonly minSize: number;
@@ -7478,7 +7478,7 @@ The minimum size of the autoscaling group.
 
 ---
 
-##### `mixedInstancesPolicy`<sup>Optional</sup> <a name="mixedInstancesPolicy" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.mixedInstancesPolicy"></a>
+##### `mixedInstancesPolicy`<sup>Optional</sup> <a name="mixedInstancesPolicy" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.mixedInstancesPolicy"></a>
 
 ```typescript
 public readonly mixedInstancesPolicy: any;
@@ -7490,7 +7490,7 @@ Configuration block containing settings to define launch targets for Auto Scalin
 
 ---
 
-##### `name`<sup>Optional</sup> <a name="name" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.name"></a>
+##### `name`<sup>Optional</sup> <a name="name" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -7502,7 +7502,7 @@ Name of the Self managed Node Group.
 
 ---
 
-##### `networkInterfaces`<sup>Optional</sup> <a name="networkInterfaces" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.networkInterfaces"></a>
+##### `networkInterfaces`<sup>Optional</sup> <a name="networkInterfaces" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.networkInterfaces"></a>
 
 ```typescript
 public readonly networkInterfaces: any[];
@@ -7514,7 +7514,7 @@ Customize network interfaces to be attached at instance boot time.
 
 ---
 
-##### `placement`<sup>Optional</sup> <a name="placement" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.placement"></a>
+##### `placement`<sup>Optional</sup> <a name="placement" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.placement"></a>
 
 ```typescript
 public readonly placement: {[ key: string ]: string};
@@ -7526,7 +7526,7 @@ The placement of the instance The property type contains a map, they have specia
 
 ---
 
-##### `placementGroup`<sup>Optional</sup> <a name="placementGroup" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.placementGroup"></a>
+##### `placementGroup`<sup>Optional</sup> <a name="placementGroup" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.placementGroup"></a>
 
 ```typescript
 public readonly placementGroup: string;
@@ -7538,7 +7538,7 @@ The name of the placement group into which you'll launch your instances, if any.
 
 ---
 
-##### `platform`<sup>Optional</sup> <a name="platform" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.platform"></a>
+##### `platform`<sup>Optional</sup> <a name="platform" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.platform"></a>
 
 ```typescript
 public readonly platform: string;
@@ -7551,7 +7551,7 @@ Identifies if the OS platform is `bottlerocket`, `linux`, or `windows` based.
 
 ---
 
-##### `postBootstrapUserData`<sup>Optional</sup> <a name="postBootstrapUserData" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.postBootstrapUserData"></a>
+##### `postBootstrapUserData`<sup>Optional</sup> <a name="postBootstrapUserData" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.postBootstrapUserData"></a>
 
 ```typescript
 public readonly postBootstrapUserData: string;
@@ -7565,7 +7565,7 @@ Not used when `platform` = `bottlerocket`
 
 ---
 
-##### `preBootstrapUserData`<sup>Optional</sup> <a name="preBootstrapUserData" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.preBootstrapUserData"></a>
+##### `preBootstrapUserData`<sup>Optional</sup> <a name="preBootstrapUserData" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.preBootstrapUserData"></a>
 
 ```typescript
 public readonly preBootstrapUserData: string;
@@ -7579,7 +7579,7 @@ Not used when `platform` = `bottlerocket`
 
 ---
 
-##### `protectFromScaleIn`<sup>Optional</sup> <a name="protectFromScaleIn" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.protectFromScaleIn"></a>
+##### `protectFromScaleIn`<sup>Optional</sup> <a name="protectFromScaleIn" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.protectFromScaleIn"></a>
 
 ```typescript
 public readonly protectFromScaleIn: boolean;
@@ -7593,7 +7593,7 @@ The autoscaling group will not select instances with this setting for terminatio
 
 ---
 
-##### `ramDiskId`<sup>Optional</sup> <a name="ramDiskId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.ramDiskId"></a>
+##### `ramDiskId`<sup>Optional</sup> <a name="ramDiskId" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.ramDiskId"></a>
 
 ```typescript
 public readonly ramDiskId: string;
@@ -7605,7 +7605,7 @@ The ID of the ram disk.
 
 ---
 
-##### `schedules`<sup>Optional</sup> <a name="schedules" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.schedules"></a>
+##### `schedules`<sup>Optional</sup> <a name="schedules" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.schedules"></a>
 
 ```typescript
 public readonly schedules: {[ key: string ]: any};
@@ -7618,7 +7618,7 @@ Map of autoscaling group schedule to create.
 
 ---
 
-##### `securityGroupDescription`<sup>Optional</sup> <a name="securityGroupDescription" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.securityGroupDescription"></a>
+##### `securityGroupDescription`<sup>Optional</sup> <a name="securityGroupDescription" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.securityGroupDescription"></a>
 
 ```typescript
 public readonly securityGroupDescription: string;
@@ -7631,7 +7631,7 @@ Description for the security group created.
 
 ---
 
-##### `securityGroupName`<sup>Optional</sup> <a name="securityGroupName" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.securityGroupName"></a>
+##### `securityGroupName`<sup>Optional</sup> <a name="securityGroupName" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.securityGroupName"></a>
 
 ```typescript
 public readonly securityGroupName: string;
@@ -7643,7 +7643,7 @@ Name to use on security group created.
 
 ---
 
-##### `securityGroupRules`<sup>Optional</sup> <a name="securityGroupRules" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.securityGroupRules"></a>
+##### `securityGroupRules`<sup>Optional</sup> <a name="securityGroupRules" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.securityGroupRules"></a>
 
 ```typescript
 public readonly securityGroupRules: any;
@@ -7656,7 +7656,7 @@ List of security group rules to add to the security group created.
 
 ---
 
-##### `securityGroupTags`<sup>Optional</sup> <a name="securityGroupTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.securityGroupTags"></a>
+##### `securityGroupTags`<sup>Optional</sup> <a name="securityGroupTags" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.securityGroupTags"></a>
 
 ```typescript
 public readonly securityGroupTags: {[ key: string ]: string};
@@ -7669,7 +7669,7 @@ A map of additional tags to add to the security group created.
 
 ---
 
-##### `securityGroupUseNamePrefix`<sup>Optional</sup> <a name="securityGroupUseNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.securityGroupUseNamePrefix"></a>
+##### `securityGroupUseNamePrefix`<sup>Optional</sup> <a name="securityGroupUseNamePrefix" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.securityGroupUseNamePrefix"></a>
 
 ```typescript
 public readonly securityGroupUseNamePrefix: string;
@@ -7682,7 +7682,7 @@ Determines whether the security group name (`security_group_name`) is used as a 
 
 ---
 
-##### `serviceLinkedRoleArn`<sup>Optional</sup> <a name="serviceLinkedRoleArn" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.serviceLinkedRoleArn"></a>
+##### `serviceLinkedRoleArn`<sup>Optional</sup> <a name="serviceLinkedRoleArn" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.serviceLinkedRoleArn"></a>
 
 ```typescript
 public readonly serviceLinkedRoleArn: string;
@@ -7694,7 +7694,7 @@ The ARN of the service-linked role that the ASG will use to call other AWS servi
 
 ---
 
-##### `subnetIds`<sup>Optional</sup> <a name="subnetIds" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.subnetIds"></a>
+##### `subnetIds`<sup>Optional</sup> <a name="subnetIds" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.subnetIds"></a>
 
 ```typescript
 public readonly subnetIds: string[];
@@ -7708,7 +7708,7 @@ Subnets automatically determine which availability zones the group will reside. 
 
 ---
 
-##### `suspendedProcesses`<sup>Optional</sup> <a name="suspendedProcesses" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.suspendedProcesses"></a>
+##### `suspendedProcesses`<sup>Optional</sup> <a name="suspendedProcesses" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.suspendedProcesses"></a>
 
 ```typescript
 public readonly suspendedProcesses: string[];
@@ -7722,7 +7722,7 @@ The allowed values are `Launch`, `Terminate`, `HealthCheck`, `ReplaceUnhealthy`,
 
 ---
 
-##### `tags`<sup>Optional</sup> <a name="tags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.tags"></a>
+##### `tags`<sup>Optional</sup> <a name="tags" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.tags"></a>
 
 ```typescript
 public readonly tags: {[ key: string ]: string};
@@ -7735,7 +7735,7 @@ A map of tags to add to all resources.
 
 ---
 
-##### `targetGroupArns`<sup>Optional</sup> <a name="targetGroupArns" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.targetGroupArns"></a>
+##### `targetGroupArns`<sup>Optional</sup> <a name="targetGroupArns" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.targetGroupArns"></a>
 
 ```typescript
 public readonly targetGroupArns: string[];
@@ -7747,7 +7747,7 @@ A set of `aws_alb_target_group` ARNs, for use with Application or Network Load B
 
 ---
 
-##### `terminationPolicies`<sup>Optional</sup> <a name="terminationPolicies" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.terminationPolicies"></a>
+##### `terminationPolicies`<sup>Optional</sup> <a name="terminationPolicies" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.terminationPolicies"></a>
 
 ```typescript
 public readonly terminationPolicies: string[];
@@ -7761,7 +7761,7 @@ The allowed values are `OldestInstance`, `NewestInstance`, `OldestLaunchConfigur
 
 ---
 
-##### `updateLaunchTemplateDefaultVersion`<sup>Optional</sup> <a name="updateLaunchTemplateDefaultVersion" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.updateLaunchTemplateDefaultVersion"></a>
+##### `updateLaunchTemplateDefaultVersion`<sup>Optional</sup> <a name="updateLaunchTemplateDefaultVersion" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.updateLaunchTemplateDefaultVersion"></a>
 
 ```typescript
 public readonly updateLaunchTemplateDefaultVersion: boolean;
@@ -7776,7 +7776,7 @@ Conflicts with `launch_template_default_version`
 
 ---
 
-##### `useDefaultTags`<sup>Optional</sup> <a name="useDefaultTags" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.useDefaultTags"></a>
+##### `useDefaultTags`<sup>Optional</sup> <a name="useDefaultTags" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.useDefaultTags"></a>
 
 ```typescript
 public readonly useDefaultTags: boolean;
@@ -7788,7 +7788,7 @@ Enables/disables the use of provider default tags in the tag_specifications of t
 
 ---
 
-##### `useMixedInstancesPolicy`<sup>Optional</sup> <a name="useMixedInstancesPolicy" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.useMixedInstancesPolicy"></a>
+##### `useMixedInstancesPolicy`<sup>Optional</sup> <a name="useMixedInstancesPolicy" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.useMixedInstancesPolicy"></a>
 
 ```typescript
 public readonly useMixedInstancesPolicy: boolean;
@@ -7800,7 +7800,7 @@ Determines whether to use a mixed instances policy in the autoscaling group or n
 
 ---
 
-##### `useNamePrefix`<sup>Optional</sup> <a name="useNamePrefix" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.useNamePrefix"></a>
+##### `useNamePrefix`<sup>Optional</sup> <a name="useNamePrefix" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.useNamePrefix"></a>
 
 ```typescript
 public readonly useNamePrefix: boolean;
@@ -7813,7 +7813,7 @@ Determines whether to use `name` as is or create a unique name beginning with th
 
 ---
 
-##### `userDataTemplatePath`<sup>Optional</sup> <a name="userDataTemplatePath" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.userDataTemplatePath"></a>
+##### `userDataTemplatePath`<sup>Optional</sup> <a name="userDataTemplatePath" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.userDataTemplatePath"></a>
 
 ```typescript
 public readonly userDataTemplatePath: string;
@@ -7825,7 +7825,7 @@ Path to a local, custom user data template file to use when rendering user data.
 
 ---
 
-##### `vpcId`<sup>Optional</sup> <a name="vpcId" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.vpcId"></a>
+##### `vpcId`<sup>Optional</sup> <a name="vpcId" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.vpcId"></a>
 
 ```typescript
 public readonly vpcId: string;
@@ -7837,7 +7837,7 @@ ID of the VPC where the security group/nodes will be provisioned.
 
 ---
 
-##### `vpcSecurityGroupIds`<sup>Optional</sup> <a name="vpcSecurityGroupIds" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.vpcSecurityGroupIds"></a>
+##### `vpcSecurityGroupIds`<sup>Optional</sup> <a name="vpcSecurityGroupIds" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.vpcSecurityGroupIds"></a>
 
 ```typescript
 public readonly vpcSecurityGroupIds: string[];
@@ -7849,7 +7849,7 @@ A list of security group IDs to associate.
 
 ---
 
-##### `waitForCapacityTimeout`<sup>Optional</sup> <a name="waitForCapacityTimeout" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.waitForCapacityTimeout"></a>
+##### `waitForCapacityTimeout`<sup>Optional</sup> <a name="waitForCapacityTimeout" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.waitForCapacityTimeout"></a>
 
 ```typescript
 public readonly waitForCapacityTimeout: string;
@@ -7863,7 +7863,7 @@ A maximum duration that Terraform should wait for ASG instances to be healthy be
 
 ---
 
-##### `waitForElbCapacity`<sup>Optional</sup> <a name="waitForElbCapacity" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.waitForElbCapacity"></a>
+##### `waitForElbCapacity`<sup>Optional</sup> <a name="waitForElbCapacity" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.waitForElbCapacity"></a>
 
 ```typescript
 public readonly waitForElbCapacity: number;
@@ -7877,7 +7877,7 @@ Takes precedence over `min_elb_capacity` behavior.
 
 ---
 
-##### `warmPool`<sup>Optional</sup> <a name="warmPool" id="terraform-cdk-terraform-module-publishing-on-gh-pages.EksSelfManagedNodeGroupOptions.property.warmPool"></a>
+##### `warmPool`<sup>Optional</sup> <a name="warmPool" id="@danielmschmidt/eks-cluster.EksSelfManagedNodeGroupOptions.property.warmPool"></a>
 
 ```typescript
 public readonly warmPool: any;
