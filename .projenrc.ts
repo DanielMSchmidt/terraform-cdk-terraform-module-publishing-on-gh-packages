@@ -4,7 +4,7 @@ import {
 } from "projen-cdktf-hybrid-construct";
 const project = new TerraformModule({
   ...publishToGithubPackages({
-    repositoryName: "eks-cluster",
+    repositoryName: "terraform-cdk-terraform-module-publishing-on-gh-packages",
     repositoryOwner: "danielmschmidt",
     registries: ["npm", "maven"],
   }),
@@ -12,8 +12,6 @@ const project = new TerraformModule({
   authorAddress: "danielmschmidt92@gmail.com",
   defaultReleaseBranch: "main",
   devDeps: ["projen-cdktf-hybrid-construct"],
-  repositoryUrl:
-    "https://github.com/danielmschmidt/terraform-cdk-terraform-module-publishing-on-gh-pages.git",
 
   terraformModules: [
     {
