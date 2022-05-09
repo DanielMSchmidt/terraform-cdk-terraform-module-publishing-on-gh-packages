@@ -1,5 +1,5 @@
 {
-  "name": "terraform-cdk-terraform-module-publishing-on-gh-pages",
+  "name": "@danielmschmidt/eks-cluster",
   "repository": {
     "type": "git",
     "url": "https://github.com/danielmschmidt92/terraform-cdk-terraform-module-publishing-on-gh-pages.git"
@@ -59,7 +59,7 @@
     "npm-check-updates": "^12",
     "prettier": "^2.6.2",
     "projen": "^0.55.12",
-    "projen-cdktf-hybrid-construct": "^0.1.65",
+    "projen-cdktf-hybrid-construct": "^0.1.66",
     "standard-version": "^9",
     "ts-jest": "^27",
     "ts-node": "^10.7.0",
