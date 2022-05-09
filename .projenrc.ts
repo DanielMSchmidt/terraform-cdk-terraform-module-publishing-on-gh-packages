@@ -5,8 +5,26 @@ const project = new TerraformModule({
   defaultReleaseBranch: "main",
   devDeps: ["projen-cdktf-hybrid-construct"],
   name: "terraform-cdk-terraform-module-publishing-on-gh-pages",
-  repositoryUrl: "https://github.com/danielmschmidt92/terraform-cdk-terraform-module-publishing-on-gh-pages.git",
+  repositoryUrl:
+    "https://github.com/danielmschmidt92/terraform-cdk-terraform-module-publishing-on-gh-pages.git",
 
+  terraformModules: [
+    {
+      name: "eks",
+      source: "terraform-aws-modules/eks/aws",
+      version: "18.20.5",
+    },
+    {
+      name: "eksEksManagedNodeGroup",
+      source: "terraform-aws-modules/eks/aws//modules/eks-managed-node-group",
+      version: "18.20.5",
+    },
+    {
+      name: "eksSelfManagedNodeGroup",
+      source: "terraform-aws-modules/eks/aws//modules/self-managed-node-group",
+      version: "18.20.5",
+    },
+  ],
   // cdktfVersion: "^0.10.1",      /* Minimum target version of this library. */
   // deps: [],                     /* Runtime dependencies of this module. */
   // description: undefined,       /* The description is just a string that helps people understand the purpose of the package. */
