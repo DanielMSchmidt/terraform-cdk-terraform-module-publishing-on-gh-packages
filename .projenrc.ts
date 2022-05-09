@@ -1,5 +1,13 @@
-import { TerraformModule } from "projen-cdktf-hybrid-construct";
+import {
+  publishToGithubPackages,
+  TerraformModule,
+} from "projen-cdktf-hybrid-construct";
 const project = new TerraformModule({
+  ...publishToGithubPackages({
+    name: "eks-cluster",
+    namespace: "danielmschmidt",
+    registries: ["npm", "maven"],
+  }),
   author: "Daniel Schmidt",
   authorAddress: "danielmschmidt92@gmail.com",
   defaultReleaseBranch: "main",
